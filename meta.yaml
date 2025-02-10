@@ -18,185 +18,136 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0001, server: i.needss.top, port: 20016, type: vmess, uuid: eeaf3eae-fbd8-4dad-97bc-de6c4a951267, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0002, server: i.needss.top, port: 30028, type: vmess, uuid: aec2a761-a1c6-4fe0-a9ed-694fca91f764, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0003, server: chiyu.myfczy169.top, port: 21071, type: ss, cipher: chacha20-ietf-poly1305, password: 57516780-9796-4e20-968f-b59143ca01c1, udp: true}
-  - {name: CN_speednode_0004, server: qd.needss.top, port: 45112, type: vmess, uuid: aec2a761-a1c6-4fe0-a9ed-694fca91f764, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0005, server: chiyu.myfczy169.top, port: 21061, type: ss, cipher: chacha20-ietf-poly1305, password: 57516780-9796-4e20-968f-b59143ca01c1, udp: true}
-  - {name: CN_speednode_0006, server: chiyu.myfczy169.top, port: 20289, type: ss, cipher: chacha20-ietf-poly1305, password: 57516780-9796-4e20-968f-b59143ca01c1, udp: true}
-  - {name: CN_speednode_0007, server: chiyu.myfczy169.top, port: 36774, type: ss, cipher: chacha20-ietf-poly1305, password: 57516780-9796-4e20-968f-b59143ca01c1, udp: true}
-  - {name: CN_speednode_0008, server: i.needss.top, port: 44410, type: vmess, uuid: aec2a761-a1c6-4fe0-a9ed-694fca91f764, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0009, server: qd.needss.top, port: 45112, type: vmess, uuid: eeaf3eae-fbd8-4dad-97bc-de6c4a951267, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0010, server: chiyu.myfczy169.top, port: 41473, type: ss, cipher: chacha20-ietf-poly1305, password: 57516780-9796-4e20-968f-b59143ca01c1, udp: true}
-  - {name: CN_speednode_0011, server: i.needss.top, port: 30028, type: vmess, uuid: eeaf3eae-fbd8-4dad-97bc-de6c4a951267, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0012, server: chiyu.myfczy169.top, port: 20119, type: ss, cipher: chacha20-ietf-poly1305, password: 57516780-9796-4e20-968f-b59143ca01c1, udp: true}
-  - {name: CN_speednode_0013, server: chiyu.myfczy169.top, port: 22834, type: ss, cipher: chacha20-ietf-poly1305, password: 57516780-9796-4e20-968f-b59143ca01c1, udp: true}
-  - {name: CN_speednode_0014, server: chiyu.myfczy169.top, port: 50563, type: ss, cipher: chacha20-ietf-poly1305, password: 57516780-9796-4e20-968f-b59143ca01c1, udp: true}
-  - {name: CN_speednode_0015, server: chiyu.myfczy169.top, port: 54016, type: ss, cipher: chacha20-ietf-poly1305, password: 57516780-9796-4e20-968f-b59143ca01c1, udp: true}
-  - {name: CN_speednode_0016, server: chiyu.myfczy169.top, port: 26867, type: ss, cipher: chacha20-ietf-poly1305, password: 57516780-9796-4e20-968f-b59143ca01c1, udp: true}
-  - {name: CN_speednode_0017, server: i.needss.top, port: 52103, type: vmess, uuid: eeaf3eae-fbd8-4dad-97bc-de6c4a951267, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0018, server: chiyu.myfczy169.top, port: 54804, type: ss, cipher: chacha20-ietf-poly1305, password: 57516780-9796-4e20-968f-b59143ca01c1, udp: true}
-  - {name: CN_speednode_0019, server: i.needss.top, port: 52103, type: vmess, uuid: aec2a761-a1c6-4fe0-a9ed-694fca91f764, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0020, server: i.needss.top, port: 20016, type: vmess, uuid: aec2a761-a1c6-4fe0-a9ed-694fca91f764, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0021, server: chiyu.myfczy169.top, port: 19946, type: ss, cipher: chacha20-ietf-poly1305, password: 57516780-9796-4e20-968f-b59143ca01c1, udp: true}
-  - {name: CN_speednode_0022, server: chiyu.myfczy169.top, port: 25578, type: ss, cipher: chacha20-ietf-poly1305, password: 57516780-9796-4e20-968f-b59143ca01c1, udp: true}
-  - {name: CN_speednode_0023, server: chiyu.myfczy169.top, port: 37958, type: ss, cipher: chacha20-ietf-poly1305, password: 57516780-9796-4e20-968f-b59143ca01c1, udp: true}
-  - {name: CN_speednode_0024, server: chiyu.myfczy169.top, port: 26480, type: ss, cipher: chacha20-ietf-poly1305, password: 57516780-9796-4e20-968f-b59143ca01c1, udp: true}
-  - {name: CN_speednode_0025, server: chiyu.myfczy169.top, port: 57329, type: ss, cipher: chacha20-ietf-poly1305, password: 57516780-9796-4e20-968f-b59143ca01c1, udp: true}
-  - {name: CN_speednode_0026, server: chiyu.myfczy169.top, port: 19115, type: ss, cipher: chacha20-ietf-poly1305, password: 57516780-9796-4e20-968f-b59143ca01c1, udp: true}
-  - {name: CN_speednode_0027, server: 120.232.81.50, port: 15084, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
-  - {name: CN_speednode_0028, server: ru.fastsoonlink.com, port: 40031, type: ss, cipher: chacha20-ietf-poly1305, password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00, udp: true}
-  - {name: CN_speednode_0029, server: naiu-other.05vr9nyqg5.download, port: 13036, type: trojan, password: dc15d997-8b26-4294-870e-c90a5784dca4, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0030, server: naiu-us.05vr9nyqg5.download, port: 13019, type: trojan, password: dc15d997-8b26-4294-870e-c90a5784dca4, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0031, server: cn01.closeai.one, port: 8102, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0032, server: cn02.closeai.one, port: 8105, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0033, server: cn06.closeai.one, port: 8203, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0034, server: cn10.closeai.one, port: 8301, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0035, server: cn13.closeai.one, port: 8409, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0036, server: cn12.closeai.one, port: 8407, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0037, server: cn18.closeai.one, port: 8520, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0038, server: cn03.closeai.one, port: 8113, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0039, server: cn06.closeai.one, port: 8232, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0040, server: cn06.closeai.one, port: 8204, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0041, server: cn10.closeai.one, port: 8304, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0042, server: cn04.closeai.one, port: 8119, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0043, server: cn05.closeai.one, port: 8123, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0044, server: cn15.closeai.one, port: 8502, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0045, server: cn10.closeai.one, port: 8302, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0046, server: cn16.closeai.one, port: 8508, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0047, server: cn04.closeai.one, port: 8118, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0048, server: cn07.closeai.one, port: 8206, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0049, server: cn00.closeai.one, port: 8803, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0050, server: cn05.closeai.one, port: 8121, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0051, server: cn02.closeai.one, port: 8109, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0052, server: cn17.closeai.one, port: 8604, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0053, server: cn16.closeai.one, port: 8516, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0054, server: cn09.closeai.one, port: 8214, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0055, server: cn09.closeai.one, port: 8217, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0056, server: cn08.closeai.one, port: 8213, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0057, server: cn01.closeai.one, port: 8101, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0058, server: cn01.closeai.one, port: 8103, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0059, server: cn06.closeai.one, port: 8205, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0060, server: cn16.closeai.one, port: 8518, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0061, server: cn15.closeai.one, port: 8506, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0001, server: i.needss.top, port: 52103, type: vmess, uuid: eeaf3eae-fbd8-4dad-97bc-de6c4a951267, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0002, server: i.needss.top, port: 20016, type: vmess, uuid: eeaf3eae-fbd8-4dad-97bc-de6c4a951267, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0003, server: cn01.closeai.one, port: 8102, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0004, server: i.needss.top, port: 30028, type: vmess, uuid: eeaf3eae-fbd8-4dad-97bc-de6c4a951267, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0005, server: cn03.closeai.one, port: 8113, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0006, server: cn04.closeai.one, port: 8119, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0007, server: cn10.closeai.one, port: 8301, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0008, server: cn10.closeai.one, port: 8304, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0009, server: cn06.closeai.one, port: 8203, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0010, server: cn05.closeai.one, port: 8123, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0011, server: cn06.closeai.one, port: 8232, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0012, server: cn06.closeai.one, port: 8204, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0013, server: cn13.closeai.one, port: 8409, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0014, server: cn02.closeai.one, port: 8105, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0015, server: cn12.closeai.one, port: 8407, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0016, server: cn10.closeai.one, port: 8302, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0017, server: cn04.closeai.one, port: 8118, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0018, server: cn02.closeai.one, port: 8109, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0019, server: cn05.closeai.one, port: 8121, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0020, server: cn07.closeai.one, port: 8206, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0021, server: cn09.closeai.one, port: 8214, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0022, server: cn09.closeai.one, port: 8217, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0023, server: cn01.closeai.one, port: 8101, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0024, server: cn01.closeai.one, port: 8103, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0025, server: cn08.closeai.one, port: 8213, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0026, server: cn06.closeai.one, port: 8205, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0027, server: cn05.closeai.one, port: 8122, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0028, server: cn03.closeai.one, port: 8111, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0029, server: cn04.closeai.one, port: 8116, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0030, server: cn04.closeai.one, port: 8120, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0031, server: cn05.closeai.one, port: 8126, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0032, server: cn02.closeai.one, port: 8106, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0033, server: cn02.closeai.one, port: 8110, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0034, server: cn10.closeai.one, port: 8305, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0035, server: cn03.closeai.one, port: 8114, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0036, server: cn10.closeai.one, port: 8303, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0037, server: cn07.closeai.one, port: 8207, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0038, server: qd.needss.top, port: 45112, type: vmess, uuid: eeaf3eae-fbd8-4dad-97bc-de6c4a951267, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0039, server: cn02.closeai.one, port: 8104, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0040, server: cn09.closeai.one, port: 8215, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0041, server: cn07.closeai.one, port: 8208, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0042, server: cn10.closeai.one, port: 8306, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0043, server: cn16.closeai.one, port: 8508, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0044, server: cn05.closeai.one, port: 8124, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0045, server: cn17.closeai.one, port: 8618, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0046, server: cn06.closeai.one, port: 8233, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0047, server: cn12.closeai.one, port: 8406, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0048, server: cn18.closeai.one, port: 8520, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0049, server: cn14.closeai.one, port: 8412, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0050, server: cn14.closeai.one, port: 8413, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0051, server: cn08.closeai.one, port: 8210, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0052, server: cn14.closeai.one, port: 8410, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0053, server: cn17.closeai.one, port: 8616, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0054, server: cn17.closeai.one, port: 8604, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0055, server: cn16.closeai.one, port: 8516, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0056, server: mdss-hk.04z3susick.download, port: 12008, type: ss, cipher: aes-128-gcm, password: 6419ff34-6c3e-4cbf-b58b-b6bb34e1ccff, udp: true}
+  - {name: CN_speednode_0057, server: cn13.closeai.one, port: 8408, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0058, server: naiu-other.05vr9nyqg5.download, port: 13036, type: trojan, password: dc15d997-8b26-4294-870e-c90a5784dca4, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0059, server: cn15.closeai.one, port: 8504, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0060, server: cn06.closeai.one, port: 8231, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0061, server: cn15.closeai.one, port: 8501, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
   - {name: CN_speednode_0062, server: cn16.closeai.one, port: 8517, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0063, server: cn05.closeai.one, port: 8122, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0064, server: cn15.closeai.one, port: 8504, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0065, server: cn16.closeai.one, port: 8515, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0066, server: cn15.closeai.one, port: 8501, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0067, server: cn17.closeai.one, port: 8618, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0063, server: cn18.closeai.one, port: 8519, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0064, server: cn17.closeai.one, port: 8606, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0065, server: cn14.closeai.one, port: 8411, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0066, server: cn16.closeai.one, port: 8518, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0067, server: cn16.closeai.one, port: 8507, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
   - {name: CN_speednode_0068, server: cn17.closeai.one, port: 8624, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0069, server: cn14.closeai.one, port: 8412, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0070, server: cn05.closeai.one, port: 8126, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0071, server: cn07.closeai.one, port: 8207, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0072, server: cn17.closeai.one, port: 8610, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0073, server: cn04.closeai.one, port: 8116, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0074, server: cn03.closeai.one, port: 8111, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0075, server: cn02.closeai.one, port: 8106, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0076, server: cn17.closeai.one, port: 8607, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0077, server: cn10.closeai.one, port: 8305, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0078, server: cn14.closeai.one, port: 8413, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0079, server: cn18.closeai.one, port: 8519, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0080, server: cn04.closeai.one, port: 8120, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0081, server: cn12.closeai.one, port: 8406, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0082, server: cn17.closeai.one, port: 8605, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0083, server: cn14.closeai.one, port: 8410, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0084, server: cn02.closeai.one, port: 8110, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0085, server: cn18.closeai.one, port: 8521, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0086, server: cn07.closeai.one, port: 8208, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0087, server: cn17.closeai.one, port: 8616, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0088, server: cn06.closeai.one, port: 8233, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0089, server: cn09.closeai.one, port: 8215, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0090, server: cn10.closeai.one, port: 8303, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0091, server: cn03.closeai.one, port: 8114, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0092, server: cn10.closeai.one, port: 8306, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0093, server: cn05.closeai.one, port: 8124, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0094, server: cn02.closeai.one, port: 8104, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0095, server: cn08.closeai.one, port: 8210, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0096, server: cn08.closeai.one, port: 8211, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0097, server: cn13.closeai.one, port: 8408, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0098, server: cn16.closeai.one, port: 8507, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0099, server: cn15.closeai.one, port: 8503, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0100, server: cn17.closeai.one, port: 8613, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0101, server: cn17.closeai.one, port: 8606, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0102, server: cn14.closeai.one, port: 8411, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0103, server: cn06.closeai.one, port: 8231, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0104, server: cn17.closeai.one, port: 8625, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0105, server: cn17.closeai.one, port: 8619, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0106, server: cn17.closeai.one, port: 8603, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0107, server: cn16.closeai.one, port: 8512, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0108, server: cn15.closeai.one, port: 8505, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0109, server: cn17.closeai.one, port: 8612, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0110, server: mdss-hk.04z3susick.download, port: 12008, type: ss, cipher: aes-128-gcm, password: 6419ff34-6c3e-4cbf-b58b-b6bb34e1ccff, udp: true}
-  - {name: CN_speednode_0111, server: cn16.closeai.one, port: 8511, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0112, server: cn16.closeai.one, port: 8513, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0113, server: cn17.closeai.one, port: 8626, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0114, server: cn16.closeai.one, port: 8510, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0115, server: cn16.closeai.one, port: 8514, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: CN_speednode_0116, server: us.fastsoonlink.com, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00, udp: true}
-  - {name: CN_speednode_0117, server: 3.link-hub.click, port: 40254, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: "92902:pFWGOQ", obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
-  - {name: CN_speednode_0118, server: 3.link-hub.click, port: 40255, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: "92902:pFWGOQ", obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
-  - {name: DE_speednode_0119, server: oracle-arm-frankfurt1.lanmaoyun.icu, port: 30001, type: hysteria2, password: c32d2660-b6d1-4a5d-ba7c-64f63c8c6070, up: 100, down: 1000, sni: frankfurt1.nodes.lanmaoyun.icu, skip-cert-verify: false, udp: true}
-  - {name: DE_speednode_0120, server: 146.103.41.166, port: 23055, type: vless, uuid: 90cadcb1-5955-4ddc-c846-a40f06cbed39, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: vpn.pnm1.com, alpn: [h2, http/1.1], udp: true}
-  - {name: DE_speednode_0121, server: 188.245.251.47, port: 8080, type: vless, uuid: 1c86a177-d7ff-4a5f-8255-cfeb4e051305, tls: false, skip-cert-verify: false, servername: sso.farhang.gov.ir, network: http, http-opts: {method: GET, path: [/download], headers: {Host: [sso.farhang.gov.ir]}}, udp: true}
-  - {name: DE_speednode_0122, server: 185.161.251.211, port: 1633, type: vless, uuid: b6e0fefb-5686-4f7b-9e3c-e212ef4b3ef7, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: stackoverflow.com, reality-opts: {public-key: ANlgAsYC8HmKfJnc5SFvru822urkxG1PzW1Zw4Vbm0Q, short-id: 9bc0a55a5379c0ed}, udp: true}
-  - {name: DE_speednode_0123, server: vpn.pnm1.com, port: 23055, type: vless, uuid: 90cadcb1-5955-4ddc-c846-a40f06cbed39, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: vpn.pnm1.com, alpn: [h2, http/1.1], udp: true}
-  - {name: DE_speednode_0124, server: 2na9noed62ec.dopraxrocks.com, port: 443, type: vless, uuid: a6e8515c-4e54-435a-9a47-2365beb40164, tls: false, skip-cert-verify: false, udp: true}
-  - {name: GB_speednode_0125, server: oracle-arm-london1.lanmaoyun.icu, port: 30001, type: hysteria2, password: c32d2660-b6d1-4a5d-ba7c-64f63c8c6070, up: 100, down: 1000, sni: london1.nodes.lanmaoyun.icu, skip-cert-verify: false, udp: true}
-  - {name: HK_speednode_0126, server: 112.213.102.228, port: 4231, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: HK_speednode_0127, server: 38.147.189.12, port: 12875, type: vmess, uuid: 1a3f584c-0960-48ef-a161-942c91e8ab64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: HK_speednode_0128, server: 104.251.227.182, port: 443, type: trojan, password: 43e5eeacbad3032bfe4c25a2f011b6b7, sni: hezijiasuqi.com, skip-cert-verify: true, udp: true}
-  - {name: HK_speednode_0129, server: ftq.ink, port: 4000, type: http, tls: true, udp: true}
-  - {name: IL_speednode_0130, server: 188.191.147.127, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: 6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6, udp: true}
-  - {name: JP_speednode_0131, server: oracle-amd-tokyo1.lanmaoyun.icu, port: 30001, type: hysteria2, password: c32d2660-b6d1-4a5d-ba7c-64f63c8c6070, up: 100, down: 1000, sni: tokyo.nodes.lanmaoyun.icu, skip-cert-verify: false, udp: true}
-  - {name: JP_speednode_0132, server: oracle-amd-osaka1.lanmaoyun.icu, port: 30001, type: hysteria2, password: c32d2660-b6d1-4a5d-ba7c-64f63c8c6070, up: 100, down: 1000, sni: osaka.nodes.lanmaoyun.icu, skip-cert-verify: false, udp: true}
-  - {name: JP_speednode_0133, server: equipped-parakeet.pigeon031.one, port: 443, type: trojan, password: '3669023846591373312', skip-cert-verify: false, udp: true}
-  - {name: JP_speednode_0134, server: 57.180.246.231, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: KR_speednode_0135, server: oracle-arm-chuncheon2.lanmaoyun.icu, port: 30001, type: hysteria2, password: c32d2660-b6d1-4a5d-ba7c-64f63c8c6070, up: 100, down: 1000, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: false, udp: true}
-  - {name: KR_speednode_0136, server: oracle-arm-chuncheon1.lanmaoyun.icu, port: 30001, type: hysteria2, password: c32d2660-b6d1-4a5d-ba7c-64f63c8c6070, up: 100, down: 1000, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: false, udp: true}
-  - {name: KR_speednode_0137, server: oracle-arm-seoul1.lanmaoyun.icu, port: 30001, type: hysteria2, password: c32d2660-b6d1-4a5d-ba7c-64f63c8c6070, up: 100, down: 1000, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: false, udp: true}
-  - {name: KR_speednode_0138, server: 54.180.158.248, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: NL_speednode_0139, server: 95.179.159.217, port: 22671, type: vless, uuid: ebc5660f-bb9b-415c-94ab-d3630189ceb9, tls: false, skip-cert-verify: false, servername: telewebion.com, network: http, http-opts: {method: GET, path: [/], headers: {Host: [telewebion.com]}}, udp: true}
-  - {name: NL_speednode_0140, server: 103.104.247.47, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-  - {name: NL_speednode_0141, server: 193.29.139.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-  - {name: NN_speednode_0142, server: "0000:0000:0000:0000:0000:ffff:b23e:cd27", port: 2082, type: vmess, uuid: 79220140-2c4f-4321-ac8c-040f2bb0a589, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [zula.ir]}}, udp: true}
-  - {name: PL_speednode_0143, server: 217.30.10.18, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: RU_speednode_0144, server: 195.58.49.42, port: 20315, type: vmess, uuid: a828394a-c871-4916-bb59-4ba5da177803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, udp: true}
-  - {name: RU_speednode_0145, server: 195.58.49.42, port: 20315, type: vmess, uuid: c8972631-fca7-4f2e-ae9e-3547904f8170, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, udp: true}
-  - {name: RU_speednode_0146, server: 195.58.49.42, port: 20315, type: vmess, uuid: 023618c3-d985-477b-901f-0a814198b710, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, udp: true}
-  - {name: RU_speednode_0147, server: 195.58.49.42, port: 20315, type: vmess, uuid: 7ce71f9c-09b2-494e-a600-d06429b4e119, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, udp: true}
-  - {name: RU_speednode_0148, server: 195.58.49.42, port: 20315, type: vmess, uuid: 1273eae5-1fad-432a-aeba-51419b61d566, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, udp: true}
-  - {name: RU_speednode_0149, server: 46.17.40.190, port: 12330, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: RU_speednode_0150, server: 185.22.155.71, port: 15424, type: hysteria, auth_str: dongtaiwang.com, up: 11 Mbps, down: 55 Mbps, sni: www.bing.com, skip-cert-verify: true, alpn: [h3], obfs: dongtaiwang.com, udp: true}
-  - {name: SC_speednode_0151, server: 156.226.174.90, port: 25585, type: vless, uuid: ad80be46-fe43-4a1c-b54d-00e64fe37b73, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: yahoo.com, reality-opts: {public-key: PeBC_tJjIk236cDe3NUZQfbWQZBgy4c-8aJWNQuL4mE, short-id: 2ca90ee3}, udp: true}
-  - {name: SG_speednode_0152, server: oracle-amd-singapore1.lanmaoyun.icu, port: 30001, type: hysteria2, password: c32d2660-b6d1-4a5d-ba7c-64f63c8c6070, up: 100, down: 1000, sni: main.nodes.lanmaoyun.icu, skip-cert-verify: false, udp: true}
-  - {name: SG_speednode_0153, server: 47.129.38.168, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: SG_speednode_0154, server: 18.139.221.191, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: TW_speednode_0155, server: 154.223.20.79, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: UA_speednode_0156, server: 176.103.53.105, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: US_speednode_0157, server: 38.68.135.239, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_speednode_0158, server: 147135011033.sec21org.com, port: 443, type: vless, uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c, tls: true, skip-cert-verify: false, alpn: [h2, http/1.1], udp: true}
-  - {name: US_speednode_0159, server: 147135010072.sec21org.com, port: 443, type: vless, uuid: c4fa89d4-fcb9-48ba-adbc-665181cc817f, tls: true, skip-cert-verify: false, alpn: [h2, http/1.1], udp: true}
-  - {name: US_speednode_0160, server: 192.74.236.131, port: 30004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1739017407418, headers: {Host: www.59833770.xyz}}, udp: true}
-  - {name: US_speednode_0161, server: 155.138.204.188, port: 8881, type: vmess, uuid: db5afae4-ac23-41a6-8378-f307a9a47436, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [moi.ir]}}, udp: true}
-  - {name: US_speednode_0162, server: 155.138.208.122, port: 8881, type: vmess, uuid: db5afae4-ac23-41a6-8378-f307a9a47436, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [moi.ir]}}, udp: true}
-  - {name: US_speednode_0163, server: 147135004002.sec20org.com, port: 443, type: vless, uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055, tls: true, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0164, server: 108.181.18.171, port: 40021, type: vless, uuid: 193f3ec7-d850-481b-b17d-1094edc3e03b, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: apple.com, reality-opts: {public-key: CuFCD-MhNUXArRCGaTHi7BiZvDXfy9sgKSeL3sPMbHY, short-id: 891814a4}, udp: true}
-  - {name: US_speednode_0165, server: wear.net, port: 443, type: vless, uuid: 046fd332-80a6-43b0-91b0-7238a1dfc36c, tls: true, skip-cert-verify: false, servername: wear.net, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aw035.ir}}, udp: true}
-  - {name: US_speednode_0166, server: 104.17.148.22, port: 80, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: redw.pooriam.ir, network: ws, ws-opts: {path: "/LwW5jwrnymnOdqki?ed=2560", headers: {Host: redw.pooriam.ir}}, udp: true}
-  - {name: US_speednode_0167, server: 104.20.129.2, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
-  - {name: US_speednode_0168, server: 104.20.129.2, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: "/Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray?ed=2560", headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
-  - {name: US_speednode_0169, server: 52.38.165.76, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: US_speednode_0170, server: www.speedtest.net, port: 80, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: redw.pooriam.ir, network: ws, ws-opts: {path: "/Telegram@MTMVPN/?ed=2560", headers: {Host: redw.pooriam.ir}}, udp: true}
-  - {name: US_speednode_0171, server: 34.221.171.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: US_speednode_0172, server: 54.200.164.45, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: US_speednode_0173, server: 151.101.3.8, port: 80, type: vless, uuid: abfc215c-b2dc-4d7b-bab4-e0e17812a8d6, tls: false, skip-cert-verify: false, servername: 49.org, network: ws, ws-opts: {path: "/telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee?ed=2095", headers: {Host: 49.org}}, udp: true}
-  - {name: US_speednode_0174, server: 104.20.129.2, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
-  - {name: US_speednode_0175, server: speedtest.net, port: 80, type: vless, uuid: 576d1c42-4b4a-4bba-c786-f1c43700d05d, tls: false, skip-cert-verify: false, servername: foffmelo.com, network: ws, ws-opts: {path: "/olem/ws?ed=1024", headers: {Host: foffmelo.com}}, udp: true}
-  - {name: US_speednode_0176, server: 66.42.90.216, port: 8881, type: vmess, uuid: db5afae4-ac23-41a6-8378-f307a9a47436, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [moi.ir]}}, udp: true}
-  - {name: US_speednode_0177, server: 208.87.243.151, port: 17549, type: hysteria, auth_str: dongtaiwang.com, up: 11 Mbps, down: 55 Mbps, sni: www.bing.com, skip-cert-verify: true, alpn: [h3], udp: true}
-  - {name: VN_speednode_0178, server: bs1.loadingip.com, port: 443, type: trojan, password: 94d219c9-1afc-4d42-b090-8b3794764380, skip-cert-verify: true, udp: true}
-  - {name: VN_speednode_0179, server: 36.50.135.142, port: 443, type: trojan, password: 94d219c9-1afc-4d42-b090-8b3794764380, sni: bs1.loadingip.com, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0069, server: cn17.closeai.one, port: 8610, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0070, server: cn18.closeai.one, port: 8521, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0071, server: cn15.closeai.one, port: 8503, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0072, server: cn17.closeai.one, port: 8603, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0073, server: cn17.closeai.one, port: 8605, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0074, server: cn16.closeai.one, port: 8511, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0075, server: cn15.closeai.one, port: 8505, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0076, server: cn17.closeai.one, port: 8625, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0077, server: cn16.closeai.one, port: 8512, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0078, server: cn15.closeai.one, port: 8506, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0079, server: cn17.closeai.one, port: 8613, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0080, server: cn17.closeai.one, port: 8612, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0081, server: cn17.closeai.one, port: 8607, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0082, server: cn17.closeai.one, port: 8619, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0083, server: cn16.closeai.one, port: 8513, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0084, server: cn16.closeai.one, port: 8510, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0085, server: cn16.closeai.one, port: 8514, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CN_speednode_0086, server: cn17.closeai.one, port: 8626, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: CR_speednode_0087, server: 190.93.244.187, port: 443, type: vless, uuid: 8b5e0dc6-abde-4323-ac8a-9f26824b3c5f, tls: true, skip-cert-verify: true, client-fingerprint: random, servername: edgetunnel-3pc.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: edgetunnel-3pc.pages.dev}}, udp: true}
+  - {name: DE_speednode_0088, server: oracle-arm-frankfurt1.lanmaoyun.icu, port: 30001, type: hysteria2, password: c32d2660-b6d1-4a5d-ba7c-64f63c8c6070, up: 100, down: 1000, sni: frankfurt1.nodes.lanmaoyun.icu, skip-cert-verify: false, udp: true}
+  - {name: DE_speednode_0089, server: 188.245.251.47, port: 8080, type: vless, uuid: 1c86a177-d7ff-4a5f-8255-cfeb4e051305, tls: false, skip-cert-verify: false, servername: sso.farhang.gov.ir, network: http, http-opts: {method: GET, path: [/download], headers: {Host: [sso.farhang.gov.ir]}}, udp: true}
+  - {name: DE_speednode_0090, server: 2na9noed62ec.dopraxrocks.com, port: 443, type: vless, uuid: a6e8515c-4e54-435a-9a47-2365beb40164, tls: false, skip-cert-verify: false, udp: true}
+  - {name: DE_speednode_0091, server: vpn.pnm1.com, port: 23055, type: vless, uuid: 90cadcb1-5955-4ddc-c846-a40f06cbed39, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: vpn.pnm1.com, alpn: [h2, http/1.1], udp: true}
+  - {name: DE_speednode_0092, server: 146.103.41.166, port: 23055, type: vless, uuid: 90cadcb1-5955-4ddc-c846-a40f06cbed39, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: vpn.pnm1.com, alpn: [h2, http/1.1], udp: true}
+  - {name: DE_speednode_0093, server: 185.161.251.211, port: 1633, type: vless, uuid: b6e0fefb-5686-4f7b-9e3c-e212ef4b3ef7, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: stackoverflow.com, reality-opts: {public-key: ANlgAsYC8HmKfJnc5SFvru822urkxG1PzW1Zw4Vbm0Q, short-id: 9bc0a55a5379c0ed}, udp: true}
+  - {name: GB_speednode_0094, server: oracle-arm-london1.lanmaoyun.icu, port: 30001, type: hysteria2, password: c32d2660-b6d1-4a5d-ba7c-64f63c8c6070, up: 100, down: 1000, sni: london1.nodes.lanmaoyun.icu, skip-cert-verify: false, udp: true}
+  - {name: HK_speednode_0095, server: ftq.ink, port: 4000, type: http, tls: true, udp: true}
+  - {name: HK_speednode_0096, server: 104.251.227.182, port: 443, type: trojan, password: 43e5eeacbad3032bfe4c25a2f011b6b7, sni: hezijiasuqi.com, skip-cert-verify: true, udp: true}
+  - {name: JP_speednode_0097, server: 57.180.246.231, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: JP_speednode_0098, server: oracle-amd-osaka1.lanmaoyun.icu, port: 30001, type: hysteria2, password: c32d2660-b6d1-4a5d-ba7c-64f63c8c6070, up: 100, down: 1000, sni: osaka.nodes.lanmaoyun.icu, skip-cert-verify: false, udp: true}
+  - {name: JP_speednode_0099, server: oracle-amd-tokyo1.lanmaoyun.icu, port: 30001, type: hysteria2, password: c32d2660-b6d1-4a5d-ba7c-64f63c8c6070, up: 100, down: 1000, sni: tokyo.nodes.lanmaoyun.icu, skip-cert-verify: false, udp: true}
+  - {name: KR_speednode_0100, server: oracle-arm-chuncheon2.lanmaoyun.icu, port: 30001, type: hysteria2, password: c32d2660-b6d1-4a5d-ba7c-64f63c8c6070, up: 100, down: 1000, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: false, udp: true}
+  - {name: KR_speednode_0101, server: oracle-arm-seoul1.lanmaoyun.icu, port: 30001, type: hysteria2, password: c32d2660-b6d1-4a5d-ba7c-64f63c8c6070, up: 100, down: 1000, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: false, udp: true}
+  - {name: KR_speednode_0102, server: oracle-arm-chuncheon1.lanmaoyun.icu, port: 30001, type: hysteria2, password: c32d2660-b6d1-4a5d-ba7c-64f63c8c6070, up: 100, down: 1000, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: false, udp: true}
+  - {name: NL_speednode_0103, server: 95.179.159.217, port: 22671, type: vless, uuid: ebc5660f-bb9b-415c-94ab-d3630189ceb9, tls: false, skip-cert-verify: false, servername: telewebion.com, network: http, http-opts: {method: GET, path: [/], headers: {Host: [telewebion.com]}}, udp: true}
+  - {name: NN_speednode_0104, server: "0000:0000:0000:0000:0000:ffff:b23e:cd27", port: 2082, type: vmess, uuid: 79220140-2c4f-4321-ac8c-040f2bb0a589, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [zula.ir]}}, udp: true}
+  - {name: RU_speednode_0105, server: 185.22.155.71, port: 15424, type: hysteria, auth_str: dongtaiwang.com, up: 11 Mbps, down: 55 Mbps, sni: www.bing.com, skip-cert-verify: true, alpn: [h3], obfs: dongtaiwang.com, udp: true}
+  - {name: RU_speednode_0106, server: 46.17.40.190, port: 12330, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
+  - {name: RU_speednode_0107, server: 195.58.49.42, port: 20315, type: vmess, uuid: 1273eae5-1fad-432a-aeba-51419b61d566, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, udp: true}
+  - {name: SC_speednode_0108, server: 156.226.174.90, port: 25585, type: vless, uuid: ad80be46-fe43-4a1c-b54d-00e64fe37b73, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: yahoo.com, reality-opts: {public-key: PeBC_tJjIk236cDe3NUZQfbWQZBgy4c-8aJWNQuL4mE, short-id: 2ca90ee3}, udp: true}
+  - {name: SG_speednode_0109, server: oracle-amd-singapore1.lanmaoyun.icu, port: 30001, type: hysteria2, password: c32d2660-b6d1-4a5d-ba7c-64f63c8c6070, up: 100, down: 1000, sni: main.nodes.lanmaoyun.icu, skip-cert-verify: false, udp: true}
+  - {name: UA_speednode_0110, server: 176.103.53.105, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: US_speednode_0111, server: 103.21.244.187, port: 443, type: vless, uuid: 8b5e0dc6-abde-4323-ac8a-9f26824b3c5f, tls: true, skip-cert-verify: true, client-fingerprint: random, servername: edgetunnel-3pc.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: edgetunnel-3pc.pages.dev}}, udp: true}
+  - {name: US_speednode_0112, server: 104.24.14.161, port: 443, type: vless, uuid: 8b5e0dc6-abde-4323-ac8a-9f26824b3c5f, tls: true, skip-cert-verify: true, client-fingerprint: random, servername: edgetunnel-3pc.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: edgetunnel-3pc.pages.dev}}, udp: true}
+  - {name: US_speednode_0113, server: 172.64.81.101, port: 443, type: vless, uuid: 8b5e0dc6-abde-4323-ac8a-9f26824b3c5f, tls: true, skip-cert-verify: true, client-fingerprint: random, servername: edgetunnel-3pc.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: edgetunnel-3pc.pages.dev}}, udp: true}
+  - {name: US_speednode_0114, server: 104.16.145.200, port: 443, type: vless, uuid: 8b5e0dc6-abde-4323-ac8a-9f26824b3c5f, tls: true, skip-cert-verify: true, client-fingerprint: random, servername: edgetunnel-3pc.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: edgetunnel-3pc.pages.dev}}, udp: true}
+  - {name: US_speednode_0115, server: 188.114.97.158, port: 443, type: vless, uuid: 8b5e0dc6-abde-4323-ac8a-9f26824b3c5f, tls: true, skip-cert-verify: true, client-fingerprint: random, servername: edgetunnel-3pc.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: edgetunnel-3pc.pages.dev}}, udp: true}
+  - {name: US_speednode_0116, server: 104.16.47.19, port: 443, type: vless, uuid: 8b5e0dc6-abde-4323-ac8a-9f26824b3c5f, tls: true, skip-cert-verify: true, client-fingerprint: random, servername: edgetunnel-3pc.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: edgetunnel-3pc.pages.dev}}, udp: true}
+  - {name: US_speednode_0117, server: 172.64.137.65, port: 443, type: vless, uuid: 8b5e0dc6-abde-4323-ac8a-9f26824b3c5f, tls: true, skip-cert-verify: true, client-fingerprint: random, servername: edgetunnel-3pc.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: edgetunnel-3pc.pages.dev}}, udp: true}
+  - {name: US_speednode_0118, server: 155.138.208.122, port: 8881, type: vmess, uuid: db5afae4-ac23-41a6-8378-f307a9a47436, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [moi.ir]}}, udp: true}
+  - {name: US_speednode_0119, server: 104.17.148.22, port: 80, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: redw.pooriam.ir, network: ws, ws-opts: {path: "/LwW5jwrnymnOdqki?ed=2560", headers: {Host: redw.pooriam.ir}}, udp: true}
+  - {name: US_speednode_0120, server: 104.20.129.2, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
+  - {name: US_speednode_0121, server: 104.20.129.2, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: "/Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray?ed=2560", headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
+  - {name: US_speednode_0122, server: www.speedtest.net, port: 80, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: redw.pooriam.ir, network: ws, ws-opts: {path: "/Telegram@MTMVPN/?ed=2560", headers: {Host: redw.pooriam.ir}}, udp: true}
+  - {name: US_speednode_0123, server: wear.net, port: 443, type: vless, uuid: 046fd332-80a6-43b0-91b0-7238a1dfc36c, tls: true, skip-cert-verify: false, servername: wear.net, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aw035.ir}}, udp: true}
+  - {name: US_speednode_0124, server: 108.181.18.171, port: 40021, type: vless, uuid: 193f3ec7-d850-481b-b17d-1094edc3e03b, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: apple.com, reality-opts: {public-key: CuFCD-MhNUXArRCGaTHi7BiZvDXfy9sgKSeL3sPMbHY, short-id: 891814a4}, udp: true}
+  - {name: US_speednode_0125, server: 66.42.90.216, port: 8881, type: vmess, uuid: db5afae4-ac23-41a6-8378-f307a9a47436, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [moi.ir]}}, udp: true}
+  - {name: US_speednode_0126, server: 155.138.204.188, port: 8881, type: vmess, uuid: db5afae4-ac23-41a6-8378-f307a9a47436, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [moi.ir]}}, udp: true}
+  - {name: US_speednode_0127, server: 104.20.129.2, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
+  - {name: US_speednode_0128, server: 151.101.3.8, port: 80, type: vless, uuid: abfc215c-b2dc-4d7b-bab4-e0e17812a8d6, tls: false, skip-cert-verify: false, servername: 49.org, network: ws, ws-opts: {path: "/telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee?ed=2095", headers: {Host: 49.org}}, udp: true}
+  - {name: US_speednode_0129, server: speedtest.net, port: 80, type: vless, uuid: 576d1c42-4b4a-4bba-c786-f1c43700d05d, tls: false, skip-cert-verify: false, servername: foffmelo.com, network: ws, ws-opts: {path: "/olem/ws?ed=1024", headers: {Host: foffmelo.com}}, udp: true}
+  - {name: US_speednode_0130, server: 208.87.243.151, port: 17549, type: hysteria, auth_str: dongtaiwang.com, up: 11 Mbps, down: 55 Mbps, sni: www.bing.com, skip-cert-verify: true, alpn: [h3], udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
@@ -288,99 +239,50 @@ proxy-groups:
   - CN_speednode_0084
   - CN_speednode_0085
   - CN_speednode_0086
-  - CN_speednode_0087
-  - CN_speednode_0088
-  - CN_speednode_0089
-  - CN_speednode_0090
-  - CN_speednode_0091
-  - CN_speednode_0092
-  - CN_speednode_0093
-  - CN_speednode_0094
-  - CN_speednode_0095
-  - CN_speednode_0096
-  - CN_speednode_0097
-  - CN_speednode_0098
-  - CN_speednode_0099
-  - CN_speednode_0100
-  - CN_speednode_0101
-  - CN_speednode_0102
-  - CN_speednode_0103
-  - CN_speednode_0104
-  - CN_speednode_0105
-  - CN_speednode_0106
-  - CN_speednode_0107
-  - CN_speednode_0108
-  - CN_speednode_0109
-  - CN_speednode_0110
-  - CN_speednode_0111
-  - CN_speednode_0112
-  - CN_speednode_0113
-  - CN_speednode_0114
-  - CN_speednode_0115
-  - CN_speednode_0116
-  - CN_speednode_0117
-  - CN_speednode_0118
-  - DE_speednode_0119
-  - DE_speednode_0120
-  - DE_speednode_0121
-  - DE_speednode_0122
-  - DE_speednode_0123
-  - DE_speednode_0124
-  - GB_speednode_0125
-  - HK_speednode_0126
-  - HK_speednode_0127
-  - HK_speednode_0128
-  - HK_speednode_0129
-  - IL_speednode_0130
-  - JP_speednode_0131
-  - JP_speednode_0132
-  - JP_speednode_0133
-  - JP_speednode_0134
-  - KR_speednode_0135
-  - KR_speednode_0136
-  - KR_speednode_0137
-  - KR_speednode_0138
-  - NL_speednode_0139
-  - NL_speednode_0140
-  - NL_speednode_0141
-  - NN_speednode_0142
-  - PL_speednode_0143
-  - RU_speednode_0144
-  - RU_speednode_0145
-  - RU_speednode_0146
-  - RU_speednode_0147
-  - RU_speednode_0148
-  - RU_speednode_0149
-  - RU_speednode_0150
-  - SC_speednode_0151
-  - SG_speednode_0152
-  - SG_speednode_0153
-  - SG_speednode_0154
-  - TW_speednode_0155
-  - UA_speednode_0156
-  - US_speednode_0157
-  - US_speednode_0158
-  - US_speednode_0159
-  - US_speednode_0160
-  - US_speednode_0161
-  - US_speednode_0162
-  - US_speednode_0163
-  - US_speednode_0164
-  - US_speednode_0165
-  - US_speednode_0166
-  - US_speednode_0167
-  - US_speednode_0168
-  - US_speednode_0169
-  - US_speednode_0170
-  - US_speednode_0171
-  - US_speednode_0172
-  - US_speednode_0173
-  - US_speednode_0174
-  - US_speednode_0175
-  - US_speednode_0176
-  - US_speednode_0177
-  - VN_speednode_0178
-  - VN_speednode_0179
+  - CR_speednode_0087
+  - DE_speednode_0088
+  - DE_speednode_0089
+  - DE_speednode_0090
+  - DE_speednode_0091
+  - DE_speednode_0092
+  - DE_speednode_0093
+  - GB_speednode_0094
+  - HK_speednode_0095
+  - HK_speednode_0096
+  - JP_speednode_0097
+  - JP_speednode_0098
+  - JP_speednode_0099
+  - KR_speednode_0100
+  - KR_speednode_0101
+  - KR_speednode_0102
+  - NL_speednode_0103
+  - NN_speednode_0104
+  - RU_speednode_0105
+  - RU_speednode_0106
+  - RU_speednode_0107
+  - SC_speednode_0108
+  - SG_speednode_0109
+  - UA_speednode_0110
+  - US_speednode_0111
+  - US_speednode_0112
+  - US_speednode_0113
+  - US_speednode_0114
+  - US_speednode_0115
+  - US_speednode_0116
+  - US_speednode_0117
+  - US_speednode_0118
+  - US_speednode_0119
+  - US_speednode_0120
+  - US_speednode_0121
+  - US_speednode_0122
+  - US_speednode_0123
+  - US_speednode_0124
+  - US_speednode_0125
+  - US_speednode_0126
+  - US_speednode_0127
+  - US_speednode_0128
+  - US_speednode_0129
+  - US_speednode_0130
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -470,99 +372,50 @@ proxy-groups:
   - CN_speednode_0084
   - CN_speednode_0085
   - CN_speednode_0086
-  - CN_speednode_0087
-  - CN_speednode_0088
-  - CN_speednode_0089
-  - CN_speednode_0090
-  - CN_speednode_0091
-  - CN_speednode_0092
-  - CN_speednode_0093
-  - CN_speednode_0094
-  - CN_speednode_0095
-  - CN_speednode_0096
-  - CN_speednode_0097
-  - CN_speednode_0098
-  - CN_speednode_0099
-  - CN_speednode_0100
-  - CN_speednode_0101
-  - CN_speednode_0102
-  - CN_speednode_0103
-  - CN_speednode_0104
-  - CN_speednode_0105
-  - CN_speednode_0106
-  - CN_speednode_0107
-  - CN_speednode_0108
-  - CN_speednode_0109
-  - CN_speednode_0110
-  - CN_speednode_0111
-  - CN_speednode_0112
-  - CN_speednode_0113
-  - CN_speednode_0114
-  - CN_speednode_0115
-  - CN_speednode_0116
-  - CN_speednode_0117
-  - CN_speednode_0118
-  - DE_speednode_0119
-  - DE_speednode_0120
-  - DE_speednode_0121
-  - DE_speednode_0122
-  - DE_speednode_0123
-  - DE_speednode_0124
-  - GB_speednode_0125
-  - HK_speednode_0126
-  - HK_speednode_0127
-  - HK_speednode_0128
-  - HK_speednode_0129
-  - IL_speednode_0130
-  - JP_speednode_0131
-  - JP_speednode_0132
-  - JP_speednode_0133
-  - JP_speednode_0134
-  - KR_speednode_0135
-  - KR_speednode_0136
-  - KR_speednode_0137
-  - KR_speednode_0138
-  - NL_speednode_0139
-  - NL_speednode_0140
-  - NL_speednode_0141
-  - NN_speednode_0142
-  - PL_speednode_0143
-  - RU_speednode_0144
-  - RU_speednode_0145
-  - RU_speednode_0146
-  - RU_speednode_0147
-  - RU_speednode_0148
-  - RU_speednode_0149
-  - RU_speednode_0150
-  - SC_speednode_0151
-  - SG_speednode_0152
-  - SG_speednode_0153
-  - SG_speednode_0154
-  - TW_speednode_0155
-  - UA_speednode_0156
-  - US_speednode_0157
-  - US_speednode_0158
-  - US_speednode_0159
-  - US_speednode_0160
-  - US_speednode_0161
-  - US_speednode_0162
-  - US_speednode_0163
-  - US_speednode_0164
-  - US_speednode_0165
-  - US_speednode_0166
-  - US_speednode_0167
-  - US_speednode_0168
-  - US_speednode_0169
-  - US_speednode_0170
-  - US_speednode_0171
-  - US_speednode_0172
-  - US_speednode_0173
-  - US_speednode_0174
-  - US_speednode_0175
-  - US_speednode_0176
-  - US_speednode_0177
-  - VN_speednode_0178
-  - VN_speednode_0179
+  - CR_speednode_0087
+  - DE_speednode_0088
+  - DE_speednode_0089
+  - DE_speednode_0090
+  - DE_speednode_0091
+  - DE_speednode_0092
+  - DE_speednode_0093
+  - GB_speednode_0094
+  - HK_speednode_0095
+  - HK_speednode_0096
+  - JP_speednode_0097
+  - JP_speednode_0098
+  - JP_speednode_0099
+  - KR_speednode_0100
+  - KR_speednode_0101
+  - KR_speednode_0102
+  - NL_speednode_0103
+  - NN_speednode_0104
+  - RU_speednode_0105
+  - RU_speednode_0106
+  - RU_speednode_0107
+  - SC_speednode_0108
+  - SG_speednode_0109
+  - UA_speednode_0110
+  - US_speednode_0111
+  - US_speednode_0112
+  - US_speednode_0113
+  - US_speednode_0114
+  - US_speednode_0115
+  - US_speednode_0116
+  - US_speednode_0117
+  - US_speednode_0118
+  - US_speednode_0119
+  - US_speednode_0120
+  - US_speednode_0121
+  - US_speednode_0122
+  - US_speednode_0123
+  - US_speednode_0124
+  - US_speednode_0125
+  - US_speednode_0126
+  - US_speednode_0127
+  - US_speednode_0128
+  - US_speednode_0129
+  - US_speednode_0130
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
