@@ -587,7 +587,12 @@
       "server": "gs.huamao888.top",
       "server_port": 33345,
       "type": "trojan",
-      "password": "78c245b7-b61c-4970-b4c2-d92a173ff16a"
+      "password": "78c245b7-b61c-4970-b4c2-d92a173ff16a",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gs.huamao888.top"
+      }
     },
     {
       "tag": "DE_speednode_0031",
@@ -664,7 +669,11 @@
       "server": "grown-mackerel.shiner427.skin",
       "server_port": 443,
       "type": "trojan",
-      "password": "65086441068973800"
+      "password": "65086441068973800",
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
     },
     {
       "tag": "HK_speednode_0037",
@@ -679,7 +688,11 @@
       "server": "tops-lobster.shiner427.skin",
       "server_port": 443,
       "type": "trojan",
-      "password": "65086441068973800"
+      "password": "65086441068973800",
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
     },
     {
       "tag": "JP_speednode_0039",
@@ -1414,7 +1427,12 @@
       "server": "cea291b7d55c322ec47dbd8c56359e7a.us.in.node-is.green",
       "server_port": 46463,
       "type": "trojan",
-      "password": "915476b6-7b20-4b57-be47-d9d0fd6a6ffb"
+      "password": "915476b6-7b20-4b57-be47-d9d0fd6a6ffb",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hk12.bilibili.com"
+      }
     },
     {
       "tag": "US_speednode_0106",
@@ -1432,7 +1450,12 @@
       "server": "b81d0ebd97b5d2f9526651812be75f7e.us.in.node-is.green",
       "server_port": 42911,
       "type": "trojan",
-      "password": "915476b6-7b20-4b57-be47-d9d0fd6a6ffb"
+      "password": "915476b6-7b20-4b57-be47-d9d0fd6a6ffb",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hk12.bilibili.com"
+      }
     },
     {
       "tag": "US_speednode_0108",
@@ -1647,7 +1670,11 @@
       "server": "humorous-lioness.shiner427.skin",
       "server_port": 443,
       "type": "trojan",
-      "password": "65086441068973800"
+      "password": "65086441068973800",
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
     },
     {
       "tag": "US_speednode_0124",
@@ -1676,7 +1703,11 @@
       "server": "grateful-lark.shiner427.skin",
       "server_port": 443,
       "type": "trojan",
-      "password": "65086441068973800"
+      "password": "65086441068973800",
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
     },
     {
       "tag": "US_speednode_0127",
@@ -1719,7 +1750,11 @@
       "server": "live-serval.shiner427.skin",
       "server_port": 443,
       "type": "trojan",
-      "password": "65086441068973800"
+      "password": "65086441068973800",
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
     },
     {
       "tag": "US_speednode_0130",
