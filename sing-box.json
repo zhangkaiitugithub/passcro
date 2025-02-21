@@ -86,148 +86,148 @@
       "outbounds": [
         "auto",
         "direct",
-        "DE_speednode_0003",
-        "DE_speednode_0004",
-        "FI_speednode_0005",
-        "HK_speednode_0006",
-        "LU_speednode_0007",
-        "LU_speednode_0008",
-        "LU_speednode_0009",
-        "LU_speednode_0010",
-        "LU_speednode_0011",
-        "LU_speednode_0012",
-        "LU_speednode_0013",
-        "LU_speednode_0014",
-        "LU_speednode_0015",
-        "LU_speednode_0016",
-        "LU_speednode_0017",
-        "LU_speednode_0018",
-        "LU_speednode_0019",
-        "LU_speednode_0020",
-        "LU_speednode_0021",
-        "NL_speednode_0022",
-        "NL_speednode_0023",
-        "NL_speednode_0024",
-        "NL_speednode_0025",
-        "NL_speednode_0026",
-        "NL_speednode_0027",
-        "NL_speednode_0028",
-        "NL_speednode_0029",
-        "NL_speednode_0030",
-        "NL_speednode_0031",
-        "NL_speednode_0032",
-        "NL_speednode_0033",
-        "NL_speednode_0034",
-        "NL_speednode_0035",
-        "NL_speednode_0036",
-        "NL_speednode_0037",
-        "NL_speednode_0038",
-        "NL_speednode_0039",
-        "NL_speednode_0040",
-        "NL_speednode_0041",
-        "NL_speednode_0042",
-        "NL_speednode_0043",
-        "PH_speednode_0044",
-        "PH_speednode_0045",
-        "PH_speednode_0046",
-        "PH_speednode_0047",
-        "PH_speednode_0048",
-        "PH_speednode_0049",
-        "PH_speednode_0050",
-        "PH_speednode_0051",
-        "PH_speednode_0052",
-        "PH_speednode_0053",
-        "PH_speednode_0054",
-        "RU_speednode_0055",
-        "RU_speednode_0056",
-        "RU_speednode_0057",
-        "SG_speednode_0058",
-        "US_speednode_0059",
-        "US_speednode_0060",
-        "US_speednode_0061",
-        "US_speednode_0062",
-        "US_speednode_0063",
-        "US_speednode_0064",
-        "US_speednode_0065",
-        "US_speednode_0066",
-        "US_speednode_0067",
-        "US_speednode_0068",
-        "US_speednode_0069",
-        "US_speednode_0070"
+        "speednode_0003",
+        "speednode_0004",
+        "speednode_0005",
+        "speednode_0006",
+        "speednode_0007",
+        "speednode_0008",
+        "speednode_0009",
+        "speednode_0010",
+        "speednode_0011",
+        "speednode_0012",
+        "speednode_0013",
+        "speednode_0014",
+        "speednode_0015",
+        "speednode_0016",
+        "speednode_0017",
+        "speednode_0018",
+        "speednode_0019",
+        "speednode_0020",
+        "speednode_0021",
+        "speednode_0022",
+        "speednode_0023",
+        "speednode_0024",
+        "speednode_0025",
+        "speednode_0026",
+        "speednode_0027",
+        "speednode_0028",
+        "speednode_0029",
+        "speednode_0030",
+        "speednode_0031",
+        "speednode_0032",
+        "speednode_0033",
+        "speednode_0034",
+        "speednode_0035",
+        "speednode_0036",
+        "speednode_0037",
+        "speednode_0038",
+        "speednode_0039",
+        "speednode_0040",
+        "speednode_0041",
+        "speednode_0042",
+        "speednode_0043",
+        "speednode_0044",
+        "speednode_0045",
+        "speednode_0046",
+        "speednode_0047",
+        "speednode_0048",
+        "speednode_0049",
+        "speednode_0050",
+        "speednode_0051",
+        "speednode_0052",
+        "speednode_0053",
+        "speednode_0054",
+        "speednode_0055",
+        "speednode_0056",
+        "speednode_0057",
+        "speednode_0058",
+        "speednode_0059",
+        "speednode_0060",
+        "speednode_0061",
+        "speednode_0062",
+        "speednode_0063",
+        "speednode_0064",
+        "speednode_0065",
+        "speednode_0066",
+        "speednode_0067",
+        "speednode_0068",
+        "speednode_0069",
+        "speednode_0070"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "DE_speednode_0003",
-        "DE_speednode_0004",
-        "FI_speednode_0005",
-        "HK_speednode_0006",
-        "LU_speednode_0007",
-        "LU_speednode_0008",
-        "LU_speednode_0009",
-        "LU_speednode_0010",
-        "LU_speednode_0011",
-        "LU_speednode_0012",
-        "LU_speednode_0013",
-        "LU_speednode_0014",
-        "LU_speednode_0015",
-        "LU_speednode_0016",
-        "LU_speednode_0017",
-        "LU_speednode_0018",
-        "LU_speednode_0019",
-        "LU_speednode_0020",
-        "LU_speednode_0021",
-        "NL_speednode_0022",
-        "NL_speednode_0023",
-        "NL_speednode_0024",
-        "NL_speednode_0025",
-        "NL_speednode_0026",
-        "NL_speednode_0027",
-        "NL_speednode_0028",
-        "NL_speednode_0029",
-        "NL_speednode_0030",
-        "NL_speednode_0031",
-        "NL_speednode_0032",
-        "NL_speednode_0033",
-        "NL_speednode_0034",
-        "NL_speednode_0035",
-        "NL_speednode_0036",
-        "NL_speednode_0037",
-        "NL_speednode_0038",
-        "NL_speednode_0039",
-        "NL_speednode_0040",
-        "NL_speednode_0041",
-        "NL_speednode_0042",
-        "NL_speednode_0043",
-        "PH_speednode_0044",
-        "PH_speednode_0045",
-        "PH_speednode_0046",
-        "PH_speednode_0047",
-        "PH_speednode_0048",
-        "PH_speednode_0049",
-        "PH_speednode_0050",
-        "PH_speednode_0051",
-        "PH_speednode_0052",
-        "PH_speednode_0053",
-        "PH_speednode_0054",
-        "RU_speednode_0055",
-        "RU_speednode_0056",
-        "RU_speednode_0057",
-        "SG_speednode_0058",
-        "US_speednode_0059",
-        "US_speednode_0060",
-        "US_speednode_0061",
-        "US_speednode_0062",
-        "US_speednode_0063",
-        "US_speednode_0064",
-        "US_speednode_0065",
-        "US_speednode_0066",
-        "US_speednode_0067",
-        "US_speednode_0068",
-        "US_speednode_0069",
-        "US_speednode_0070"
+        "speednode_0003",
+        "speednode_0004",
+        "speednode_0005",
+        "speednode_0006",
+        "speednode_0007",
+        "speednode_0008",
+        "speednode_0009",
+        "speednode_0010",
+        "speednode_0011",
+        "speednode_0012",
+        "speednode_0013",
+        "speednode_0014",
+        "speednode_0015",
+        "speednode_0016",
+        "speednode_0017",
+        "speednode_0018",
+        "speednode_0019",
+        "speednode_0020",
+        "speednode_0021",
+        "speednode_0022",
+        "speednode_0023",
+        "speednode_0024",
+        "speednode_0025",
+        "speednode_0026",
+        "speednode_0027",
+        "speednode_0028",
+        "speednode_0029",
+        "speednode_0030",
+        "speednode_0031",
+        "speednode_0032",
+        "speednode_0033",
+        "speednode_0034",
+        "speednode_0035",
+        "speednode_0036",
+        "speednode_0037",
+        "speednode_0038",
+        "speednode_0039",
+        "speednode_0040",
+        "speednode_0041",
+        "speednode_0042",
+        "speednode_0043",
+        "speednode_0044",
+        "speednode_0045",
+        "speednode_0046",
+        "speednode_0047",
+        "speednode_0048",
+        "speednode_0049",
+        "speednode_0050",
+        "speednode_0051",
+        "speednode_0052",
+        "speednode_0053",
+        "speednode_0054",
+        "speednode_0055",
+        "speednode_0056",
+        "speednode_0057",
+        "speednode_0058",
+        "speednode_0059",
+        "speednode_0060",
+        "speednode_0061",
+        "speednode_0062",
+        "speednode_0063",
+        "speednode_0064",
+        "speednode_0065",
+        "speednode_0066",
+        "speednode_0067",
+        "speednode_0068",
+        "speednode_0069",
+        "speednode_0070"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -246,7 +246,7 @@
       "tag": "block"
     },
     {
-      "tag": "DE_speednode_0003",
+      "tag": "speednode_0003",
       "server": "193.43.104.152",
       "server_port": 443,
       "type": "vless",
@@ -267,7 +267,7 @@
       }
     },
     {
-      "tag": "DE_speednode_0004",
+      "tag": "speednode_0004",
       "server": "195.201.25.40",
       "server_port": 21313,
       "type": "vless",
@@ -288,7 +288,7 @@
       }
     },
     {
-      "tag": "FI_speednode_0005",
+      "tag": "speednode_0005",
       "server": "flv4-vip.digitalldns.com",
       "server_port": 6587,
       "type": "vless",
@@ -303,7 +303,7 @@
       }
     },
     {
-      "tag": "HK_speednode_0006",
+      "tag": "speednode_0006",
       "server": "104.251.227.182",
       "server_port": 443,
       "type": "trojan",
@@ -314,7 +314,7 @@
       }
     },
     {
-      "tag": "LU_speednode_0007",
+      "tag": "speednode_0007",
       "server": "pianyi-lu.jiumaojiu.org",
       "server_port": 20191,
       "type": "hysteria2",
@@ -325,7 +325,7 @@
       }
     },
     {
-      "tag": "LU_speednode_0008",
+      "tag": "speednode_0008",
       "server": "pianyi-lu.jiumaojiu.org",
       "server_port": 20147,
       "type": "hysteria2",
@@ -336,7 +336,7 @@
       }
     },
     {
-      "tag": "LU_speednode_0009",
+      "tag": "speednode_0009",
       "server": "pianyi-lu.jiumaojiu.org",
       "server_port": 20104,
       "type": "hysteria2",
@@ -347,7 +347,7 @@
       }
     },
     {
-      "tag": "LU_speednode_0010",
+      "tag": "speednode_0010",
       "server": "pianyi-lu.jiumaojiu.org",
       "server_port": 20121,
       "type": "hysteria2",
@@ -358,7 +358,7 @@
       }
     },
     {
-      "tag": "LU_speednode_0011",
+      "tag": "speednode_0011",
       "server": "pianyi-lu.jiumaojiu.org",
       "server_port": 20146,
       "type": "hysteria2",
@@ -369,7 +369,7 @@
       }
     },
     {
-      "tag": "LU_speednode_0012",
+      "tag": "speednode_0012",
       "server": "pianyi-lu.jiumaojiu.org",
       "server_port": 20187,
       "type": "hysteria2",
@@ -380,7 +380,7 @@
       }
     },
     {
-      "tag": "LU_speednode_0013",
+      "tag": "speednode_0013",
       "server": "pianyi-lu.jiumaojiu.org",
       "server_port": 20175,
       "type": "hysteria2",
@@ -391,7 +391,7 @@
       }
     },
     {
-      "tag": "LU_speednode_0014",
+      "tag": "speednode_0014",
       "server": "pianyi-lu.jiumaojiu.org",
       "server_port": 20136,
       "type": "hysteria2",
@@ -402,7 +402,7 @@
       }
     },
     {
-      "tag": "LU_speednode_0015",
+      "tag": "speednode_0015",
       "server": "pianyi-lu.jiumaojiu.org",
       "server_port": 20186,
       "type": "hysteria2",
@@ -413,7 +413,7 @@
       }
     },
     {
-      "tag": "LU_speednode_0016",
+      "tag": "speednode_0016",
       "server": "pianyi-lu.jiumaojiu.org",
       "server_port": 20169,
       "type": "hysteria2",
@@ -424,7 +424,7 @@
       }
     },
     {
-      "tag": "LU_speednode_0017",
+      "tag": "speednode_0017",
       "server": "pianyi-lu.jiumaojiu.org",
       "server_port": 20133,
       "type": "hysteria2",
@@ -435,7 +435,7 @@
       }
     },
     {
-      "tag": "LU_speednode_0018",
+      "tag": "speednode_0018",
       "server": "pianyi-lu.jiumaojiu.org",
       "server_port": 20154,
       "type": "hysteria2",
@@ -446,7 +446,7 @@
       }
     },
     {
-      "tag": "LU_speednode_0019",
+      "tag": "speednode_0019",
       "server": "pianyi-lu.jiumaojiu.org",
       "server_port": 20106,
       "type": "hysteria2",
@@ -457,7 +457,7 @@
       }
     },
     {
-      "tag": "LU_speednode_0020",
+      "tag": "speednode_0020",
       "server": "pianyi-lu.jiumaojiu.org",
       "server_port": 20189,
       "type": "hysteria2",
@@ -468,7 +468,7 @@
       }
     },
     {
-      "tag": "LU_speednode_0021",
+      "tag": "speednode_0021",
       "server": "pianyi-lu.jiumaojiu.org",
       "server_port": 20152,
       "type": "hysteria2",
@@ -479,7 +479,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0022",
+      "tag": "speednode_0022",
       "server": "45.149.12.128",
       "server_port": 80,
       "type": "vless",
@@ -495,7 +495,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0023",
+      "tag": "speednode_0023",
       "server": "xiaofeiji-nl.sanguayun.com",
       "server_port": 14673,
       "type": "hysteria2",
@@ -506,7 +506,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0024",
+      "tag": "speednode_0024",
       "server": "xiaofeiji-nl.sanguayun.com",
       "server_port": 14008,
       "type": "hysteria2",
@@ -517,7 +517,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0025",
+      "tag": "speednode_0025",
       "server": "xiaofeiji-nl.sanguayun.com",
       "server_port": 14882,
       "type": "hysteria2",
@@ -528,7 +528,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0026",
+      "tag": "speednode_0026",
       "server": "xiaofeiji-nl.sanguayun.com",
       "server_port": 14384,
       "type": "hysteria2",
@@ -539,7 +539,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0027",
+      "tag": "speednode_0027",
       "server": "xiaofeiji-nl.sanguayun.com",
       "server_port": 14669,
       "type": "hysteria2",
@@ -550,7 +550,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0028",
+      "tag": "speednode_0028",
       "server": "saibo-nl.sanguayun.com",
       "server_port": 11383,
       "type": "hysteria2",
@@ -561,7 +561,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0029",
+      "tag": "speednode_0029",
       "server": "xiaofeiji-nl.sanguayun.com",
       "server_port": 14231,
       "type": "hysteria2",
@@ -572,7 +572,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0030",
+      "tag": "speednode_0030",
       "server": "xiaofeiji-nl.sanguayun.com",
       "server_port": 14208,
       "type": "hysteria2",
@@ -583,7 +583,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0031",
+      "tag": "speednode_0031",
       "server": "xiaofeiji-nl.sanguayun.com",
       "server_port": 14950,
       "type": "hysteria2",
@@ -594,7 +594,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0032",
+      "tag": "speednode_0032",
       "server": "xiaofeiji-nl.sanguayun.com",
       "server_port": 14663,
       "type": "hysteria2",
@@ -605,7 +605,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0033",
+      "tag": "speednode_0033",
       "server": "saibo-nl.sanguayun.com",
       "server_port": 11708,
       "type": "hysteria2",
@@ -616,7 +616,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0034",
+      "tag": "speednode_0034",
       "server": "saibo-nl.sanguayun.com",
       "server_port": 11229,
       "type": "hysteria2",
@@ -627,7 +627,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0035",
+      "tag": "speednode_0035",
       "server": "saibo-nl.sanguayun.com",
       "server_port": 11934,
       "type": "hysteria2",
@@ -638,7 +638,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0036",
+      "tag": "speednode_0036",
       "server": "45.149.12.128",
       "server_port": 80,
       "type": "vless",
@@ -652,7 +652,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0037",
+      "tag": "speednode_0037",
       "server": "xiaofeiji-nl.sanguayun.com",
       "server_port": 14890,
       "type": "hysteria2",
@@ -663,7 +663,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0038",
+      "tag": "speednode_0038",
       "server": "xiaofeiji-nl.sanguayun.com",
       "server_port": 14989,
       "type": "hysteria2",
@@ -674,7 +674,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0039",
+      "tag": "speednode_0039",
       "server": "45.149.12.128",
       "server_port": 80,
       "type": "vless",
@@ -688,7 +688,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0040",
+      "tag": "speednode_0040",
       "server": "45.149.12.232",
       "server_port": 80,
       "type": "vless",
@@ -702,7 +702,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0041",
+      "tag": "speednode_0041",
       "server": "45.149.12.206",
       "server_port": 80,
       "type": "vless",
@@ -716,7 +716,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0042",
+      "tag": "speednode_0042",
       "server": "45.149.12.232",
       "server_port": 80,
       "type": "vless",
@@ -730,7 +730,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0043",
+      "tag": "speednode_0043",
       "server": "45.149.12.206",
       "server_port": 80,
       "type": "vless",
@@ -744,7 +744,7 @@
       }
     },
     {
-      "tag": "PH_speednode_0044",
+      "tag": "speednode_0044",
       "server": "xiaofeiji-hk.sanguayun.com",
       "server_port": 14925,
       "type": "hysteria2",
@@ -755,7 +755,7 @@
       }
     },
     {
-      "tag": "PH_speednode_0045",
+      "tag": "speednode_0045",
       "server": "saibo-hk.sanguayun.com",
       "server_port": 11752,
       "type": "hysteria2",
@@ -766,7 +766,7 @@
       }
     },
     {
-      "tag": "PH_speednode_0046",
+      "tag": "speednode_0046",
       "server": "xiaofeiji-hk.sanguayun.com",
       "server_port": 14244,
       "type": "hysteria2",
@@ -777,7 +777,7 @@
       }
     },
     {
-      "tag": "PH_speednode_0047",
+      "tag": "speednode_0047",
       "server": "xiaofeiji-hk.sanguayun.com",
       "server_port": 14187,
       "type": "hysteria2",
@@ -788,7 +788,7 @@
       }
     },
     {
-      "tag": "PH_speednode_0048",
+      "tag": "speednode_0048",
       "server": "saibo-hk.sanguayun.com",
       "server_port": 11166,
       "type": "hysteria2",
@@ -799,7 +799,7 @@
       }
     },
     {
-      "tag": "PH_speednode_0049",
+      "tag": "speednode_0049",
       "server": "xiaofeiji-hk.sanguayun.com",
       "server_port": 14705,
       "type": "hysteria2",
@@ -810,7 +810,7 @@
       }
     },
     {
-      "tag": "PH_speednode_0050",
+      "tag": "speednode_0050",
       "server": "xiaofeiji-hk.sanguayun.com",
       "server_port": 14750,
       "type": "hysteria2",
@@ -821,7 +821,7 @@
       }
     },
     {
-      "tag": "PH_speednode_0051",
+      "tag": "speednode_0051",
       "server": "xiaofeiji-hk.sanguayun.com",
       "server_port": 14154,
       "type": "hysteria2",
@@ -832,7 +832,7 @@
       }
     },
     {
-      "tag": "PH_speednode_0052",
+      "tag": "speednode_0052",
       "server": "xiaofeiji-hk.sanguayun.com",
       "server_port": 14018,
       "type": "hysteria2",
@@ -843,7 +843,7 @@
       }
     },
     {
-      "tag": "PH_speednode_0053",
+      "tag": "speednode_0053",
       "server": "xiaofeiji-hk.sanguayun.com",
       "server_port": 14742,
       "type": "hysteria2",
@@ -854,7 +854,7 @@
       }
     },
     {
-      "tag": "PH_speednode_0054",
+      "tag": "speednode_0054",
       "server": "xiaofeiji-hk.sanguayun.com",
       "server_port": 14020,
       "type": "hysteria2",
@@ -865,7 +865,7 @@
       }
     },
     {
-      "tag": "RU_speednode_0055",
+      "tag": "speednode_0055",
       "server": "185.174.138.194",
       "server_port": 80,
       "type": "vless",
@@ -879,7 +879,7 @@
       }
     },
     {
-      "tag": "RU_speednode_0056",
+      "tag": "speednode_0056",
       "server": "185.174.138.197",
       "server_port": 8080,
       "type": "vless",
@@ -893,7 +893,7 @@
       }
     },
     {
-      "tag": "RU_speednode_0057",
+      "tag": "speednode_0057",
       "server": "185.174.138.194",
       "server_port": 80,
       "type": "vless",
@@ -907,7 +907,7 @@
       }
     },
     {
-      "tag": "SG_speednode_0058",
+      "tag": "speednode_0058",
       "server": "free.tharuwa.cfd",
       "server_port": 3333,
       "type": "vless",
@@ -921,7 +921,7 @@
       }
     },
     {
-      "tag": "US_speednode_0059",
+      "tag": "speednode_0059",
       "server": "saibo-us.sanguayun.com",
       "server_port": 11568,
       "type": "hysteria2",
@@ -932,7 +932,7 @@
       }
     },
     {
-      "tag": "US_speednode_0060",
+      "tag": "speednode_0060",
       "server": "pianyi-us.jiumaojiu.org",
       "server_port": 20170,
       "type": "hysteria2",
@@ -943,7 +943,7 @@
       }
     },
     {
-      "tag": "US_speednode_0061",
+      "tag": "speednode_0061",
       "server": "xiaofeiji-us.sanguayun.com",
       "server_port": 14537,
       "type": "hysteria2",
@@ -954,7 +954,7 @@
       }
     },
     {
-      "tag": "US_speednode_0062",
+      "tag": "speednode_0062",
       "server": "pianyi-us.jiumaojiu.org",
       "server_port": 20113,
       "type": "hysteria2",
@@ -965,7 +965,7 @@
       }
     },
     {
-      "tag": "US_speednode_0063",
+      "tag": "speednode_0063",
       "server": "xiaofeiji-us.sanguayun.com",
       "server_port": 14448,
       "type": "hysteria2",
@@ -976,7 +976,7 @@
       }
     },
     {
-      "tag": "US_speednode_0064",
+      "tag": "speednode_0064",
       "server": "pianyi-us.jiumaojiu.org",
       "server_port": 20117,
       "type": "hysteria2",
@@ -987,7 +987,7 @@
       }
     },
     {
-      "tag": "US_speednode_0065",
+      "tag": "speednode_0065",
       "server": "pianyi-us.jiumaojiu.org",
       "server_port": 20184,
       "type": "hysteria2",
@@ -998,7 +998,7 @@
       }
     },
     {
-      "tag": "US_speednode_0066",
+      "tag": "speednode_0066",
       "server": "xiaofeiji-us.sanguayun.com",
       "server_port": 14523,
       "type": "hysteria2",
@@ -1009,7 +1009,7 @@
       }
     },
     {
-      "tag": "US_speednode_0067",
+      "tag": "speednode_0067",
       "server": "pianyi-us.jiumaojiu.org",
       "server_port": 20110,
       "type": "hysteria2",
@@ -1020,7 +1020,7 @@
       }
     },
     {
-      "tag": "US_speednode_0068",
+      "tag": "speednode_0068",
       "server": "pianyi-us.jiumaojiu.org",
       "server_port": 20115,
       "type": "hysteria2",
@@ -1031,7 +1031,7 @@
       }
     },
     {
-      "tag": "US_speednode_0069",
+      "tag": "speednode_0069",
       "server": "66.235.200.5",
       "server_port": 80,
       "type": "vless",
@@ -1045,7 +1045,7 @@
       }
     },
     {
-      "tag": "US_speednode_0070",
+      "tag": "speednode_0070",
       "server": "66.235.200.191",
       "server_port": 80,
       "type": "vless",
