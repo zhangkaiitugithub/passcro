@@ -20,113 +20,108 @@ dns:
 proxies:
   - {name: AE_speednode_0001, server: ush2.youxuan.wiki, port: 8080, type: hysteria2, password: 5407367c-cfa5-4e24-89ee-990e86d4cde8, sni: ush2.youxuan.wiki, skip-cert-verify: false, udp: true}
   - {name: CH_speednode_0002, server: 144.24.243.207, port: 443, type: vless, uuid: b529971c-f46a-4eb9-a02d-e39cc3e83cf5, tls: true, skip-cert-verify: false, servername: dd8.transitkala.com, network: ws, ws-opts: {path: /, headers: {Host: dd8.transitkala.com}}, udp: true}
-  - {name: CN_speednode_0003, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
-  - {name: CN_speednode_0004, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: zxjp-c.tkong.cc}}, udp: true}
-  - {name: CN_speednode_0005, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zxjp-b.tkong.cc}}, udp: true}
-  - {name: CN_speednode_0006, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, servername: zxjp-c.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
-  - {name: CN_speednode_0007, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, servername: zxjp-c.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-c.tkong.cc}}, udp: true}
-  - {name: ES_speednode_0008, server: es1.xiaoliyu.cyou, port: 25807, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: es1.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
-  - {name: ES_speednode_0009, server: es1.xiaoliyu.cyou, port: 24772, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: es1.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
-  - {name: FR_speednode_0010, server: fr3.xiaoliyu.cyou, port: 24172, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: fr3.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
-  - {name: FR_speednode_0011, server: fr2.xiaoliyu.cyou, port: 22065, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: fr2.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
-  - {name: FR_speednode_0012, server: fr3.xiaoliyu.cyou, port: 22099, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: fr3.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
-  - {name: FR_speednode_0013, server: fr3.xiaoliyu.cyou, port: 24936, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: fr3.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
-  - {name: GB_speednode_0014, server: 31.22.116.38, port: 443, type: vless, uuid: 7671069f-ce73-4977-be03-414e79f1d7cd, tls: true, skip-cert-verify: false, servername: usd.kobtty.me, network: ws, ws-opts: {path: /bing, headers: {Host: usd.kobtty.me}}, udp: true}
-  - {name: HK_speednode_0015, server: 162.247.5.91, port: 443, type: vless, uuid: 8ca6df70-73af-4139-9f7e-685e71618c71, tls: true, skip-cert-verify: false, servername: sga.costs.asia, network: ws, ws-opts: {path: /bing, headers: {Host: sga.costs.asia}}, udp: true}
-  - {name: HK_speednode_0016, server: 8.218.105.88, port: 443, type: vless, uuid: e987e2aa-7cfe-4d19-8364-66552cc53d16, tls: true, skip-cert-verify: false, servername: vn.cazlelmhpn.group, network: ws, ws-opts: {path: /bing, headers: {Host: vn.cazlelmhpn.group}}, udp: true}
-  - {name: IN_speednode_0017, server: ln1.xiaoliyu.cyou, port: 26440, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: ln1.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
-  - {name: IN_speednode_0018, server: ln4.xiaoliyu.cyou, port: 23198, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: ln4.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
-  - {name: IN_speednode_0019, server: ln3.xiaoliyu.cyou, port: 24646, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: ln3.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
-  - {name: IN_speednode_0020, server: ln4.xiaoliyu.cyou, port: 26818, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: ln4.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
-  - {name: IN_speednode_0021, server: ln1.xiaoliyu.cyou, port: 24483, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: ln1.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
-  - {name: IN_speednode_0022, server: ln3.xiaoliyu.cyou, port: 24606, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: ln3.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
-  - {name: IN_speednode_0023, server: ln3.xiaoliyu.cyou, port: 26424, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: ln3.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
-  - {name: IN_speednode_0024, server: ln1.xiaoliyu.cyou, port: 24668, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: ln1.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
-  - {name: IN_speednode_0025, server: ln4.xiaoliyu.cyou, port: 22688, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: ln4.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
-  - {name: JP_speednode_0026, server: 47.74.33.96, port: 443, type: vless, uuid: 29fffc40-85fa-46fc-ac13-4d846fd9f696, tls: true, skip-cert-verify: false, servername: jpc.kddhs.asia, network: ws, ws-opts: {path: /bing, headers: {Host: jpc.kddhs.asia}}, udp: true}
-  - {name: LU_speednode_0027, server: yiyuankuailian-lu.jiumaojiu.org, port: 21070, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
-  - {name: LU_speednode_0028, server: yiyuankuailian-lu.jiumaojiu.org, port: 21011, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
-  - {name: LU_speednode_0029, server: yiyuankuailian-lu.jiumaojiu.org, port: 21058, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
-  - {name: LU_speednode_0030, server: yiyuankuailian-lu.jiumaojiu.org, port: 21012, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
-  - {name: LU_speednode_0031, server: yiyuankuailian-lu.jiumaojiu.org, port: 21099, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
-  - {name: LU_speednode_0032, server: yiyuankuailian-lu.jiumaojiu.org, port: 21040, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
-  - {name: LU_speednode_0033, server: yiyuankuailian-lu.jiumaojiu.org, port: 21036, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
-  - {name: LU_speednode_0034, server: yiyuankuailian-lu.jiumaojiu.org, port: 21024, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
-  - {name: LU_speednode_0035, server: yiyuankuailian-lu.jiumaojiu.org, port: 21055, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
-  - {name: NL_speednode_0036, server: 45.149.12.128, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
-  - {name: NL_speednode_0037, server: 45.149.12.183, port: 2052, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: redw.pooriam.ir, network: ws, ws-opts: {path: "/TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560", headers: {Host: redw.pooriam.ir}}, udp: true}
-  - {name: NL_speednode_0038, server: xiaohuojian-nl.sanguayun.com, port: 15513, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
-  - {name: NL_speednode_0039, server: xiaohuojian-nl.sanguayun.com, port: 15120, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
-  - {name: NL_speednode_0040, server: xiaohuojian-nl.sanguayun.com, port: 15437, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
-  - {name: NL_speednode_0041, server: xiaohuojian-nl.sanguayun.com, port: 15784, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
-  - {name: NL_speednode_0042, server: 45.149.12.232, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
-  - {name: NL_speednode_0043, server: xiaohuojian-nl.sanguayun.com, port: 15652, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
-  - {name: NL_speednode_0044, server: 45.149.12.128, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
-  - {name: NL_speednode_0045, server: 45.149.12.128, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, client-fingerprint: chrome, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
-  - {name: NL_speednode_0046, server: 45.149.12.206, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
-  - {name: NL_speednode_0047, server: 45.149.12.206, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, client-fingerprint: chrome, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
-  - {name: NL_speednode_0048, server: xiaohuojian-nl.sanguayun.com, port: 15391, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
-  - {name: NL_speednode_0049, server: 45.149.12.232, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
-  - {name: PH_speednode_0050, server: xiaohuojian-hk.sanguayun.com, port: 15329, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
-  - {name: PH_speednode_0051, server: xiaofeiji-hk.sanguayun.com, port: 14750, ports: 14001-14999, type: hysteria2, password: 87745083-6b2a-4d06-bb31-95308f07febe, skip-cert-verify: false, udp: true}
-  - {name: PH_speednode_0052, server: xiaofeiji-hk.sanguayun.com, port: 14705, ports: 14001-14999, type: hysteria2, password: 87745083-6b2a-4d06-bb31-95308f07febe, skip-cert-verify: false, udp: true}
-  - {name: RU_speednode_0053, server: 185.22.155.71, port: 63717, type: hysteria, auth_str: dongtaiwang.com, up: 11 Mbps, down: 55 Mbps, sni: www.bing.com, skip-cert-verify: true, alpn: [h3], obfs: dongtaiwang.com, udp: true}
-  - {name: RU_speednode_0054, server: 185.174.138.194, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
-  - {name: RU_speednode_0055, server: 185.174.138.197, port: 8080, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, skip-cert-verify: false, servername: a.xn--i-sx6a60i.us.kg., network: ws, ws-opts: {path: /, headers: {Host: a.xn--i-sx6a60i.us.kg.}}, udp: true}
-  - {name: RU_speednode_0056, server: 185.174.138.194, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
-  - {name: SC_speednode_0057, server: 154.83.2.156, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: redw.pooriam.ir, network: ws, ws-opts: {path: "/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560", headers: {Host: redw.pooriam.ir}}, udp: true}
-  - {name: SC_speednode_0058, server: 154.83.2.230, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: redw.pooriam.ir, network: ws, ws-opts: {path: "/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560", headers: {Host: redw.pooriam.ir}}, udp: true}
-  - {name: SC_speednode_0059, server: 154.83.2.228, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: redw.pooriam.ir, network: ws, ws-opts: {path: "/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560", headers: {Host: redw.pooriam.ir}}, udp: true}
-  - {name: SG_speednode_0060, server: 8.219.202.145, port: 443, type: vless, uuid: 038562dc-6958-4ce7-eae2-887d8a1bee2a, tls: true, skip-cert-verify: false, servername: dob.fenmila.me, network: ws, ws-opts: {path: /bing, headers: {Host: dob.fenmila.me}}, udp: true}
-  - {name: SG_speednode_0061, server: sg3.xiaoliyu.cyou, port: 23327, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: sg3.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
-  - {name: SG_speednode_0062, server: sg3.xiaoliyu.cyou, port: 23855, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: sg3.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
-  - {name: SG_speednode_0063, server: sg3.xiaoliyu.cyou, port: 22974, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: sg3.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
-  - {name: TW_speednode_0064, server: 154.223.20.79, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: US_speednode_0065, server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com, port: 80, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: Join--E-L-i-V-2-R-A-Y.net, network: ws, ws-opts: {path: "/channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560", headers: {Host: Join--E-L-i-V-2-R-A-Y.net}}, udp: true}
-  - {name: US_speednode_0066, server: xiaofeiji-us.sanguayun.com, port: 14537, ports: 14001-14999, type: hysteria2, password: 7bd5d5a0-d6ac-4ce0-8953-7d4408fcdd7f, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0067, server: us2.xiaoliyu.cyou, port: 23449, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: us2.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0068, server: us2.xiaoliyu.cyou, port: 24531, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: us2.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0069, server: xiaofeiji-us.sanguayun.com, port: 14140, ports: 14001-14999, type: hysteria2, password: 7bd5d5a0-d6ac-4ce0-8953-7d4408fcdd7f, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0070, server: us1.xiaoliyu.cyou, port: 25444, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: us1.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0071, server: xiaofeiji-us.sanguayun.com, port: 14141, ports: 14001-14999, type: hysteria2, password: 7bd5d5a0-d6ac-4ce0-8953-7d4408fcdd7f, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0072, server: xiaofeiji-us.sanguayun.com, port: 14038, ports: 14001-14999, type: hysteria2, password: 7bd5d5a0-d6ac-4ce0-8953-7d4408fcdd7f, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0073, server: 104.26.14.85, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, skip-cert-verify: false, servername: a.xn--i-sx6a60i.us.kg., network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: a.xn--i-sx6a60i.us.kg.}}, udp: true}
-  - {name: US_speednode_0074, server: 104.26.14.85, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, skip-cert-verify: false, servername: a.xn--i-sx6a60i.us.kg., network: ws, ws-opts: {path: "/@V2ray_Alpha/?ed=2560", headers: {Host: a.xn--i-sx6a60i.us.kg.}}, udp: true}
-  - {name: US_speednode_0075, server: yiyuankuailian-us.jiumaojiu.org, port: 21091, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0076, server: xiaofeiji-us.sanguayun.com, port: 14523, ports: 14001-14999, type: hysteria2, password: f654e082-c610-4d16-9599-bfb572c8c86a, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0077, server: yiyuankuailian-us.jiumaojiu.org, port: 21025, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0078, server: 172.67.73.163, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, skip-cert-verify: false, servername: a.xn--i-sx6a60i.us.kg., network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: a.xn--i-sx6a60i.us.kg.}}, udp: true}
-  - {name: US_speednode_0079, server: us1.xiaoliyu.cyou, port: 25852, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: us1.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0080, server: 172.67.73.163, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, skip-cert-verify: false, servername: a.xn--i-sx6a60i.us.kg., network: ws, ws-opts: {path: "/MTMVPN?ed=2560", headers: {Host: a.xn--i-sx6a60i.us.kg.}}, udp: true}
-  - {name: US_speednode_0081, server: 104.26.14.85, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, skip-cert-verify: false, servername: a.xn--i-sx6a60i.us.kg., network: ws, ws-opts: {path: "/MTMVPN-MTMVPN-MTMVPN-MTMVPN?ed=2560", headers: {Host: a.xn--i-sx6a60i.us.kg.}}, udp: true}
-  - {name: US_speednode_0082, server: xiaohuojian-us.sanguayun.com, port: 15686, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0083, server: yiyuankuailian-us.jiumaojiu.org, port: 21048, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0084, server: yiyuankuailian-us.jiumaojiu.org, port: 21035, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0085, server: yiyuankuailian-us.jiumaojiu.org, port: 21011, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0086, server: 104.26.14.85, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, skip-cert-verify: false, servername: a.xn--i-sx6a60i.us.kg., network: ws, ws-opts: {path: "/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560", headers: {Host: a.xn--i-sx6a60i.us.kg.}}, udp: true}
-  - {name: US_speednode_0087, server: yiyuankuailian-us.jiumaojiu.org, port: 21098, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0088, server: yiyuankuailian-us.jiumaojiu.org, port: 21096, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0089, server: xiaofeiji-us.sanguayun.com, port: 14609, ports: 14001-14999, type: hysteria2, password: f654e082-c610-4d16-9599-bfb572c8c86a, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0090, server: 208.87.243.151, port: 17549, type: hysteria, auth_str: dongtaiwang.com, up: 11 Mbps, down: 55 Mbps, sni: www.bing.com, skip-cert-verify: true, alpn: [h3], udp: true}
-  - {name: US_speednode_0091, server: yiyuankuailian-us.jiumaojiu.org, port: 21007, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0092, server: xiaohuojian-us.sanguayun.com, port: 15947, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0093, server: 66.235.200.58, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
-  - {name: US_speednode_0094, server: 172.67.73.163, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, skip-cert-verify: false, servername: a.xn--i-sx6a60i.us.kg., network: ws, ws-opts: {path: "/Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray?ed=2560", headers: {Host: a.xn--i-sx6a60i.us.kg.}}, udp: true}
-  - {name: US_speednode_0095, server: 66.235.200.5, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
-  - {name: US_speednode_0096, server: xiaohuojian-us.sanguayun.com, port: 15308, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0097, server: 66.235.200.149, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
-  - {name: US_speednode_0098, server: 66.235.200.30, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
-  - {name: US_speednode_0099, server: xiaohuojian-us.sanguayun.com, port: 15436, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0100, server: 66.235.200.5, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
-  - {name: US_speednode_0101, server: 66.235.200.149, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
-  - {name: US_speednode_0102, server: 66.235.200.222, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
-  - {name: US_speednode_0103, server: 66.235.200.30, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
-  - {name: US_speednode_0104, server: xiaohuojian-us.sanguayun.com, port: 15223, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0105, server: 66.235.200.191, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
-  - {name: US_speednode_0106, server: 172.67.73.163, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, skip-cert-verify: false, servername: a.xn--i-sx6a60i.us.kg., network: ws, ws-opts: {path: /, headers: {Host: a.xn--i-sx6a60i.us.kg.}}, udp: true}
-  - {name: US_speednode_0107, server: xiaohuojian-us.sanguayun.com, port: 15276, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0108, server: www.speedtest.net, port: 2052, type: vless, uuid: dfc1a9ab-6241-4b73-92f7-b299fc6b7751, tls: false, skip-cert-verify: false, servername: Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt, network: ws, ws-opts: {path: "/?ed=1080", headers: {Host: Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt}}, udp: true}
-  - {name: US_speednode_0109, server: 45.62.114.221, port: 443, type: vless, uuid: dd0d29f2-c6fd-4518-bed6-618ef8b12e86, tls: true, skip-cert-verify: false, servername: usb.sevco.me, network: ws, ws-opts: {path: /bing, headers: {Host: usb.sevco.me}}, udp: true}
+  - {name: CN_speednode_0003, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zxjp-b.tkong.cc}}, udp: true}
+  - {name: CN_speednode_0004, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, servername: zxjp-c.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
+  - {name: CN_speednode_0005, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, servername: zxjp-c.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-c.tkong.cc}}, udp: true}
+  - {name: ES_speednode_0006, server: es1.xiaoliyu.cyou, port: 25807, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: es1.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
+  - {name: ES_speednode_0007, server: es1.xiaoliyu.cyou, port: 24772, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: es1.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
+  - {name: FR_speednode_0008, server: fr3.xiaoliyu.cyou, port: 24172, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: fr3.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
+  - {name: FR_speednode_0009, server: fr2.xiaoliyu.cyou, port: 22065, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: fr2.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
+  - {name: FR_speednode_0010, server: fr3.xiaoliyu.cyou, port: 22099, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: fr3.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
+  - {name: FR_speednode_0011, server: fr3.xiaoliyu.cyou, port: 24936, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: fr3.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
+  - {name: GB_speednode_0012, server: 31.22.116.38, port: 443, type: vless, uuid: 7671069f-ce73-4977-be03-414e79f1d7cd, tls: true, skip-cert-verify: false, servername: usd.kobtty.me, network: ws, ws-opts: {path: /bing, headers: {Host: usd.kobtty.me}}, udp: true}
+  - {name: IN_speednode_0013, server: ln1.xiaoliyu.cyou, port: 26440, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: ln1.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
+  - {name: IN_speednode_0014, server: ln4.xiaoliyu.cyou, port: 23198, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: ln4.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
+  - {name: IN_speednode_0015, server: ln3.xiaoliyu.cyou, port: 24646, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: ln3.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
+  - {name: IN_speednode_0016, server: ln4.xiaoliyu.cyou, port: 26818, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: ln4.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
+  - {name: IN_speednode_0017, server: ln1.xiaoliyu.cyou, port: 24483, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: ln1.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
+  - {name: IN_speednode_0018, server: ln3.xiaoliyu.cyou, port: 24606, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: ln3.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
+  - {name: IN_speednode_0019, server: ln3.xiaoliyu.cyou, port: 26424, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: ln3.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
+  - {name: IN_speednode_0020, server: ln1.xiaoliyu.cyou, port: 24668, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: ln1.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
+  - {name: IN_speednode_0021, server: ln4.xiaoliyu.cyou, port: 22688, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: ln4.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
+  - {name: JP_speednode_0022, server: 47.74.33.96, port: 443, type: vless, uuid: 29fffc40-85fa-46fc-ac13-4d846fd9f696, tls: true, skip-cert-verify: false, servername: jpc.kddhs.asia, network: ws, ws-opts: {path: /bing, headers: {Host: jpc.kddhs.asia}}, udp: true}
+  - {name: LU_speednode_0023, server: yiyuankuailian-lu.jiumaojiu.org, port: 21070, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
+  - {name: LU_speednode_0024, server: yiyuankuailian-lu.jiumaojiu.org, port: 21011, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
+  - {name: LU_speednode_0025, server: yiyuankuailian-lu.jiumaojiu.org, port: 21058, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
+  - {name: LU_speednode_0026, server: yiyuankuailian-lu.jiumaojiu.org, port: 21012, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
+  - {name: LU_speednode_0027, server: yiyuankuailian-lu.jiumaojiu.org, port: 21099, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
+  - {name: LU_speednode_0028, server: yiyuankuailian-lu.jiumaojiu.org, port: 21040, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
+  - {name: LU_speednode_0029, server: yiyuankuailian-lu.jiumaojiu.org, port: 21036, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
+  - {name: LU_speednode_0030, server: yiyuankuailian-lu.jiumaojiu.org, port: 21024, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
+  - {name: LU_speednode_0031, server: yiyuankuailian-lu.jiumaojiu.org, port: 21055, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
+  - {name: NL_speednode_0032, server: 45.149.12.128, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
+  - {name: NL_speednode_0033, server: 45.149.12.183, port: 2052, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: redw.pooriam.ir, network: ws, ws-opts: {path: "/TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560", headers: {Host: redw.pooriam.ir}}, udp: true}
+  - {name: NL_speednode_0034, server: xiaohuojian-nl.sanguayun.com, port: 15513, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
+  - {name: NL_speednode_0035, server: xiaohuojian-nl.sanguayun.com, port: 15120, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
+  - {name: NL_speednode_0036, server: xiaohuojian-nl.sanguayun.com, port: 15437, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
+  - {name: NL_speednode_0037, server: xiaohuojian-nl.sanguayun.com, port: 15784, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
+  - {name: NL_speednode_0038, server: 45.149.12.232, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
+  - {name: NL_speednode_0039, server: xiaohuojian-nl.sanguayun.com, port: 15652, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
+  - {name: NL_speednode_0040, server: 45.149.12.128, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
+  - {name: NL_speednode_0041, server: 45.149.12.128, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, client-fingerprint: chrome, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
+  - {name: NL_speednode_0042, server: 45.149.12.206, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
+  - {name: NL_speednode_0043, server: 45.149.12.206, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, client-fingerprint: chrome, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
+  - {name: NL_speednode_0044, server: xiaohuojian-nl.sanguayun.com, port: 15391, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
+  - {name: NL_speednode_0045, server: 45.149.12.232, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
+  - {name: PH_speednode_0046, server: xiaohuojian-hk.sanguayun.com, port: 15329, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
+  - {name: PH_speednode_0047, server: xiaofeiji-hk.sanguayun.com, port: 14750, ports: 14001-14999, type: hysteria2, password: 87745083-6b2a-4d06-bb31-95308f07febe, skip-cert-verify: false, udp: true}
+  - {name: PH_speednode_0048, server: xiaofeiji-hk.sanguayun.com, port: 14705, ports: 14001-14999, type: hysteria2, password: 87745083-6b2a-4d06-bb31-95308f07febe, skip-cert-verify: false, udp: true}
+  - {name: RU_speednode_0049, server: 185.22.155.71, port: 63717, type: hysteria, auth_str: dongtaiwang.com, up: 11 Mbps, down: 55 Mbps, sni: www.bing.com, skip-cert-verify: true, alpn: [h3], obfs: dongtaiwang.com, udp: true}
+  - {name: RU_speednode_0050, server: 185.174.138.194, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
+  - {name: RU_speednode_0051, server: 185.174.138.197, port: 8080, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, skip-cert-verify: false, servername: a.xn--i-sx6a60i.us.kg., network: ws, ws-opts: {path: /, headers: {Host: a.xn--i-sx6a60i.us.kg.}}, udp: true}
+  - {name: RU_speednode_0052, server: 185.174.138.194, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
+  - {name: SC_speednode_0053, server: 154.83.2.156, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: redw.pooriam.ir, network: ws, ws-opts: {path: "/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560", headers: {Host: redw.pooriam.ir}}, udp: true}
+  - {name: SC_speednode_0054, server: 154.83.2.230, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: redw.pooriam.ir, network: ws, ws-opts: {path: "/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560", headers: {Host: redw.pooriam.ir}}, udp: true}
+  - {name: SC_speednode_0055, server: 154.83.2.228, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: redw.pooriam.ir, network: ws, ws-opts: {path: "/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560", headers: {Host: redw.pooriam.ir}}, udp: true}
+  - {name: SG_speednode_0056, server: sg3.xiaoliyu.cyou, port: 23327, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: sg3.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
+  - {name: SG_speednode_0057, server: sg3.xiaoliyu.cyou, port: 23855, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: sg3.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
+  - {name: SG_speednode_0058, server: sg3.xiaoliyu.cyou, port: 22974, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: sg3.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
+  - {name: TW_speednode_0059, server: 154.223.20.79, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: US_speednode_0060, server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com, port: 80, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: Join--E-L-i-V-2-R-A-Y.net, network: ws, ws-opts: {path: "/channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560", headers: {Host: Join--E-L-i-V-2-R-A-Y.net}}, udp: true}
+  - {name: US_speednode_0061, server: xiaofeiji-us.sanguayun.com, port: 14537, ports: 14001-14999, type: hysteria2, password: 7bd5d5a0-d6ac-4ce0-8953-7d4408fcdd7f, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0062, server: us2.xiaoliyu.cyou, port: 23449, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: us2.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0063, server: us2.xiaoliyu.cyou, port: 24531, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: us2.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0064, server: xiaofeiji-us.sanguayun.com, port: 14140, ports: 14001-14999, type: hysteria2, password: 7bd5d5a0-d6ac-4ce0-8953-7d4408fcdd7f, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0065, server: us1.xiaoliyu.cyou, port: 25444, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: us1.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0066, server: xiaofeiji-us.sanguayun.com, port: 14141, ports: 14001-14999, type: hysteria2, password: 7bd5d5a0-d6ac-4ce0-8953-7d4408fcdd7f, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0067, server: xiaofeiji-us.sanguayun.com, port: 14038, ports: 14001-14999, type: hysteria2, password: 7bd5d5a0-d6ac-4ce0-8953-7d4408fcdd7f, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0068, server: 104.26.14.85, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, skip-cert-verify: false, servername: a.xn--i-sx6a60i.us.kg., network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: a.xn--i-sx6a60i.us.kg.}}, udp: true}
+  - {name: US_speednode_0069, server: 104.26.14.85, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, skip-cert-verify: false, servername: a.xn--i-sx6a60i.us.kg., network: ws, ws-opts: {path: "/@V2ray_Alpha/?ed=2560", headers: {Host: a.xn--i-sx6a60i.us.kg.}}, udp: true}
+  - {name: US_speednode_0070, server: yiyuankuailian-us.jiumaojiu.org, port: 21091, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0071, server: xiaofeiji-us.sanguayun.com, port: 14523, ports: 14001-14999, type: hysteria2, password: f654e082-c610-4d16-9599-bfb572c8c86a, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0072, server: yiyuankuailian-us.jiumaojiu.org, port: 21025, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0073, server: 172.67.73.163, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, skip-cert-verify: false, servername: a.xn--i-sx6a60i.us.kg., network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: a.xn--i-sx6a60i.us.kg.}}, udp: true}
+  - {name: US_speednode_0074, server: us1.xiaoliyu.cyou, port: 25852, type: hysteria2, password: bcf89582-072f-4e16-97e2-5d1258e0100d, sni: us1.xiaoliyu.cyou, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0075, server: 172.67.73.163, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, skip-cert-verify: false, servername: a.xn--i-sx6a60i.us.kg., network: ws, ws-opts: {path: "/MTMVPN?ed=2560", headers: {Host: a.xn--i-sx6a60i.us.kg.}}, udp: true}
+  - {name: US_speednode_0076, server: 104.26.14.85, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, skip-cert-verify: false, servername: a.xn--i-sx6a60i.us.kg., network: ws, ws-opts: {path: "/MTMVPN-MTMVPN-MTMVPN-MTMVPN?ed=2560", headers: {Host: a.xn--i-sx6a60i.us.kg.}}, udp: true}
+  - {name: US_speednode_0077, server: xiaohuojian-us.sanguayun.com, port: 15686, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0078, server: yiyuankuailian-us.jiumaojiu.org, port: 21048, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0079, server: yiyuankuailian-us.jiumaojiu.org, port: 21035, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0080, server: yiyuankuailian-us.jiumaojiu.org, port: 21011, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0081, server: 104.26.14.85, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, skip-cert-verify: false, servername: a.xn--i-sx6a60i.us.kg., network: ws, ws-opts: {path: "/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560", headers: {Host: a.xn--i-sx6a60i.us.kg.}}, udp: true}
+  - {name: US_speednode_0082, server: yiyuankuailian-us.jiumaojiu.org, port: 21098, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0083, server: yiyuankuailian-us.jiumaojiu.org, port: 21096, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0084, server: xiaofeiji-us.sanguayun.com, port: 14609, ports: 14001-14999, type: hysteria2, password: f654e082-c610-4d16-9599-bfb572c8c86a, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0085, server: 208.87.243.151, port: 17549, type: hysteria, auth_str: dongtaiwang.com, up: 11 Mbps, down: 55 Mbps, sni: www.bing.com, skip-cert-verify: true, alpn: [h3], udp: true}
+  - {name: US_speednode_0086, server: yiyuankuailian-us.jiumaojiu.org, port: 21007, ports: 21001-21099, type: hysteria2, password: a7a56041-820a-4e40-a79a-5c9e14b27953, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0087, server: xiaohuojian-us.sanguayun.com, port: 15947, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0088, server: 66.235.200.58, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
+  - {name: US_speednode_0089, server: 172.67.73.163, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, skip-cert-verify: false, servername: a.xn--i-sx6a60i.us.kg., network: ws, ws-opts: {path: "/Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray?ed=2560", headers: {Host: a.xn--i-sx6a60i.us.kg.}}, udp: true}
+  - {name: US_speednode_0090, server: 66.235.200.5, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
+  - {name: US_speednode_0091, server: xiaohuojian-us.sanguayun.com, port: 15308, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0092, server: 66.235.200.149, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
+  - {name: US_speednode_0093, server: 66.235.200.30, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
+  - {name: US_speednode_0094, server: xiaohuojian-us.sanguayun.com, port: 15436, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0095, server: 66.235.200.5, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
+  - {name: US_speednode_0096, server: 66.235.200.149, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
+  - {name: US_speednode_0097, server: 66.235.200.222, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
+  - {name: US_speednode_0098, server: 66.235.200.30, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
+  - {name: US_speednode_0099, server: xiaohuojian-us.sanguayun.com, port: 15223, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0100, server: 66.235.200.191, port: 80, type: vless, uuid: e497da22-d020-40fb-a1fa-bc294066a2d2, tls: false, skip-cert-verify: false, servername: pormang.webhost99.workers.dev, network: ws, ws-opts: {path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1, headers: {Host: pormang.webhost99.workers.dev}}, udp: true}
+  - {name: US_speednode_0101, server: 172.67.73.163, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, skip-cert-verify: false, servername: a.xn--i-sx6a60i.us.kg., network: ws, ws-opts: {path: /, headers: {Host: a.xn--i-sx6a60i.us.kg.}}, udp: true}
+  - {name: US_speednode_0102, server: xiaohuojian-us.sanguayun.com, port: 15276, ports: 15001-15999, type: hysteria2, password: 03a1873d-0651-47d1-a581-3d94f8c59922, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0103, server: www.speedtest.net, port: 2052, type: vless, uuid: dfc1a9ab-6241-4b73-92f7-b299fc6b7751, tls: false, skip-cert-verify: false, servername: Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt, network: ws, ws-opts: {path: "/?ed=1080", headers: {Host: Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt}}, udp: true}
+  - {name: US_speednode_0104, server: 45.62.114.221, port: 443, type: vless, uuid: dd0d29f2-c6fd-4518-bed6-618ef8b12e86, tls: true, skip-cert-verify: false, servername: usb.sevco.me, network: ws, ws-opts: {path: /bing, headers: {Host: usb.sevco.me}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
@@ -137,36 +132,36 @@ proxy-groups:
   - CN_speednode_0003
   - CN_speednode_0004
   - CN_speednode_0005
-  - CN_speednode_0006
-  - CN_speednode_0007
-  - ES_speednode_0008
-  - ES_speednode_0009
+  - ES_speednode_0006
+  - ES_speednode_0007
+  - FR_speednode_0008
+  - FR_speednode_0009
   - FR_speednode_0010
   - FR_speednode_0011
-  - FR_speednode_0012
-  - FR_speednode_0013
-  - GB_speednode_0014
-  - HK_speednode_0015
-  - HK_speednode_0016
+  - GB_speednode_0012
+  - IN_speednode_0013
+  - IN_speednode_0014
+  - IN_speednode_0015
+  - IN_speednode_0016
   - IN_speednode_0017
   - IN_speednode_0018
   - IN_speednode_0019
   - IN_speednode_0020
   - IN_speednode_0021
-  - IN_speednode_0022
-  - IN_speednode_0023
-  - IN_speednode_0024
-  - IN_speednode_0025
-  - JP_speednode_0026
+  - JP_speednode_0022
+  - LU_speednode_0023
+  - LU_speednode_0024
+  - LU_speednode_0025
+  - LU_speednode_0026
   - LU_speednode_0027
   - LU_speednode_0028
   - LU_speednode_0029
   - LU_speednode_0030
   - LU_speednode_0031
-  - LU_speednode_0032
-  - LU_speednode_0033
-  - LU_speednode_0034
-  - LU_speednode_0035
+  - NL_speednode_0032
+  - NL_speednode_0033
+  - NL_speednode_0034
+  - NL_speednode_0035
   - NL_speednode_0036
   - NL_speednode_0037
   - NL_speednode_0038
@@ -177,25 +172,25 @@ proxy-groups:
   - NL_speednode_0043
   - NL_speednode_0044
   - NL_speednode_0045
-  - NL_speednode_0046
-  - NL_speednode_0047
-  - NL_speednode_0048
-  - NL_speednode_0049
-  - PH_speednode_0050
-  - PH_speednode_0051
-  - PH_speednode_0052
-  - RU_speednode_0053
-  - RU_speednode_0054
-  - RU_speednode_0055
-  - RU_speednode_0056
-  - SC_speednode_0057
-  - SC_speednode_0058
-  - SC_speednode_0059
-  - SG_speednode_0060
-  - SG_speednode_0061
-  - SG_speednode_0062
-  - SG_speednode_0063
-  - TW_speednode_0064
+  - PH_speednode_0046
+  - PH_speednode_0047
+  - PH_speednode_0048
+  - RU_speednode_0049
+  - RU_speednode_0050
+  - RU_speednode_0051
+  - RU_speednode_0052
+  - SC_speednode_0053
+  - SC_speednode_0054
+  - SC_speednode_0055
+  - SG_speednode_0056
+  - SG_speednode_0057
+  - SG_speednode_0058
+  - TW_speednode_0059
+  - US_speednode_0060
+  - US_speednode_0061
+  - US_speednode_0062
+  - US_speednode_0063
+  - US_speednode_0064
   - US_speednode_0065
   - US_speednode_0066
   - US_speednode_0067
@@ -236,11 +231,6 @@ proxy-groups:
   - US_speednode_0102
   - US_speednode_0103
   - US_speednode_0104
-  - US_speednode_0105
-  - US_speednode_0106
-  - US_speednode_0107
-  - US_speednode_0108
-  - US_speednode_0109
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -249,36 +239,36 @@ proxy-groups:
   - CN_speednode_0003
   - CN_speednode_0004
   - CN_speednode_0005
-  - CN_speednode_0006
-  - CN_speednode_0007
-  - ES_speednode_0008
-  - ES_speednode_0009
+  - ES_speednode_0006
+  - ES_speednode_0007
+  - FR_speednode_0008
+  - FR_speednode_0009
   - FR_speednode_0010
   - FR_speednode_0011
-  - FR_speednode_0012
-  - FR_speednode_0013
-  - GB_speednode_0014
-  - HK_speednode_0015
-  - HK_speednode_0016
+  - GB_speednode_0012
+  - IN_speednode_0013
+  - IN_speednode_0014
+  - IN_speednode_0015
+  - IN_speednode_0016
   - IN_speednode_0017
   - IN_speednode_0018
   - IN_speednode_0019
   - IN_speednode_0020
   - IN_speednode_0021
-  - IN_speednode_0022
-  - IN_speednode_0023
-  - IN_speednode_0024
-  - IN_speednode_0025
-  - JP_speednode_0026
+  - JP_speednode_0022
+  - LU_speednode_0023
+  - LU_speednode_0024
+  - LU_speednode_0025
+  - LU_speednode_0026
   - LU_speednode_0027
   - LU_speednode_0028
   - LU_speednode_0029
   - LU_speednode_0030
   - LU_speednode_0031
-  - LU_speednode_0032
-  - LU_speednode_0033
-  - LU_speednode_0034
-  - LU_speednode_0035
+  - NL_speednode_0032
+  - NL_speednode_0033
+  - NL_speednode_0034
+  - NL_speednode_0035
   - NL_speednode_0036
   - NL_speednode_0037
   - NL_speednode_0038
@@ -289,25 +279,25 @@ proxy-groups:
   - NL_speednode_0043
   - NL_speednode_0044
   - NL_speednode_0045
-  - NL_speednode_0046
-  - NL_speednode_0047
-  - NL_speednode_0048
-  - NL_speednode_0049
-  - PH_speednode_0050
-  - PH_speednode_0051
-  - PH_speednode_0052
-  - RU_speednode_0053
-  - RU_speednode_0054
-  - RU_speednode_0055
-  - RU_speednode_0056
-  - SC_speednode_0057
-  - SC_speednode_0058
-  - SC_speednode_0059
-  - SG_speednode_0060
-  - SG_speednode_0061
-  - SG_speednode_0062
-  - SG_speednode_0063
-  - TW_speednode_0064
+  - PH_speednode_0046
+  - PH_speednode_0047
+  - PH_speednode_0048
+  - RU_speednode_0049
+  - RU_speednode_0050
+  - RU_speednode_0051
+  - RU_speednode_0052
+  - SC_speednode_0053
+  - SC_speednode_0054
+  - SC_speednode_0055
+  - SG_speednode_0056
+  - SG_speednode_0057
+  - SG_speednode_0058
+  - TW_speednode_0059
+  - US_speednode_0060
+  - US_speednode_0061
+  - US_speednode_0062
+  - US_speednode_0063
+  - US_speednode_0064
   - US_speednode_0065
   - US_speednode_0066
   - US_speednode_0067
@@ -348,11 +338,6 @@ proxy-groups:
   - US_speednode_0102
   - US_speednode_0103
   - US_speednode_0104
-  - US_speednode_0105
-  - US_speednode_0106
-  - US_speednode_0107
-  - US_speednode_0108
-  - US_speednode_0109
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
