@@ -87,9 +87,7 @@
         "auto",
         "direct",
         "CH_speednode_0001",
-        "CH_speednode_0002",
         "CH_speednode_0003",
-        "CH_speednode_0004",
         "CN_speednode_0005",
         "CN_speednode_0006",
         "CN_speednode_0007",
@@ -178,9 +176,7 @@
       "type": "urltest",
       "outbounds": [
         "CH_speednode_0001",
-        "CH_speednode_0002",
         "CH_speednode_0003",
-        "CH_speednode_0004",
         "CN_speednode_0005",
         "CN_speednode_0006",
         "CN_speednode_0007",
@@ -285,23 +281,6 @@
       "server_port": 443,
       "type": "vless",
       "uuid": "7c317161-5cf8-4cbc-811a-d1297c41bb23",
-      "flow": "xtls-rprx-vision-udp443",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "CH_speednode_0002",
-      "server": "152.67.68.116",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "7c317161-5cf8-4cbc-811a-d1297c41bb23",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -320,23 +299,6 @@
       "type": "vless",
       "uuid": "7c317161-5cf8-4cbc-811a-d1297c41bb23",
       "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "CH_speednode_0004",
-      "server": "yapc-1.afshin.ir",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "7c317161-5cf8-4cbc-811a-d1297c41bb23",
-      "flow": "xtls-rprx-vision-udp443",
       "tls": {
         "enabled": true,
         "insecure": true,
