@@ -66,17 +66,9 @@ proxies:
   - {name: CN_speednode_0046, server: shenzhou05.mysynology.net, port: 29023, type: vless, uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: www.amazon.com, reality-opts: {public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY}, udp: true}
   - {name: CN_speednode_0047, server: shenzhou05.mysynology.net, port: 50452, type: vless, uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: www.amazon.com, reality-opts: {public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY}, udp: true}
   - {name: CN_speednode_0048, server: csuzhou01.1cooldns.com, port: 15464, type: vless, uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: www.nvidia.com, reality-opts: {public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY}, udp: true}
-  - {name: JP_speednode_0049, server: 156.231.140.34, port: 19085, type: vless, uuid: 3c5640c5-0e1b-4081-f174-0361c3c94d14, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: www.lovelive-anime.jp, reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA}, udp: true}
-  - {name: JP_speednode_0050, server: 103.116.7.103, port: 2083, type: vless, uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2, tls: true, skip-cert-verify: false, servername: edccr.aimercc.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: edccr.aimercc.filegear-sg.me}}, udp: true}
-  - {name: KR_speednode_0051, server: 221.144.200.91, port: 12527, type: vless, uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2, tls: true, skip-cert-verify: true, servername: edccy.ambercc.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: edccy.ambercc.filegear-sg.me}}, udp: true}
-  - {name: SG_speednode_0052, server: 27.50.49.230, port: 8443, type: vless, uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2, tls: true, skip-cert-verify: false, servername: edccy.ambercc.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: edccy.ambercc.filegear-sg.me}}, udp: true}
-  - {name: SG_speednode_0053, server: 92.243.74.239, port: 8443, type: vless, uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2, tls: true, skip-cert-verify: false, servername: edccr.aimercc.filegear-sg.me, network: ws, ws-opts: {path: /, headers: {Host: edccr.aimercc.filegear-sg.me}}, udp: true}
-  - {name: SG_speednode_0054, server: 152.42.218.33, port: 443, type: vless, uuid: 2d9798a1-6f27-4d8c-8f89-0d4147ae7cd2, tls: true, skip-cert-verify: true, servername: fonts.googleapis.com, network: ws, ws-opts: {path: /, headers: {Host: fonts.googleapis.com}}, udp: true}
-  - {name: US_speednode_0069, server: 104.129.166.131, port: 8443, type: vless, uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2, tls: true, skip-cert-verify: false, servername: edccr.aimercc.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: edccr.aimercc.filegear-sg.me}}, udp: true}
-  - {name: US_speednode_0072, server: 65.75.194.43, port: 10511, type: vless, uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2, tls: true, skip-cert-verify: false, servername: edccr.aimercc.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: edccr.aimercc.filegear-sg.me}}, udp: true}
-  - {name: US_speednode_0073, server: 108.165.152.207, port: 443, type: vless, uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2, tls: true, skip-cert-verify: false, servername: edccy.ambercc.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: edccy.ambercc.filegear-sg.me}}, udp: true}
-  - {name: US_speednode_0074, server: 164.152.19.229, port: 30158, type: vless, uuid: b72ba5d5-2d5e-45b7-93b5-236d343baa7c, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: www.yahoo.com, reality-opts: {public-key: n7Ptb-3f4pw0D-hG-UP8Dp5Gf8J8Uxn029JMwdTyEFc, short-id: ee9e2505}, udp: true}
-  - {name: US_speednode_0075, server: 170.114.45.6, port: 80, type: vless, uuid: d9074e14-c4e4-4e58-8fff-3727e83af868, tls: false, skip-cert-verify: true, client-fingerprint: chrome, servername: free.pranithsandaruwan.shop, network: ws, ws-opts: {path: /, headers: {Host: free.pranithsandaruwan.shop}}, udp: true}
+  - {name: SG_speednode_0049, server: 152.42.218.33, port: 443, type: vless, uuid: 2d9798a1-6f27-4d8c-8f89-0d4147ae7cd2, tls: true, skip-cert-verify: true, servername: fonts.googleapis.com, network: ws, ws-opts: {path: /, headers: {Host: fonts.googleapis.com}}, udp: true}
+  - {name: US_speednode_0066, server: 164.152.19.229, port: 30158, type: vless, uuid: b72ba5d5-2d5e-45b7-93b5-236d343baa7c, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: www.yahoo.com, reality-opts: {public-key: n7Ptb-3f4pw0D-hG-UP8Dp5Gf8J8Uxn029JMwdTyEFc, short-id: ee9e2505}, udp: true}
+  - {name: US_speednode_0067, server: 170.114.45.6, port: 80, type: vless, uuid: d9074e14-c4e4-4e58-8fff-3727e83af868, tls: false, skip-cert-verify: true, client-fingerprint: chrome, servername: free.pranithsandaruwan.shop, network: ws, ws-opts: {path: /, headers: {Host: free.pranithsandaruwan.shop}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
@@ -130,17 +122,9 @@ proxy-groups:
   - CN_speednode_0046
   - CN_speednode_0047
   - CN_speednode_0048
-  - JP_speednode_0049
-  - JP_speednode_0050
-  - KR_speednode_0051
-  - SG_speednode_0052
-  - SG_speednode_0053
-  - SG_speednode_0054
-  - US_speednode_0069
-  - US_speednode_0072
-  - US_speednode_0073
-  - US_speednode_0074
-  - US_speednode_0075
+  - SG_speednode_0049
+  - US_speednode_0066
+  - US_speednode_0067
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -192,17 +176,9 @@ proxy-groups:
   - CN_speednode_0046
   - CN_speednode_0047
   - CN_speednode_0048
-  - JP_speednode_0049
-  - JP_speednode_0050
-  - KR_speednode_0051
-  - SG_speednode_0052
-  - SG_speednode_0053
-  - SG_speednode_0054
-  - US_speednode_0069
-  - US_speednode_0072
-  - US_speednode_0073
-  - US_speednode_0074
-  - US_speednode_0075
+  - SG_speednode_0049
+  - US_speednode_0066
+  - US_speednode_0067
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
