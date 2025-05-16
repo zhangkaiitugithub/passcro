@@ -5052,7 +5052,6 @@
       "server_port": 8080,
       "type": "vless",
       "uuid": "291c27a5-34d2-4081-83cc-2196cd208148",
-      "flow": "none",
       "transport": {
         "type": "ws",
         "path": "/",
