@@ -20,79 +20,79 @@ dns:
 proxies:
   - {name: CN_speednode_0001, server: 120.232.153.41, port: 41491, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: CN_speednode_0002, server: 183.236.51.38, port: 59652, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0003, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
-  - {name: CN_speednode_0004, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, servername: zxjp-b.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-b.tkong.cc}}, udp: true}
-  - {name: CN_speednode_0005, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, servername: zxjp-c.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-c.tkong.cc}}, udp: true}
-  - {name: CN_speednode_0006, server: 120.253.244.100, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: tk.hzlt.tkddns.xyz, network: ws, ws-opts: {path: /, headers: {Host: zxjp-b.tkong.cc}}, udp: true}
-  - {name: DE_speednode_0007, server: 5.10.214.5, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0008, server: 5.10.215.47, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0009, server: 5.10.214.59, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0010, server: 5.10.215.111, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0011, server: 5.10.214.114, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0012, server: 5.10.214.45, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0013, server: 5.10.214.4, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0014, server: 5.10.214.15, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0015, server: 5.10.215.139, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0016, server: 5.10.214.116, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0017, server: 89.116.46.20, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0018, server: 5.10.214.71, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0019, server: 5.10.214.134, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0020, server: 5.10.214.235, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0021, server: 45.80.111.124, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/Telegram@vpnAndroid2/?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0022, server: 5.10.214.3, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0023, server: 5.10.215.143, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0024, server: 140.99.233.20, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0025, server: 5.10.215.118, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0026, server: 5.10.215.193, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0027, server: 5.10.215.254, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0028, server: 5.10.214.81, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0029, server: 5.10.214.36, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0030, server: 5.10.215.132, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0031, server: 188.244.122.20, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: us.laoyoutiao.link}}, udp: true}
-  - {name: DE_speednode_0032, server: 5.10.214.96, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0033, server: 5.10.214.119, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0034, server: 5.10.215.187, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0035, server: 5.10.215.134, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0036, server: 5.10.215.20, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: /, headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0037, server: 140.248.75.255, port: 443, type: vless, uuid: 71b0a2f6-77eb-457c-b060-13de21b976c9, tls: true, skip-cert-verify: true, servername: netpie.com, network: ws, ws-opts: {path: /Telegram-NetPie, headers: {Host: netpie.com}}, udp: true}
-  - {name: DE_speednode_0038, server: 5.10.215.124, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0039, server: 5.10.215.184, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0040, server: 5.10.214.178, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0041, server: 5.10.214.221, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: DE_speednode_0042, server: 5.10.214.123, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: FR_speednode_0043, server: 141.11.203.20, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: GB_speednode_0044, server: 91.193.58.223, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
-  - {name: GB_speednode_0045, server: 91.193.58.199, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
-  - {name: GB_speednode_0046, server: 91.193.58.117, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
-  - {name: GB_speednode_0047, server: 91.193.58.230, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
-  - {name: GB_speednode_0048, server: 91.193.58.123, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
-  - {name: GB_speednode_0049, server: 91.193.58.114, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
-  - {name: GB_speednode_0050, server: 91.193.58.104, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: us.laoyoutiao.link}}, udp: true}
-  - {name: GB_speednode_0051, server: 91.193.58.118, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
-  - {name: GB_speednode_0052, server: 91.193.58.182, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
-  - {name: GB_speednode_0053, server: 91.193.58.167, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
-  - {name: GB_speednode_0054, server: 91.193.58.33, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
-  - {name: GB_speednode_0055, server: 91.193.58.249, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
-  - {name: GB_speednode_0056, server: 91.193.58.229, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: cs.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560", headers: {Host: cs.laoyoutiao.link}}, udp: true}
-  - {name: GB_speednode_0057, server: 91.193.58.226, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
-  - {name: GB_speednode_0058, server: 91.193.58.164, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: us.laoyoutiao.link}}, udp: true}
-  - {name: GB_speednode_0059, server: 91.193.58.246, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
-  - {name: GB_speednode_0060, server: 91.193.58.1, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: sk.laoyoutiao.link}}, udp: true}
-  - {name: HK_speednode_0061, server: 8.217.26.121, port: 38767, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: true, skip-cert-verify: true, servername: steep.skyfigure.top, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560", headers: {Host: steep.skyfigure.top}}, udp: true}
-  - {name: IR_speednode_0062, server: 37.32.42.22, port: 443, type: vless, uuid: eb1920ff-d816-4ca1-b832-4683cddebaa6, tls: false, skip-cert-verify: false, servername: speedtest.net, network: http, http-opts: {method: GET, path: [/], headers: {Host: [speedtest.net]}}, udp: true}
-  - {name: JO_speednode_0063, server: 62.72.166.20, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: JP_speednode_0064, server: 195.245.229.63, port: 443, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: true, skip-cert-verify: true, servername: steep.skyfigure.top, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560", headers: {Host: steep.skyfigure.top}}, udp: true}
-  - {name: KR_speednode_0065, server: 49.167.61.27, port: 21838, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: true, skip-cert-verify: true, servername: steep.skyfigure.top, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @pgkj666 /?ed=2560", headers: {Host: steep.skyfigure.top}}, udp: true}
-  - {name: KR_speednode_0066, server: 121.154.68.40, port: 25079, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: true, skip-cert-verify: true, servername: steep.skyfigure.top, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560", headers: {Host: steep.skyfigure.top}}, udp: true}
-  - {name: KR_speednode_0067, server: 49.167.61.27, port: 21838, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: true, skip-cert-verify: true, servername: steep.skyfigure.top, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560", headers: {Host: steep.skyfigure.top}}, udp: true}
-  - {name: KR_speednode_0068, server: 182.213.59.227, port: 39452, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: true, skip-cert-verify: true, servername: steep.skyfigure.top, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560", headers: {Host: steep.skyfigure.top}}, udp: true}
-  - {name: KR_speednode_0069, server: 49.167.61.27, port: 20876, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: true, skip-cert-verify: true, servername: steep.skyfigure.top, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560", headers: {Host: steep.skyfigure.top}}, udp: true}
-  - {name: KR_speednode_0070, server: 182.213.59.227, port: 33083, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: true, skip-cert-verify: true, servername: steep.skyfigure.top, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560", headers: {Host: steep.skyfigure.top}}, udp: true}
-  - {name: KR_speednode_0071, server: 121.183.215.236, port: 23512, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: true, skip-cert-verify: true, servername: steep.skyfigure.top, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560", headers: {Host: steep.skyfigure.top}}, udp: true}
-  - {name: KR_speednode_0072, server: 129.154.194.191, port: 443, type: vless, uuid: 82fd9622-83a8-4378-92d6-dcb4a2787d63, tls: true, skip-cert-verify: true, client-fingerprint: random, servername: qwok.feidyql.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: qwok.feidyql.dpdns.org}}, udp: true}
-  - {name: KZ_speednode_0073, server: 185.176.26.20, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: /, headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
-  - {name: LV_speednode_0074, server: 185.82.126.141, port: 26000, type: vless, uuid: 8c8873fb-6e68-4359-8d67-092d399612c9, tls: false, skip-cert-verify: false, servername: www.irna.ir.www.alibaba.ir, network: http, http-opts: {method: GET, path: [/], headers: {Host: [www.irna.ir.www.alibaba.ir]}}, udp: true}
-  - {name: NL_speednode_0075, server: 5.10.245.104, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: CN_speednode_0003, server: 120.253.244.100, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: tk.hzlt.tkddns.xyz, network: ws, ws-opts: {path: /, headers: {Host: zxjp-b.tkong.cc}}, udp: true}
+  - {name: DE_speednode_0004, server: 5.10.214.5, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0005, server: 5.10.215.47, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0006, server: 5.10.214.59, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0007, server: 5.10.215.111, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0008, server: 5.10.214.114, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0009, server: 5.10.214.45, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0010, server: 5.10.214.4, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0011, server: 5.10.214.15, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0012, server: 5.10.215.139, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0013, server: 5.10.214.116, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0014, server: 89.116.46.20, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0015, server: 5.10.214.71, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0016, server: 5.10.214.134, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0017, server: 5.10.214.235, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0018, server: 45.80.111.124, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/Telegram@vpnAndroid2/?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0019, server: 5.10.214.3, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0020, server: 5.10.215.143, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0021, server: 140.99.233.20, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0022, server: 5.10.215.118, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0023, server: 5.10.215.193, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0024, server: 5.10.215.254, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0025, server: 5.10.214.81, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0026, server: 5.10.214.36, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0027, server: 5.10.215.132, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0028, server: 188.244.122.20, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: us.laoyoutiao.link}}, udp: true}
+  - {name: DE_speednode_0029, server: 5.10.214.96, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0030, server: 5.10.214.119, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0031, server: 5.10.215.187, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0032, server: 5.10.215.134, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0033, server: 5.10.215.20, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: /, headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0034, server: 140.248.75.255, port: 443, type: vless, uuid: 71b0a2f6-77eb-457c-b060-13de21b976c9, tls: true, skip-cert-verify: true, servername: netpie.com, network: ws, ws-opts: {path: /Telegram-NetPie, headers: {Host: netpie.com}}, udp: true}
+  - {name: DE_speednode_0035, server: 5.10.215.124, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0036, server: 5.10.215.184, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0037, server: 5.10.214.178, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0038, server: 5.10.214.221, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: DE_speednode_0039, server: 5.10.214.123, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: FR_speednode_0040, server: 141.11.203.20, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: GB_speednode_0041, server: 91.193.58.223, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
+  - {name: GB_speednode_0042, server: 91.193.58.199, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
+  - {name: GB_speednode_0043, server: 91.193.58.117, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
+  - {name: GB_speednode_0044, server: 91.193.58.230, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
+  - {name: GB_speednode_0045, server: 91.193.58.123, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
+  - {name: GB_speednode_0046, server: 91.193.58.114, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
+  - {name: GB_speednode_0047, server: 91.193.58.104, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: us.laoyoutiao.link}}, udp: true}
+  - {name: GB_speednode_0048, server: 91.193.58.118, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
+  - {name: GB_speednode_0049, server: 91.193.58.182, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
+  - {name: GB_speednode_0050, server: 91.193.58.167, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
+  - {name: GB_speednode_0051, server: 91.193.58.33, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
+  - {name: GB_speednode_0052, server: 91.193.58.249, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
+  - {name: GB_speednode_0053, server: 91.193.58.229, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: cs.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560", headers: {Host: cs.laoyoutiao.link}}, udp: true}
+  - {name: GB_speednode_0054, server: 91.193.58.226, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
+  - {name: GB_speednode_0055, server: 91.193.58.164, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: us.laoyoutiao.link}}, udp: true}
+  - {name: GB_speednode_0056, server: 91.193.58.246, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: sk.laoyoutiao.link}}, udp: true}
+  - {name: GB_speednode_0057, server: 91.193.58.1, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: sk.laoyoutiao.link}}, udp: true}
+  - {name: HK_speednode_0058, server: 8.217.26.121, port: 38767, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: true, skip-cert-verify: true, servername: steep.skyfigure.top, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560", headers: {Host: steep.skyfigure.top}}, udp: true}
+  - {name: IR_speednode_0059, server: 37.32.42.22, port: 443, type: vless, uuid: eb1920ff-d816-4ca1-b832-4683cddebaa6, tls: false, skip-cert-verify: false, servername: speedtest.net, network: http, http-opts: {method: GET, path: [/], headers: {Host: [speedtest.net]}}, udp: true}
+  - {name: JO_speednode_0060, server: 62.72.166.20, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: JP_speednode_0061, server: 195.245.229.63, port: 443, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: true, skip-cert-verify: true, servername: steep.skyfigure.top, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560", headers: {Host: steep.skyfigure.top}}, udp: true}
+  - {name: KR_speednode_0062, server: 49.167.61.27, port: 21838, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: true, skip-cert-verify: true, servername: steep.skyfigure.top, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @pgkj666 /?ed=2560", headers: {Host: steep.skyfigure.top}}, udp: true}
+  - {name: KR_speednode_0063, server: 121.154.68.40, port: 25079, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: true, skip-cert-verify: true, servername: steep.skyfigure.top, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560", headers: {Host: steep.skyfigure.top}}, udp: true}
+  - {name: KR_speednode_0064, server: 49.167.61.27, port: 21838, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: true, skip-cert-verify: true, servername: steep.skyfigure.top, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560", headers: {Host: steep.skyfigure.top}}, udp: true}
+  - {name: KR_speednode_0065, server: 182.213.59.227, port: 39452, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: true, skip-cert-verify: true, servername: steep.skyfigure.top, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560", headers: {Host: steep.skyfigure.top}}, udp: true}
+  - {name: KR_speednode_0066, server: 49.167.61.27, port: 20876, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: true, skip-cert-verify: true, servername: steep.skyfigure.top, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560", headers: {Host: steep.skyfigure.top}}, udp: true}
+  - {name: KR_speednode_0067, server: 182.213.59.227, port: 33083, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: true, skip-cert-verify: true, servername: steep.skyfigure.top, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560", headers: {Host: steep.skyfigure.top}}, udp: true}
+  - {name: KR_speednode_0068, server: 121.183.215.236, port: 23512, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: true, skip-cert-verify: true, servername: steep.skyfigure.top, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560", headers: {Host: steep.skyfigure.top}}, udp: true}
+  - {name: KR_speednode_0069, server: 129.154.194.191, port: 443, type: vless, uuid: 82fd9622-83a8-4378-92d6-dcb4a2787d63, tls: true, skip-cert-verify: true, client-fingerprint: random, servername: qwok.feidyql.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: qwok.feidyql.dpdns.org}}, udp: true}
+  - {name: KZ_speednode_0070, server: 185.176.26.20, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: /, headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: LV_speednode_0071, server: 185.82.126.141, port: 26000, type: vless, uuid: 8c8873fb-6e68-4359-8d67-092d399612c9, tls: false, skip-cert-verify: false, servername: www.irna.ir.www.alibaba.ir, network: http, http-opts: {method: GET, path: [/], headers: {Host: [www.irna.ir.www.alibaba.ir]}}, udp: true}
+  - {name: NL_speednode_0072, server: 5.10.245.104, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: NN_speednode_0073, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
+  - {name: NN_speednode_0074, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, servername: zxjp-b.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-b.tkong.cc}}, udp: true}
+  - {name: NN_speednode_0075, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, servername: zxjp-c.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-c.tkong.cc}}, udp: true}
   - {name: RU_speednode_0076, server: 45.8.211.236, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/Telegram@vpnAndroid2/?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
   - {name: RU_speednode_0077, server: 45.142.120.93, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/Telegram@vpnAndroid2/?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
   - {name: RU_speednode_0078, server: 45.142.120.56, port: 8880, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, skip-cert-verify: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/Telegram@vpnAndroid2/?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
@@ -111,9 +111,9 @@ proxy-groups:
   - CN_speednode_0001
   - CN_speednode_0002
   - CN_speednode_0003
-  - CN_speednode_0004
-  - CN_speednode_0005
-  - CN_speednode_0006
+  - DE_speednode_0004
+  - DE_speednode_0005
+  - DE_speednode_0006
   - DE_speednode_0007
   - DE_speednode_0008
   - DE_speednode_0009
@@ -147,10 +147,10 @@ proxy-groups:
   - DE_speednode_0037
   - DE_speednode_0038
   - DE_speednode_0039
-  - DE_speednode_0040
-  - DE_speednode_0041
-  - DE_speednode_0042
-  - FR_speednode_0043
+  - FR_speednode_0040
+  - GB_speednode_0041
+  - GB_speednode_0042
+  - GB_speednode_0043
   - GB_speednode_0044
   - GB_speednode_0045
   - GB_speednode_0046
@@ -165,24 +165,24 @@ proxy-groups:
   - GB_speednode_0055
   - GB_speednode_0056
   - GB_speednode_0057
-  - GB_speednode_0058
-  - GB_speednode_0059
-  - GB_speednode_0060
-  - HK_speednode_0061
-  - IR_speednode_0062
-  - JO_speednode_0063
-  - JP_speednode_0064
+  - HK_speednode_0058
+  - IR_speednode_0059
+  - JO_speednode_0060
+  - JP_speednode_0061
+  - KR_speednode_0062
+  - KR_speednode_0063
+  - KR_speednode_0064
   - KR_speednode_0065
   - KR_speednode_0066
   - KR_speednode_0067
   - KR_speednode_0068
   - KR_speednode_0069
-  - KR_speednode_0070
-  - KR_speednode_0071
-  - KR_speednode_0072
-  - KZ_speednode_0073
-  - LV_speednode_0074
-  - NL_speednode_0075
+  - KZ_speednode_0070
+  - LV_speednode_0071
+  - NL_speednode_0072
+  - NN_speednode_0073
+  - NN_speednode_0074
+  - NN_speednode_0075
   - RU_speednode_0076
   - RU_speednode_0077
   - RU_speednode_0078
@@ -199,9 +199,9 @@ proxy-groups:
   - CN_speednode_0001
   - CN_speednode_0002
   - CN_speednode_0003
-  - CN_speednode_0004
-  - CN_speednode_0005
-  - CN_speednode_0006
+  - DE_speednode_0004
+  - DE_speednode_0005
+  - DE_speednode_0006
   - DE_speednode_0007
   - DE_speednode_0008
   - DE_speednode_0009
@@ -235,10 +235,10 @@ proxy-groups:
   - DE_speednode_0037
   - DE_speednode_0038
   - DE_speednode_0039
-  - DE_speednode_0040
-  - DE_speednode_0041
-  - DE_speednode_0042
-  - FR_speednode_0043
+  - FR_speednode_0040
+  - GB_speednode_0041
+  - GB_speednode_0042
+  - GB_speednode_0043
   - GB_speednode_0044
   - GB_speednode_0045
   - GB_speednode_0046
@@ -253,24 +253,24 @@ proxy-groups:
   - GB_speednode_0055
   - GB_speednode_0056
   - GB_speednode_0057
-  - GB_speednode_0058
-  - GB_speednode_0059
-  - GB_speednode_0060
-  - HK_speednode_0061
-  - IR_speednode_0062
-  - JO_speednode_0063
-  - JP_speednode_0064
+  - HK_speednode_0058
+  - IR_speednode_0059
+  - JO_speednode_0060
+  - JP_speednode_0061
+  - KR_speednode_0062
+  - KR_speednode_0063
+  - KR_speednode_0064
   - KR_speednode_0065
   - KR_speednode_0066
   - KR_speednode_0067
   - KR_speednode_0068
   - KR_speednode_0069
-  - KR_speednode_0070
-  - KR_speednode_0071
-  - KR_speednode_0072
-  - KZ_speednode_0073
-  - LV_speednode_0074
-  - NL_speednode_0075
+  - KZ_speednode_0070
+  - LV_speednode_0071
+  - NL_speednode_0072
+  - NN_speednode_0073
+  - NN_speednode_0074
+  - NN_speednode_0075
   - RU_speednode_0076
   - RU_speednode_0077
   - RU_speednode_0078
