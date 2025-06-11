@@ -86,152 +86,152 @@
       "outbounds": [
         "auto",
         "direct",
-        "CA_speednode_0001",
-        "CA_speednode_0002",
-        "CN_speednode_0003",
-        "CN_speednode_0004",
-        "CN_speednode_0005",
-        "CN_speednode_0006",
-        "CN_speednode_0008",
-        "CN_speednode_0009",
-        "CZ_speednode_0010",
-        "DE_speednode_0011",
-        "FI_speednode_0012",
-        "FR_speednode_0013",
-        "FR_speednode_0014",
-        "GB_speednode_0015",
-        "HK_speednode_0016",
-        "ID_speednode_0017",
-        "IL_speednode_0018",
-        "IR_speednode_0019",
-        "IR_speednode_0020",
-        "JP_speednode_0021",
-        "JP_speednode_0022",
-        "KR_speednode_0023",
-        "KR_speednode_0024",
-        "KR_speednode_0025",
-        "NN_speednode_0026",
-        "RU_speednode_0027",
-        "SC_speednode_0028",
-        "SG_speednode_0029",
-        "SG_speednode_0030",
-        "SG_speednode_0031",
-        "SG_speednode_0032",
-        "TW_speednode_0033",
-        "TW_speednode_0034",
-        "US_speednode_0035",
-        "US_speednode_0036",
-        "US_speednode_0037",
-        "US_speednode_0038",
-        "US_speednode_0039",
-        "US_speednode_0040",
-        "US_speednode_0041",
-        "US_speednode_0042",
-        "US_speednode_0043",
-        "US_speednode_0044",
-        "US_speednode_0045",
-        "US_speednode_0046",
-        "US_speednode_0047",
-        "US_speednode_0048",
-        "US_speednode_0049",
-        "US_speednode_0050",
-        "US_speednode_0051",
-        "US_speednode_0052",
-        "US_speednode_0053",
-        "US_speednode_0054",
-        "US_speednode_0055",
-        "US_speednode_0056",
-        "US_speednode_0057",
-        "US_speednode_0058",
-        "US_speednode_0059",
-        "US_speednode_0060",
-        "US_speednode_0061",
-        "US_speednode_0062",
-        "US_speednode_0063",
-        "US_speednode_0064",
-        "US_speednode_0065",
-        "US_speednode_0066",
-        "VN_speednode_0067",
-        "VN_speednode_0068",
-        "VN_speednode_0069",
-        "VN_speednode_0070",
-        "VN_speednode_0071"
+        "speednode_0001",
+        "speednode_0002",
+        "speednode_0003",
+        "speednode_0004",
+        "speednode_0005",
+        "speednode_0006",
+        "speednode_0008",
+        "speednode_0009",
+        "speednode_0010",
+        "speednode_0011",
+        "speednode_0012",
+        "speednode_0013",
+        "speednode_0014",
+        "speednode_0015",
+        "speednode_0016",
+        "speednode_0017",
+        "speednode_0018",
+        "speednode_0019",
+        "speednode_0020",
+        "speednode_0021",
+        "speednode_0022",
+        "speednode_0023",
+        "speednode_0024",
+        "speednode_0025",
+        "speednode_0026",
+        "speednode_0027",
+        "speednode_0028",
+        "speednode_0029",
+        "speednode_0030",
+        "speednode_0031",
+        "speednode_0032",
+        "speednode_0033",
+        "speednode_0034",
+        "speednode_0035",
+        "speednode_0036",
+        "speednode_0037",
+        "speednode_0038",
+        "speednode_0039",
+        "speednode_0040",
+        "speednode_0041",
+        "speednode_0042",
+        "speednode_0043",
+        "speednode_0044",
+        "speednode_0045",
+        "speednode_0046",
+        "speednode_0047",
+        "speednode_0048",
+        "speednode_0049",
+        "speednode_0050",
+        "speednode_0051",
+        "speednode_0052",
+        "speednode_0053",
+        "speednode_0054",
+        "speednode_0055",
+        "speednode_0056",
+        "speednode_0057",
+        "speednode_0058",
+        "speednode_0059",
+        "speednode_0060",
+        "speednode_0061",
+        "speednode_0062",
+        "speednode_0063",
+        "speednode_0064",
+        "speednode_0065",
+        "speednode_0066",
+        "speednode_0067",
+        "speednode_0068",
+        "speednode_0069",
+        "speednode_0070",
+        "speednode_0071"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "CA_speednode_0001",
-        "CA_speednode_0002",
-        "CN_speednode_0003",
-        "CN_speednode_0004",
-        "CN_speednode_0005",
-        "CN_speednode_0006",
-        "CN_speednode_0008",
-        "CN_speednode_0009",
-        "CZ_speednode_0010",
-        "DE_speednode_0011",
-        "FI_speednode_0012",
-        "FR_speednode_0013",
-        "FR_speednode_0014",
-        "GB_speednode_0015",
-        "HK_speednode_0016",
-        "ID_speednode_0017",
-        "IL_speednode_0018",
-        "IR_speednode_0019",
-        "IR_speednode_0020",
-        "JP_speednode_0021",
-        "JP_speednode_0022",
-        "KR_speednode_0023",
-        "KR_speednode_0024",
-        "KR_speednode_0025",
-        "NN_speednode_0026",
-        "RU_speednode_0027",
-        "SC_speednode_0028",
-        "SG_speednode_0029",
-        "SG_speednode_0030",
-        "SG_speednode_0031",
-        "SG_speednode_0032",
-        "TW_speednode_0033",
-        "TW_speednode_0034",
-        "US_speednode_0035",
-        "US_speednode_0036",
-        "US_speednode_0037",
-        "US_speednode_0038",
-        "US_speednode_0039",
-        "US_speednode_0040",
-        "US_speednode_0041",
-        "US_speednode_0042",
-        "US_speednode_0043",
-        "US_speednode_0044",
-        "US_speednode_0045",
-        "US_speednode_0046",
-        "US_speednode_0047",
-        "US_speednode_0048",
-        "US_speednode_0049",
-        "US_speednode_0050",
-        "US_speednode_0051",
-        "US_speednode_0052",
-        "US_speednode_0053",
-        "US_speednode_0054",
-        "US_speednode_0055",
-        "US_speednode_0056",
-        "US_speednode_0057",
-        "US_speednode_0058",
-        "US_speednode_0059",
-        "US_speednode_0060",
-        "US_speednode_0061",
-        "US_speednode_0062",
-        "US_speednode_0063",
-        "US_speednode_0064",
-        "US_speednode_0065",
-        "US_speednode_0066",
-        "VN_speednode_0067",
-        "VN_speednode_0068",
-        "VN_speednode_0069",
-        "VN_speednode_0070",
-        "VN_speednode_0071"
+        "speednode_0001",
+        "speednode_0002",
+        "speednode_0003",
+        "speednode_0004",
+        "speednode_0005",
+        "speednode_0006",
+        "speednode_0008",
+        "speednode_0009",
+        "speednode_0010",
+        "speednode_0011",
+        "speednode_0012",
+        "speednode_0013",
+        "speednode_0014",
+        "speednode_0015",
+        "speednode_0016",
+        "speednode_0017",
+        "speednode_0018",
+        "speednode_0019",
+        "speednode_0020",
+        "speednode_0021",
+        "speednode_0022",
+        "speednode_0023",
+        "speednode_0024",
+        "speednode_0025",
+        "speednode_0026",
+        "speednode_0027",
+        "speednode_0028",
+        "speednode_0029",
+        "speednode_0030",
+        "speednode_0031",
+        "speednode_0032",
+        "speednode_0033",
+        "speednode_0034",
+        "speednode_0035",
+        "speednode_0036",
+        "speednode_0037",
+        "speednode_0038",
+        "speednode_0039",
+        "speednode_0040",
+        "speednode_0041",
+        "speednode_0042",
+        "speednode_0043",
+        "speednode_0044",
+        "speednode_0045",
+        "speednode_0046",
+        "speednode_0047",
+        "speednode_0048",
+        "speednode_0049",
+        "speednode_0050",
+        "speednode_0051",
+        "speednode_0052",
+        "speednode_0053",
+        "speednode_0054",
+        "speednode_0055",
+        "speednode_0056",
+        "speednode_0057",
+        "speednode_0058",
+        "speednode_0059",
+        "speednode_0060",
+        "speednode_0061",
+        "speednode_0062",
+        "speednode_0063",
+        "speednode_0064",
+        "speednode_0065",
+        "speednode_0066",
+        "speednode_0067",
+        "speednode_0068",
+        "speednode_0069",
+        "speednode_0070",
+        "speednode_0071"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -250,7 +250,7 @@
       "tag": "block"
     },
     {
-      "tag": "CA_speednode_0001",
+      "tag": "speednode_0001",
       "server": "35.182.42.202",
       "server_port": 443,
       "type": "vless",
@@ -272,7 +272,7 @@
       }
     },
     {
-      "tag": "CA_speednode_0002",
+      "tag": "speednode_0002",
       "server": "104.129.128.58",
       "server_port": 8300,
       "type": "http",
@@ -284,7 +284,7 @@
       }
     },
     {
-      "tag": "CN_speednode_0003",
+      "tag": "speednode_0003",
       "server": "120.232.153.40",
       "server_port": 43292,
       "type": "vmess",
@@ -293,7 +293,7 @@
       "security": "auto"
     },
     {
-      "tag": "CN_speednode_0004",
+      "tag": "speednode_0004",
       "server": "91d19d2d-sxp8g0-tc5odo-1mh85.cm5.cnkuaishou.com",
       "server_port": 27233,
       "type": "trojan",
@@ -304,7 +304,7 @@
       }
     },
     {
-      "tag": "CN_speednode_0005",
+      "tag": "speednode_0005",
       "server": "gzbgp.098999.xyz",
       "server_port": 15923,
       "type": "shadowsocks",
@@ -312,7 +312,7 @@
       "password": "b3f793d1-8054-4651-aec6-b3d6837571de"
     },
     {
-      "tag": "CN_speednode_0006",
+      "tag": "speednode_0006",
       "server": "3cb362d9-sxp8g0-t6g8gl-ch5c.cm5.cnkuaishou.com",
       "server_port": 27233,
       "type": "trojan",
@@ -323,7 +323,7 @@
       }
     },
     {
-      "tag": "CN_speednode_0008",
+      "tag": "speednode_0008",
       "server": "120.232.153.40",
       "server_port": 31209,
       "type": "vmess",
@@ -332,7 +332,7 @@
       "security": "auto"
     },
     {
-      "tag": "CN_speednode_0009",
+      "tag": "speednode_0009",
       "server": "120.232.153.40",
       "server_port": 31209,
       "type": "vmess",
@@ -341,7 +341,7 @@
       "security": "auto"
     },
     {
-      "tag": "CZ_speednode_0010",
+      "tag": "speednode_0010",
       "server": "194.87.108.40",
       "server_port": 8300,
       "type": "http",
@@ -353,7 +353,7 @@
       }
     },
     {
-      "tag": "DE_speednode_0011",
+      "tag": "speednode_0011",
       "server": "5.39.249.146",
       "server_port": 443,
       "type": "vless",
@@ -378,7 +378,7 @@
       }
     },
     {
-      "tag": "FI_speednode_0012",
+      "tag": "speednode_0012",
       "server": "77.221.159.70",
       "server_port": 443,
       "type": "vless",
@@ -397,7 +397,7 @@
       }
     },
     {
-      "tag": "FR_speednode_0013",
+      "tag": "speednode_0013",
       "server": "195.154.200.40",
       "server_port": 15010,
       "type": "hysteria",
@@ -414,7 +414,7 @@
       }
     },
     {
-      "tag": "FR_speednode_0014",
+      "tag": "speednode_0014",
       "server": "51.159.226.1",
       "server_port": 14241,
       "type": "hysteria",
@@ -432,7 +432,7 @@
       "network": "udp"
     },
     {
-      "tag": "GB_speednode_0015",
+      "tag": "speednode_0015",
       "server": "217.179.91.152",
       "server_port": 34045,
       "type": "vless",
@@ -453,7 +453,7 @@
       }
     },
     {
-      "tag": "HK_speednode_0016",
+      "tag": "speednode_0016",
       "server": "9a6be8fa-sxhts0-sxkcyq-b4pt.hkt.east.wctype.com",
       "server_port": 460,
       "type": "vmess",
@@ -469,7 +469,7 @@
       }
     },
     {
-      "tag": "ID_speednode_0017",
+      "tag": "speednode_0017",
       "server": "165.154.150.51",
       "server_port": 8443,
       "type": "http",
@@ -481,7 +481,7 @@
       }
     },
     {
-      "tag": "IL_speednode_0018",
+      "tag": "speednode_0018",
       "server": "45.143.5.60",
       "server_port": 8300,
       "type": "http",
@@ -493,7 +493,7 @@
       }
     },
     {
-      "tag": "IR_speednode_0019",
+      "tag": "speednode_0019",
       "server": "37.32.42.22",
       "server_port": 443,
       "type": "vless",
@@ -508,7 +508,7 @@
       }
     },
     {
-      "tag": "IR_speednode_0020",
+      "tag": "speednode_0020",
       "server": "hkh10.youxuan.wiki",
       "server_port": 8080,
       "type": "hysteria2",
@@ -520,7 +520,7 @@
       }
     },
     {
-      "tag": "JP_speednode_0021",
+      "tag": "speednode_0021",
       "server": "141.147.185.15",
       "server_port": 443,
       "type": "vless",
@@ -541,7 +541,7 @@
       }
     },
     {
-      "tag": "JP_speednode_0022",
+      "tag": "speednode_0022",
       "server": "150.66.0.85",
       "server_port": 443,
       "type": "vless",
@@ -562,7 +562,7 @@
       }
     },
     {
-      "tag": "KR_speednode_0023",
+      "tag": "speednode_0023",
       "server": "183.100.144.36",
       "server_port": 21789,
       "type": "vless",
@@ -583,7 +583,7 @@
       }
     },
     {
-      "tag": "KR_speednode_0024",
+      "tag": "speednode_0024",
       "server": "158.179.171.53",
       "server_port": 443,
       "type": "vless",
@@ -604,7 +604,7 @@
       }
     },
     {
-      "tag": "KR_speednode_0025",
+      "tag": "speednode_0025",
       "server": "154.90.62.168",
       "server_port": 989,
       "type": "shadowsocks",
@@ -612,7 +612,7 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "tag": "NN_speednode_0026",
+      "tag": "speednode_0026",
       "server": "160.250.65.132",
       "server_port": 34045,
       "type": "vless",
@@ -633,7 +633,7 @@
       }
     },
     {
-      "tag": "RU_speednode_0027",
+      "tag": "speednode_0027",
       "server": "185.22.155.71",
       "server_port": 10803,
       "type": "hysteria",
@@ -650,7 +650,7 @@
       }
     },
     {
-      "tag": "SC_speednode_0028",
+      "tag": "speednode_0028",
       "server": "156.226.175.105",
       "server_port": 8443,
       "type": "http",
@@ -662,7 +662,7 @@
       }
     },
     {
-      "tag": "SG_speednode_0029",
+      "tag": "speednode_0029",
       "server": "146.235.19.79",
       "server_port": 28983,
       "type": "vless",
@@ -683,7 +683,7 @@
       }
     },
     {
-      "tag": "SG_speednode_0030",
+      "tag": "speednode_0030",
       "server": "160.22.79.221",
       "server_port": 443,
       "type": "vless",
@@ -704,7 +704,7 @@
       }
     },
     {
-      "tag": "SG_speednode_0031",
+      "tag": "speednode_0031",
       "server": "160.22.79.120",
       "server_port": 443,
       "type": "vless",
@@ -725,7 +725,7 @@
       }
     },
     {
-      "tag": "SG_speednode_0032",
+      "tag": "speednode_0032",
       "server": "164.52.2.99",
       "server_port": 443,
       "type": "vless",
@@ -750,7 +750,7 @@
       }
     },
     {
-      "tag": "TW_speednode_0033",
+      "tag": "speednode_0033",
       "server": "twmoon1-cdn-route.couldflare-cdn.com",
       "server_port": 1443,
       "type": "http",
@@ -762,7 +762,7 @@
       }
     },
     {
-      "tag": "TW_speednode_0034",
+      "tag": "speednode_0034",
       "server": "103.137.62.194",
       "server_port": 443,
       "type": "shadowsocks",
@@ -772,7 +772,7 @@
       "plugin_opts": "tls;mode=websocket;host=wt8v1.kvote.cn;path=/oqhygtklyhwi;mux=4"
     },
     {
-      "tag": "US_speednode_0035",
+      "tag": "speednode_0035",
       "server": "108.162.195.20",
       "server_port": 8880,
       "type": "vless",
@@ -788,7 +788,7 @@
       }
     },
     {
-      "tag": "US_speednode_0036",
+      "tag": "speednode_0036",
       "server": "198.40.52.27",
       "server_port": 36194,
       "type": "hysteria",
@@ -806,7 +806,7 @@
       "network": "udp"
     },
     {
-      "tag": "US_speednode_0037",
+      "tag": "speednode_0037",
       "server": "23.27.123.64",
       "server_port": 34045,
       "type": "vless",
@@ -827,7 +827,7 @@
       }
     },
     {
-      "tag": "US_speednode_0038",
+      "tag": "speednode_0038",
       "server": "800e8186-sx8kg0-szapkm-1hpo0.hy2.gotochinatown.net",
       "server_port": 8443,
       "type": "hysteria2",
@@ -839,7 +839,7 @@
       }
     },
     {
-      "tag": "US_speednode_0039",
+      "tag": "speednode_0039",
       "server": "0da80e3a-sxp8g0-tbnk1n-ueq.hy2.gotochinatown.net",
       "server_port": 8443,
       "type": "hysteria2",
@@ -851,7 +851,7 @@
       }
     },
     {
-      "tag": "US_speednode_0040",
+      "tag": "speednode_0040",
       "server": "4cd59326-sxc9s0-t1qkm7-lwn9.hy2.gotochinatown.net",
       "server_port": 8443,
       "type": "hysteria2",
@@ -863,7 +863,7 @@
       }
     },
     {
-      "tag": "US_speednode_0041",
+      "tag": "speednode_0041",
       "server": "af1e665a-sxc9s0-td1w5f-1t3cz.hy2.gotochinatown.net",
       "server_port": 8443,
       "type": "hysteria2",
@@ -875,7 +875,7 @@
       }
     },
     {
-      "tag": "US_speednode_0042",
+      "tag": "speednode_0042",
       "server": "401859a8-sxlj40-t1qkm7-lwn9.hy2.gotochinatown.net",
       "server_port": 8443,
       "type": "hysteria2",
@@ -887,7 +887,7 @@
       }
     },
     {
-      "tag": "US_speednode_0043",
+      "tag": "speednode_0043",
       "server": "c0db0216-sxjog0-tbnk1n-ueq.hy2.gotochinatown.net",
       "server_port": 8443,
       "type": "hysteria2",
@@ -899,7 +899,7 @@
       }
     },
     {
-      "tag": "US_speednode_0044",
+      "tag": "speednode_0044",
       "server": "278c4a75-sxlj40-szgx2m-1t5n1.hy2.gotochinatown.net",
       "server_port": 8443,
       "type": "hysteria2",
@@ -911,7 +911,7 @@
       }
     },
     {
-      "tag": "US_speednode_0045",
+      "tag": "speednode_0045",
       "server": "7060ffc9-sxjog0-syjkmp-1tddk.hy2.gotochinatown.net",
       "server_port": 8443,
       "type": "hysteria2",
@@ -923,7 +923,7 @@
       }
     },
     {
-      "tag": "US_speednode_0046",
+      "tag": "speednode_0046",
       "server": "09678a40-sx8kg0-sxkhay-1jdha.hy2.gotochinatown.net",
       "server_port": 8443,
       "type": "hysteria2",
@@ -935,7 +935,7 @@
       }
     },
     {
-      "tag": "US_speednode_0047",
+      "tag": "speednode_0047",
       "server": "208.87.243.187",
       "server_port": 40528,
       "type": "hysteria",
@@ -952,7 +952,7 @@
       }
     },
     {
-      "tag": "US_speednode_0048",
+      "tag": "speednode_0048",
       "server": "f1f1f1c7-sxjog0-tedirp-1fli7.hy2.gotochinatown.net",
       "server_port": 8443,
       "type": "hysteria2",
@@ -964,7 +964,7 @@
       }
     },
     {
-      "tag": "US_speednode_0049",
+      "tag": "speednode_0049",
       "server": "b692acee-sxjog0-t7hmka-1plv4.hy2.gotochinatown.net",
       "server_port": 8443,
       "type": "hysteria2",
@@ -976,7 +976,7 @@
       }
     },
     {
-      "tag": "US_speednode_0050",
+      "tag": "speednode_0050",
       "server": "d7943339-sxc9s0-tc5odo-1mh85.hy2.gotochinatown.net",
       "server_port": 8443,
       "type": "hysteria2",
@@ -988,7 +988,7 @@
       }
     },
     {
-      "tag": "US_speednode_0051",
+      "tag": "speednode_0051",
       "server": "16dd8807-swexs0-sxkhay-1jdha.hy2.gotochinatown.net",
       "server_port": 8443,
       "type": "hysteria2",
@@ -1000,7 +1000,7 @@
       }
     },
     {
-      "tag": "US_speednode_0052",
+      "tag": "speednode_0052",
       "server": "speedtest.net",
       "server_port": 80,
       "type": "vless",
@@ -1016,7 +1016,7 @@
       }
     },
     {
-      "tag": "US_speednode_0053",
+      "tag": "speednode_0053",
       "server": "2f26300e-swkhs0-sxu45k-ggww.hy2.gotochinatown.net",
       "server_port": 8443,
       "type": "hysteria2",
@@ -1028,7 +1028,7 @@
       }
     },
     {
-      "tag": "US_speednode_0054",
+      "tag": "speednode_0054",
       "server": "d2309762-sx8kg0-t7hmka-1plv4.hy2.gotochinatown.net",
       "server_port": 8443,
       "type": "hysteria2",
@@ -1040,7 +1040,7 @@
       }
     },
     {
-      "tag": "US_speednode_0055",
+      "tag": "speednode_0055",
       "server": "d5a909b0-sxc9s0-t7hmka-1plv4.hy2.gotochinatown.net",
       "server_port": 8443,
       "type": "hysteria2",
@@ -1052,7 +1052,7 @@
       }
     },
     {
-      "tag": "US_speednode_0056",
+      "tag": "speednode_0056",
       "server": "04fa8915-sx6ps0-syjkmp-1tddk.hy2.gotochinatown.net",
       "server_port": 8443,
       "type": "hysteria2",
@@ -1064,7 +1064,7 @@
       }
     },
     {
-      "tag": "US_speednode_0057",
+      "tag": "speednode_0057",
       "server": "208.87.243.151",
       "server_port": 17549,
       "type": "hysteria",
@@ -1081,7 +1081,7 @@
       }
     },
     {
-      "tag": "US_speednode_0058",
+      "tag": "speednode_0058",
       "server": "d5a9f8af-swd340-syfwbx-1k0yf.hy2.gotochinatown.net",
       "server_port": 8443,
       "type": "hysteria2",
@@ -1093,7 +1093,7 @@
       }
     },
     {
-      "tag": "US_speednode_0059",
+      "tag": "speednode_0059",
       "server": "join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz",
       "server_port": 443,
       "type": "vless",
@@ -1116,7 +1116,7 @@
       }
     },
     {
-      "tag": "US_speednode_0060",
+      "tag": "speednode_0060",
       "server": "104.21.69.44",
       "server_port": 8880,
       "type": "vless",
@@ -1132,7 +1132,7 @@
       }
     },
     {
-      "tag": "US_speednode_0061",
+      "tag": "speednode_0061",
       "server": "151.101.2.228",
       "server_port": 80,
       "type": "vless",
@@ -1146,7 +1146,7 @@
       }
     },
     {
-      "tag": "US_speednode_0062",
+      "tag": "speednode_0062",
       "server": "66.55.65.54",
       "server_port": 8330,
       "type": "http",
@@ -1158,7 +1158,7 @@
       }
     },
     {
-      "tag": "US_speednode_0063",
+      "tag": "speednode_0063",
       "server": "143.14.220.136",
       "server_port": 46430,
       "type": "vless",
@@ -1179,7 +1179,7 @@
       }
     },
     {
-      "tag": "US_speednode_0064",
+      "tag": "speednode_0064",
       "server": "64.188.97.173",
       "server_port": 443,
       "type": "vless",
@@ -1198,7 +1198,7 @@
       }
     },
     {
-      "tag": "US_speednode_0065",
+      "tag": "speednode_0065",
       "server": "172.67.204.120",
       "server_port": 443,
       "type": "trojan",
@@ -1216,7 +1216,7 @@
       }
     },
     {
-      "tag": "US_speednode_0066",
+      "tag": "speednode_0066",
       "server": "hostone-sg.zdsa.me",
       "server_port": 443,
       "type": "vless",
@@ -1235,7 +1235,7 @@
       }
     },
     {
-      "tag": "VN_speednode_0067",
+      "tag": "speednode_0067",
       "server": "103.81.85.15",
       "server_port": 34045,
       "type": "vless",
@@ -1256,7 +1256,7 @@
       }
     },
     {
-      "tag": "VN_speednode_0068",
+      "tag": "speednode_0068",
       "server": "59.153.217.57",
       "server_port": 34045,
       "type": "vless",
@@ -1277,7 +1277,7 @@
       }
     },
     {
-      "tag": "VN_speednode_0069",
+      "tag": "speednode_0069",
       "server": "103.81.86.9",
       "server_port": 34045,
       "type": "vless",
@@ -1298,7 +1298,7 @@
       }
     },
     {
-      "tag": "VN_speednode_0070",
+      "tag": "speednode_0070",
       "server": "42.119.60.199",
       "server_port": 8300,
       "type": "http",
@@ -1310,7 +1310,7 @@
       }
     },
     {
-      "tag": "VN_speednode_0071",
+      "tag": "speednode_0071",
       "server": "103.12.77.78",
       "server_port": 34045,
       "type": "vless",
