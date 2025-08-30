@@ -18,125 +18,89 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: DE_speednode_0001, server: 77.37.33.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: GB_speednode_0002, server: 109.176.239.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: cf.d3z.net}}, udp: true}
-  - {name: GB_speednode_0003, server: 109.176.239.188, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: GB_speednode_0004, server: 25.129.199.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: cf.d3z.net}}, udp: true}
-  - {name: GB_speednode_0005, server: 25.129.198.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: GB_speednode_0006, server: 25.25.25.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, skip-cert-verify: false, client-fingerprint: chrome, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: GB_speednode_0007, server: 109.176.239.3, port: 8880, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /Telegram, headers: {Host: bitget1.asdasd.click}}, udp: true}
-  - {name: GB_speednode_0008, server: 25.129.198.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3 @WangCai2, headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: GB_speednode_0009, server: 25.25.25.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, skip-cert-verify: false, client-fingerprint: chrome, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3 @WangCai2, headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: KZ_speednode_0010, server: 194.76.18.129, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: LT_speednode_0011, server: 88.216.69.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: cf.d3z.net}}, udp: true}
-  - {name: LT_speednode_0012, server: 88.216.69.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed=2560", headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: LT_speednode_0013, server: 86.38.214.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: LU_speednode_0014, server: 188.42.89.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: cf.d3z.net}}, udp: true}
-  - {name: NZ_speednode_0015, server: 114.129.43.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, skip-cert-verify: false, client-fingerprint: chrome, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: cf.d3z.net}}, udp: true}
-  - {name: NZ_speednode_0016, server: 114.129.43.7, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3 @WangCai2, headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: RU_speednode_0017, server: 46.254.92.9, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: cf.d3z.net}}, udp: true}
-  - {name: RU_speednode_0018, server: 46.254.92.1, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: cf.d3z.net}}, udp: true}
-  - {name: RU_speednode_0019, server: 46.254.92.2, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: cf.d3z.net}}, udp: true}
-  - {name: RU_speednode_0020, server: 46.254.92.11, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: cf.d3z.net}}, udp: true}
-  - {name: RU_speednode_0021, server: 193.9.49.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560", headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: RU_speednode_0022, server: 46.254.92.4, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: cf.d3z.net}}, udp: true}
-  - {name: RU_speednode_0023, server: 46.254.92.4, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: cf.d3z.net}}, udp: true}
-  - {name: RU_speednode_0024, server: 185.176.24.188, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: RU_speednode_0025, server: 46.254.92.249, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN /?ed=2560", headers: {Host: cf.d3z.net}}, udp: true}
-  - {name: RU_speednode_0026, server: 193.9.49.188, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: RU_speednode_0027, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: SI_speednode_0028, server: 92.53.188.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: cf.d3z.net}}, udp: true}
-  - {name: US_speednode_0029, server: 147.185.161.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: cf.d3z.net}}, udp: true}
-  - {name: US_speednode_0030, server: 159.112.235.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: US_speednode_0031, server: 199.181.197.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: US_speednode_0032, server: 159.246.55.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: /Telegram, headers: {Host: cf.d3z.net}}, udp: true}
-  - {name: US_speednode_0033, server: 199.34.229.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: US_speednode_0034, server: 170.114.46.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: /Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN, headers: {Host: cf.d3z.net}}, udp: true}
-  - {name: US_speednode_0035, server: 104.129.164.39, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: US_speednode_0036, server: 198.62.62.67, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: US_speednode_0037, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
+  - {name: CH_speednode_0001, server: 185.18.250.12, port: 80, type: vless, uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9, tls: false, skip-cert-verify: false, servername: ana-SErVICe.xAbjCDZ.wORkErs.deV, network: ws, ws-opts: {path: "/1Y6MN5DFV8zB82Ai?ed=2560", headers: {Host: ana-SErVICe.xAbjCDZ.wORkErs.deV}}, udp: true}
+  - {name: CN_speednode_0002, server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+  - {name: GB_speednode_0003, server: 158.41.110.94, port: 34045, type: vless, uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me, reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA, short-id: e8ab71d0}, udp: true}
+  - {name: HK_speednode_0004, server: 9497cfdb-sx4v40-t1bnjq-1krtb.hkt.cdnhuawei.com, port: 8443, type: http, username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, password: <password>, tls: true, udp: true}
+  - {name: HK_speednode_0005, server: dd902adc-sxc9s0-t1bnjq-1krtb.hkt.cdnhuawei.com, port: 8443, type: http, username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, password: <password>, tls: true, udp: true}
+  - {name: IR_speednode_0006, server: yg.foldjc.top, port: 37011, type: hysteria2, password: 20f8d2d2-63eb-4cfc-b39f-44aa09809ea7, sni: yg.foldjc.top, skip-cert-verify: false, udp: true}
+  - {name: IR_speednode_0007, server: cdn29.saloonak.ir, port: 8443, type: vless, uuid: 789d4f30-c31b-4762-8116-ed42574d5e85, tls: false, skip-cert-verify: false, udp: true}
+  - {name: JP_speednode_0008, server: bl.sytes.net, port: 50414, type: ss, cipher: aes-128-gcm, password: 940031a6-fd32-4d6b-901d-77b7f943698e, udp: true}
+  - {name: JP_speednode_0009, server: 137.220.142.139, port: 636, type: ss, cipher: aes-256-gcm, password: 70a0b8103356, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp5v1.lingjfjkm002.com, path: /bezradrqccl, tls: true, mux: true}, udp: true}
+  - {name: NL_speednode_0010, server: 45.131.5.58, port: 2086, type: vless, uuid: f366e744-abcd-4b5b-bd5e-2bd97b6443bf, tls: false, skip-cert-verify: false, servername: fva64rbmjfkfznnptk6imz6sihrno35m4csom83admge5tfxniwduyuyt954fdh.ks3om.workers.Dev, network: ws, ws-opts: {path: "/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560", headers: {Host: fva64rbmjfkfznnptk6imz6sihrno35m4csom83admge5tfxniwduyuyt954fdh.ks3om.workers.Dev}}, udp: true}
+  - {name: SE_speednode_0011, server: 185.36.145.227, port: 8888, type: vless, uuid: 48b81d34-df01-4c94-9e34-0ccb4c40c547, tls: false, skip-cert-verify: false, servername: speedtest.net, network: http, http-opts: {method: GET, path: [/], headers: {Host: [speedtest.net]}}, udp: true}
+  - {name: US_speednode_0012, server: h23.cpddx.club, port: 8443, type: hysteria2, password: c19583f8-3ef6-47c7-bb7b-69ded9b5f10d, sni: h23.cpddx.club, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0013, server: 45.159.218.17, port: 80, type: vless, uuid: 64d39d67-62dc-470c-a592-1d5a6ee87cb5, tls: false, skip-cert-verify: false, servername: worker-flat-disk-100d.b9563f65aef681.workers.dev, network: ws, ws-opts: {path: /🔒, headers: {Host: worker-flat-disk-100d.b9563f65aef681.workers.dev}}, udp: true}
+  - {name: US_speednode_0014, server: 172.67.197.9, port: 2086, type: vless, uuid: 019deb98-eef7-4a69-983a-1f9fd77f5280, tls: false, skip-cert-verify: false, servername: worker-gentle-unit-1324.db126b023f83.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: worker-gentle-unit-1324.db126b023f83.workers.dev}}, udp: true}
+  - {name: US_speednode_0015, server: 104.21.81.174, port: 80, type: vless, uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9, tls: false, skip-cert-verify: false, servername: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV, network: ws, ws-opts: {path: "/wP3dwCyRAVyMJFfW?ed=2560", headers: {Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV}}, udp: true}
+  - {name: US_speednode_0016, server: 188.114.97.3, port: 80, type: vless, uuid: 267613d7-f53f-4005-b642-d6f1f687b7cf, tls: false, skip-cert-verify: false, servername: cool-paper-b369.h-175.workers.dev, network: ws, ws-opts: {path: "/ZuoiNTCZYoNfV0iw?ed=2560", headers: {Host: cool-paper-b369.h-175.workers.dev}}, udp: true}
+  - {name: US_speednode_0017, server: 104.21.80.1, port: 8080, type: vless, uuid: af2fcdc8-89a1-45e3-aa7f-4986dad7deb7, tls: false, skip-cert-verify: false, servername: steep-thunder-da4f.racalor844.workers.dev, network: ws, ws-opts: {path: "/l15tIHhyL4fEyvPo?ed=2560", headers: {Host: steep-thunder-da4f.racalor844.workers.dev}}, udp: true}
+  - {name: US_speednode_0018, server: 103.21.244.4, port: 80, type: vless, uuid: a3875c94-e968-404c-b62d-5a292d20e6d8, tls: false, skip-cert-verify: false, servername: polished-limit-deb9-ppal03.latopi8673.workers.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: polished-limit-deb9-ppal03.latopi8673.workers.dev}}, udp: true}
+  - {name: US_speednode_0019, server: 172.67.221.55, port: 2095, type: vless, uuid: b0bd16cf-d97a-4ee5-8cbc-3ec2e09f0469, tls: false, skip-cert-verify: false, servername: worker-twilight-smoke-3f28.40b520e6bbf4.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: worker-twilight-smoke-3f28.40b520e6bbf4.workers.dev}}, udp: true}
+  - {name: US_speednode_0020, server: 104.21.93.20, port: 80, type: vless, uuid: ff07b842-1957-4bff-bcd7-f2bd6bd6dd69, tls: false, skip-cert-verify: false, servername: empty-hall-16bc.mahyarfathi000.workers.dev, network: ws, ws-opts: {path: /iGKjrFR4q1TPf09s, headers: {Host: empty-hall-16bc.mahyarfathi000.workers.dev}}, udp: true}
+  - {name: US_speednode_0021, server: 104.18.26.94, port: 80, type: vless, uuid: 499ee245-f954-4d41-9943-4e85666b7414, tls: false, skip-cert-verify: false, servername: esetsecuritylicense.mybdgpd.workers.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: esetsecuritylicense.mybdgpd.workers.dev}}, udp: true}
+  - {name: US_speednode_0022, server: 85.239.53.46, port: 443, type: vless, uuid: 18ce358e-b507-4cde-8c83-94806aedf467, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: stackoverflow.com, reality-opts: {public-key: nyid7jiXERXF6qkkRVsub0wfX9xGKKAsVzQERxhqZHc, short-id: c8e8e4b7}, udp: true}
+  - {name: US_speednode_0023, server: 63.141.128.2, port: 8080, type: vless, uuid: 78927eda-79c3-40d1-bb55-f0671939089b, tls: false, skip-cert-verify: false, servername: b.jOin.zEdMoDeOn.oNl., network: ws, ws-opts: {path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON, headers: {Host: b.jOin.zEdMoDeOn.oNl.}}, udp: true}
+  - {name: US_speednode_0024, server: 63.141.128.14, port: 8080, type: vless, uuid: e68bc33e-7222-4125-b064-8209d71f29d9, tls: false, skip-cert-verify: false, servername: a.joIn.zEdMoDeOn.oNl., network: ws, ws-opts: {path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON, headers: {Host: a.joIn.zEdMoDeOn.oNl.}}, udp: true}
+  - {name: US_speednode_0025, server: 63.141.128.22, port: 80, type: vless, uuid: ff0d9e6c-6b4c-40c2-9254-f602b21aa836, tls: false, skip-cert-verify: false, servername: f.jOin.zEdMoDeOn.oNl., network: ws, ws-opts: {path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON, headers: {Host: f.jOin.zEdMoDeOn.oNl.}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - DE_speednode_0001
-  - GB_speednode_0002
+  - CH_speednode_0001
+  - CN_speednode_0002
   - GB_speednode_0003
-  - GB_speednode_0004
-  - GB_speednode_0005
-  - GB_speednode_0006
-  - GB_speednode_0007
-  - GB_speednode_0008
-  - GB_speednode_0009
-  - KZ_speednode_0010
-  - LT_speednode_0011
-  - LT_speednode_0012
-  - LT_speednode_0013
-  - LU_speednode_0014
-  - NZ_speednode_0015
-  - NZ_speednode_0016
-  - RU_speednode_0017
-  - RU_speednode_0018
-  - RU_speednode_0019
-  - RU_speednode_0020
-  - RU_speednode_0021
-  - RU_speednode_0022
-  - RU_speednode_0023
-  - RU_speednode_0024
-  - RU_speednode_0025
-  - RU_speednode_0026
-  - RU_speednode_0027
-  - SI_speednode_0028
-  - US_speednode_0029
-  - US_speednode_0030
-  - US_speednode_0031
-  - US_speednode_0032
-  - US_speednode_0033
-  - US_speednode_0034
-  - US_speednode_0035
-  - US_speednode_0036
-  - US_speednode_0037
+  - HK_speednode_0004
+  - HK_speednode_0005
+  - IR_speednode_0006
+  - IR_speednode_0007
+  - JP_speednode_0008
+  - JP_speednode_0009
+  - NL_speednode_0010
+  - SE_speednode_0011
+  - US_speednode_0012
+  - US_speednode_0013
+  - US_speednode_0014
+  - US_speednode_0015
+  - US_speednode_0016
+  - US_speednode_0017
+  - US_speednode_0018
+  - US_speednode_0019
+  - US_speednode_0020
+  - US_speednode_0021
+  - US_speednode_0022
+  - US_speednode_0023
+  - US_speednode_0024
+  - US_speednode_0025
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - DE_speednode_0001
-  - GB_speednode_0002
+  - CH_speednode_0001
+  - CN_speednode_0002
   - GB_speednode_0003
-  - GB_speednode_0004
-  - GB_speednode_0005
-  - GB_speednode_0006
-  - GB_speednode_0007
-  - GB_speednode_0008
-  - GB_speednode_0009
-  - KZ_speednode_0010
-  - LT_speednode_0011
-  - LT_speednode_0012
-  - LT_speednode_0013
-  - LU_speednode_0014
-  - NZ_speednode_0015
-  - NZ_speednode_0016
-  - RU_speednode_0017
-  - RU_speednode_0018
-  - RU_speednode_0019
-  - RU_speednode_0020
-  - RU_speednode_0021
-  - RU_speednode_0022
-  - RU_speednode_0023
-  - RU_speednode_0024
-  - RU_speednode_0025
-  - RU_speednode_0026
-  - RU_speednode_0027
-  - SI_speednode_0028
-  - US_speednode_0029
-  - US_speednode_0030
-  - US_speednode_0031
-  - US_speednode_0032
-  - US_speednode_0033
-  - US_speednode_0034
-  - US_speednode_0035
-  - US_speednode_0036
-  - US_speednode_0037
+  - HK_speednode_0004
+  - HK_speednode_0005
+  - IR_speednode_0006
+  - IR_speednode_0007
+  - JP_speednode_0008
+  - JP_speednode_0009
+  - NL_speednode_0010
+  - SE_speednode_0011
+  - US_speednode_0012
+  - US_speednode_0013
+  - US_speednode_0014
+  - US_speednode_0015
+  - US_speednode_0016
+  - US_speednode_0017
+  - US_speednode_0018
+  - US_speednode_0019
+  - US_speednode_0020
+  - US_speednode_0021
+  - US_speednode_0022
+  - US_speednode_0023
+  - US_speednode_0024
+  - US_speednode_0025
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
