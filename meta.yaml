@@ -18,60 +18,65 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: BR_speednode_0001, server: 194.87.198.32, port: 12517, type: tuic, uuid: 82a752b1-af3a-4d18-a440-b9ac20a44c45, password: 82a752b1-af3a-4d18-a440-b9ac20a44c45, sni: apple.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
-  - {name: GR_speednode_0002, server: 185.39.207.121, port: 443, type: vless, uuid: 6035325d-399a-5148-9126-29cedfd5966a, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: outlook.office.com, reality-opts: {public-key: Mjz6Gz75xTMe9ZU08h0y-A_VgRQ6tnt3qoOzdEn1k1M, short-id: 0fa84b90}, udp: true}
-  - {name: IR_speednode_0003, server: dg1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 6154dab6-3b26-454f-9bb4-276ff56738ed, sni: dg1.xiaohuolongjc.top, skip-cert-verify: false, udp: true}
-  - {name: IR_speednode_0004, server: els.ylccloud.top, port: 16090, type: hysteria2, password: e9c9f245-d15e-40b0-923c-4f8156c5bcbd, sni: els.ylccloud.top, skip-cert-verify: false, udp: true}
-  - {name: IR_speednode_0005, server: dg1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 4b5daa7f-bfe4-4f8d-9c17-4ccc6419aea1, sni: dg1.xiaohuolongjc.top, skip-cert-verify: false, udp: true}
-  - {name: IR_speednode_0006, server: dg1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: a4d423a8-0b8e-4ff2-ac24-7af712a6d823, sni: dg1.xiaohuolongjc.top, skip-cert-verify: false, udp: true}
-  - {name: IR_speednode_0007, server: tw.xilucloud.top, port: 14558, type: hysteria2, password: 722bb127-df7c-4fa5-b94a-3ee6438dcb95, sni: tw.xilucloud.top, skip-cert-verify: false, udp: true}
-  - {name: IR_speednode_0008, server: dg1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: a3d9e79d-3a67-4a04-adc4-30ffa6518947, sni: dg1.xiaohuolongjc.top, skip-cert-verify: false, udp: true}
-  - {name: IR_speednode_0009, server: wtw1.wanlidag.top, port: 5555, type: hysteria2, password: 1d5512ea-8d2b-43bc-a0d8-f0a79dbc7d8a, sni: wtw1.wanlidag.top, skip-cert-verify: false, udp: true}
-  - {name: NL_speednode_0010, server: 45.148.233.10, port: 443, type: vless, uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: speed.cloudflare.com, reality-opts: {public-key: eJeVlxdi2YBV1YpPVCcCgTez80y8ny27SQoZZVBFGyc}, udp: true}
-  - {name: NL_speednode_0011, server: 45.148.233.10, port: 1443, type: vless, uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: speed.cloudflare.com, reality-opts: {public-key: eJeVlxdi2YBV1YpPVCcCgTez80y8ny27SQoZZVBFGyc}, udp: true}
-  - {name: RU_speednode_0012, server: yd.foldjc.top, port: 37014, type: hysteria2, password: b8f89919-e0c5-415b-a53d-048218e5dcb6, sni: yd.foldjc.top, skip-cert-verify: false, udp: true}
-  - {name: RU_speednode_0013, server: els2.dimoyun.top, port: 40001, type: hysteria2, password: c60bf96f-a5a7-4948-95b2-350d290cb1f8, sni: els1.dimoyun.top, skip-cert-verify: false, udp: true}
-  - {name: RU_speednode_0014, server: yd.foldjc.top, port: 37014, type: hysteria2, password: d9fb3813-3757-4cf2-9cee-f3eb70fe5373, sni: yd.foldjc.top, skip-cert-verify: false, udp: true}
-  - {name: SC_speednode_0015, server: dg.xfy003.cfd, port: 26565, type: hysteria2, password: 3b788360-3626-4d5b-96e0-cd7d1eb6b612, up: 50, down: 100, sni: dg.xfy003.cfd, obfs: salamander, obfs-password: zTCsHcttqdA0PniW, skip-cert-verify: false, udp: true}
-  - {name: SG_speednode_0016, server: 92.243.75.49, port: 2087, type: trojan, password: wb6368, sni: hsdgbuys.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hsdgbuys.pages.dev}}, udp: true}
-  - {name: US_speednode_0017, server: us.xilucloud.top, port: 14558, type: hysteria2, password: 807754c7-21bc-4d45-b2cb-c56bdfda04d6, sni: us.xilucloud.top, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0018, server: us.xilucloud.top, port: 14558, type: hysteria2, password: 6a7c72d0-a595-4e8a-ad39-4d05e4b8a45b, sni: us.xilucloud.top, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0019, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-  - {name: US_speednode_0020, server: yd.jjzcloud.top, port: 57338, type: hysteria2, password: d494721e-e62d-474c-be9b-2dffd028039a, sni: yd.jjzcloud.top, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0021, server: whg1.wanlidag.top, port: 5555, type: hysteria2, password: 3a1c3682-89e7-42bf-a5f9-20c0e61b1f97, sni: whg1.wanlidag.top, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0022, server: rb1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 3c8af0e2-544a-4253-88d4-af8c877858f4, sni: rb1.xiaohuolongjc.top, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0023, server: rb1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 9cb769d9-01f5-4b92-aa3a-a8752d18a3b5, sni: rb1.xiaohuolongjc.top, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0024, server: 141.101.120.100, port: 2053, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, skip-cert-verify: true, client-fingerprint: chrome, servername: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua, network: ws, ws-opts: {path: "/telegram@V2ray_Alpha/?ed=2048", headers: {Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua}}, udp: true}
-  - {name: US_speednode_0025, server: 104.18.14.201, port: 2096, type: vless, uuid: 67c662fa-cd6a-474a-b55f-d50dc0a7e210, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: iamdt.pages.dev, network: ws, ws-opts: {path: /, headers: {Host: iamdt.pages.dev}}, udp: true}
-  - {name: US_speednode_0026, server: 141.101.120.100, port: 2053, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua, network: ws, ws-opts: {path: /telegram@V2ray_Alpha, headers: {Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua}}, udp: true}
-  - {name: US_speednode_0027, server: 104.18.15.201, port: 2096, type: vless, uuid: 67c662fa-cd6a-474a-b55f-d50dc0a7e210, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: iamdt.pages.dev, network: ws, ws-opts: {path: /, headers: {Host: iamdt.pages.dev}}, udp: true}
-  - {name: US_speednode_0028, server: 172.245.251.10, port: 8443, type: vless, uuid: 9b3d65ab-576c-4750-9cb3-bb41c12c085e, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: www.ieee.org, reality-opts: {public-key: XgQPLMVHvbUKTzcAZPBDGZ_mDhaZRiAJEk7c4-7UzR4}, udp: true}
+  - {name: BR_speednode_0001, server: 194.87.198.32, port: 62316, type: tuic, uuid: eae682cb-0fb3-4467-a406-413130e2946b, password: eae682cb-0fb3-4467-a406-413130e2946b, sni: apple.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
+  - {name: BR_speednode_0002, server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: DE_speednode_0003, server: 188.68.53.100, port: 6666, type: vless, uuid: 0abf9050-c7be-464d-80af-24094c2b97de, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: Tgju.org, reality-opts: {public-key: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g, short-id: b525ecd2fc}, udp: true}
+  - {name: FR_speednode_0004, server: 51.195.31.95, port: 80, type: vless, uuid: 962bfec5-ef89-4180-8f5b-9209a7207668, tls: false, skip-cert-verify: false, servername: wWw.speEDtEST.NeT, network: ws, ws-opts: {path: /wslinws, headers: {Host: wWw.speEDtEST.NeT}}, udp: true}
+  - {name: HK_speednode_0005, server: xg2.dimoyun.top, port: 40001, type: hysteria2, password: 3e313efb-e8ec-4910-9d5a-3cdb5e38b6da, sni: xg2.dimoyun.top, skip-cert-verify: false, udp: true}
+  - {name: IR_speednode_0006, server: els.ylccloud.top, port: 16090, type: hysteria2, password: e9c9f245-d15e-40b0-923c-4f8156c5bcbd, sni: els.ylccloud.top, skip-cert-verify: false, udp: true}
+  - {name: IR_speednode_0007, server: wtw1.wanlidag.top, port: 5555, type: hysteria2, password: 1d5512ea-8d2b-43bc-a0d8-f0a79dbc7d8a, sni: wtw1.wanlidag.top, skip-cert-verify: false, udp: true}
+  - {name: IR_speednode_0008, server: tw.xilucloud.top, port: 14558, type: hysteria2, password: 722bb127-df7c-4fa5-b94a-3ee6438dcb95, sni: tw.xilucloud.top, skip-cert-verify: false, udp: true}
+  - {name: IR_speednode_0009, server: dg1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 6154dab6-3b26-454f-9bb4-276ff56738ed, sni: dg1.xiaohuolongjc.top, skip-cert-verify: false, udp: true}
+  - {name: IR_speednode_0010, server: dg1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: a4d423a8-0b8e-4ff2-ac24-7af712a6d823, sni: dg1.xiaohuolongjc.top, skip-cert-verify: false, udp: true}
+  - {name: IR_speednode_0011, server: dg1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: a3d9e79d-3a67-4a04-adc4-30ffa6518947, sni: dg1.xiaohuolongjc.top, skip-cert-verify: false, udp: true}
+  - {name: KR_speednode_0012, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: KR_speednode_0013, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
+  - {name: MD_speednode_0014, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: NL_speednode_0015, server: 45.148.233.10, port: 1443, type: vless, uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: speed.cloudflare.com, reality-opts: {public-key: eJeVlxdi2YBV1YpPVCcCgTez80y8ny27SQoZZVBFGyc}, udp: true}
+  - {name: NL_speednode_0016, server: 45.148.233.10, port: 443, type: vless, uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: speed.cloudflare.com, reality-opts: {public-key: eJeVlxdi2YBV1YpPVCcCgTez80y8ny27SQoZZVBFGyc}, udp: true}
+  - {name: PH_speednode_0017, server: 192.142.18.40, port: 2589, type: vless, uuid: 8f0120f1-ba26-e137-5e06-a99b844741aa, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: firefox, servername: tgju.org, reality-opts: {public-key: 2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U, short-id: e41865e506628f44}, udp: true}
+  - {name: PL_speednode_0018, server: poland20.clearorbitllc.com, port: 443, type: vless, uuid: e3847ec6-b2fc-4eb2-b919-174d986f882c, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: poland20.clearorbitllc.com, reality-opts: {public-key: oNYCpjXjcYAV9qSWBt95N9dDUPhc_QnauJZ3kSJVeSQ, short-id: 2a22}, udp: true}
+  - {name: PY_speednode_0019, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: TR_speednode_0020, server: 188.132.183.15, port: 2589, type: vless, uuid: 8f0120f1-ba26-e137-5e06-a99b844741aa, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: firefox, servername: tgju.org, reality-opts: {public-key: 2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U, short-id: e41865e506628f44}, udp: true}
+  - {name: TW_speednode_0021, server: 154.223.20.79, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: US_speednode_0022, server: 141.101.120.100, port: 2053, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, skip-cert-verify: true, client-fingerprint: chrome, servername: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua, network: ws, ws-opts: {path: "/telegram@V2ray_Alpha/?ed=2048", headers: {Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua}}, udp: true}
+  - {name: US_speednode_0023, server: 141.101.120.100, port: 2053, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua, network: ws, ws-opts: {path: /telegram@V2ray_Alpha, headers: {Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua}}, udp: true}
+  - {name: US_speednode_0024, server: 172.233.153.209, port: 10001, type: vless, uuid: e4412006-94f2-4f3c-b568-22a3e31dc264, tls: true, skip-cert-verify: false, client-fingerprint: firefox, servername: yahoo.com, reality-opts: {public-key: 1ltSdo2K6D9EEwebaDQPCb5ypbURcXyO9HsX4RUbbUo, short-id: 1a24af87}, udp: true}
+  - {name: US_speednode_0025, server: xjp1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: a4d423a8-0b8e-4ff2-ac24-7af712a6d823, sni: xjp1.xiaohuolongjc.top, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0026, server: 141.101.120.15, port: 2053, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, skip-cert-verify: false, client-fingerprint: randomized, servername: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua}}, udp: true}
+  - {name: US_speednode_0027, server: 141.101.121.34, port: 2053, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, skip-cert-verify: false, client-fingerprint: randomized, servername: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua}}, udp: true}
+  - {name: US_speednode_0028, server: nop-55q.pages.dev, port: 2053, type: trojan, password: "T@_WvT8Ho@LW%w_,", sni: NOp-55q.pAgEs.dEv, skip-cert-verify: false, network: ws, ws-opts: {path: "/trGPZDfetEwuO25SAs?ed=2560", headers: {Host: NOp-55q.pAgEs.dEv}}, udp: true}
+  - {name: US_speednode_0029, server: 91.242.228.10, port: 1443, type: vless, uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: speed.cloudflare.com, reality-opts: {public-key: FkyaPwhmd80B_vHrzI_74WrhAcTHXMC6g83x61jL3Xs}, udp: true}
+  - {name: US_speednode_0030, server: 104.16.53.11, port: 2053, type: vless, uuid: 97fc44dd-c88c-4470-8d66-1752089c0183, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: frAgeU2.cpI2HIdd.eu.ORG, alpn: [h2, http/1.1], network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: frAgeU2.cpI2HIdd.eu.ORG}}, udp: true}
+  - {name: VN_speednode_0031, server: 103.186.154.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: VN_speednode_0032, server: 103.186.154.26, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: VN_speednode_0033, server: 103.186.155.133, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
   - BR_speednode_0001
-  - GR_speednode_0002
-  - IR_speednode_0003
-  - IR_speednode_0004
-  - IR_speednode_0005
+  - BR_speednode_0002
+  - DE_speednode_0003
+  - FR_speednode_0004
+  - HK_speednode_0005
   - IR_speednode_0006
   - IR_speednode_0007
   - IR_speednode_0008
   - IR_speednode_0009
-  - NL_speednode_0010
-  - NL_speednode_0011
-  - RU_speednode_0012
-  - RU_speednode_0013
-  - RU_speednode_0014
-  - SC_speednode_0015
-  - SG_speednode_0016
-  - US_speednode_0017
-  - US_speednode_0018
-  - US_speednode_0019
-  - US_speednode_0020
-  - US_speednode_0021
+  - IR_speednode_0010
+  - IR_speednode_0011
+  - KR_speednode_0012
+  - KR_speednode_0013
+  - MD_speednode_0014
+  - NL_speednode_0015
+  - NL_speednode_0016
+  - PH_speednode_0017
+  - PL_speednode_0018
+  - PY_speednode_0019
+  - TR_speednode_0020
+  - TW_speednode_0021
   - US_speednode_0022
   - US_speednode_0023
   - US_speednode_0024
@@ -79,30 +84,35 @@ proxy-groups:
   - US_speednode_0026
   - US_speednode_0027
   - US_speednode_0028
+  - US_speednode_0029
+  - US_speednode_0030
+  - VN_speednode_0031
+  - VN_speednode_0032
+  - VN_speednode_0033
 - name: ♻️ automatic
   type: url-test
   proxies:
   - BR_speednode_0001
-  - GR_speednode_0002
-  - IR_speednode_0003
-  - IR_speednode_0004
-  - IR_speednode_0005
+  - BR_speednode_0002
+  - DE_speednode_0003
+  - FR_speednode_0004
+  - HK_speednode_0005
   - IR_speednode_0006
   - IR_speednode_0007
   - IR_speednode_0008
   - IR_speednode_0009
-  - NL_speednode_0010
-  - NL_speednode_0011
-  - RU_speednode_0012
-  - RU_speednode_0013
-  - RU_speednode_0014
-  - SC_speednode_0015
-  - SG_speednode_0016
-  - US_speednode_0017
-  - US_speednode_0018
-  - US_speednode_0019
-  - US_speednode_0020
-  - US_speednode_0021
+  - IR_speednode_0010
+  - IR_speednode_0011
+  - KR_speednode_0012
+  - KR_speednode_0013
+  - MD_speednode_0014
+  - NL_speednode_0015
+  - NL_speednode_0016
+  - PH_speednode_0017
+  - PL_speednode_0018
+  - PY_speednode_0019
+  - TR_speednode_0020
+  - TW_speednode_0021
   - US_speednode_0022
   - US_speednode_0023
   - US_speednode_0024
@@ -110,6 +120,11 @@ proxy-groups:
   - US_speednode_0026
   - US_speednode_0027
   - US_speednode_0028
+  - US_speednode_0029
+  - US_speednode_0030
+  - VN_speednode_0031
+  - VN_speednode_0032
+  - VN_speednode_0033
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
