@@ -89,42 +89,22 @@
         "AE_speednode_0001",
         "AE_speednode_0002",
         "CH_speednode_0003",
-        "CN_speednode_0004",
-        "DE_speednode_0005",
-        "DE_speednode_0006",
-        "DE_speednode_0007",
-        "FI_speednode_0008",
-        "GB_speednode_0010",
-        "IR_speednode_0011",
-        "IR_speednode_0012",
-        "IR_speednode_0013",
-        "IR_speednode_0014",
-        "IT_speednode_0015",
-        "KR_speednode_0016",
-        "LB_speednode_0017",
-        "PL_speednode_0018",
-        "RU_speednode_0019",
-        "RU_speednode_0020",
-        "SE_speednode_0021",
-        "SE_speednode_0022",
-        "US_speednode_0023",
-        "US_speednode_0024",
-        "US_speednode_0025",
-        "US_speednode_0026",
-        "US_speednode_0027",
-        "US_speednode_0028",
-        "US_speednode_0030",
-        "US_speednode_0031",
-        "US_speednode_0032",
-        "US_speednode_0033",
-        "US_speednode_0034",
-        "US_speednode_0035",
-        "US_speednode_0036",
-        "US_speednode_0037",
-        "US_speednode_0038",
-        "US_speednode_0041",
-        "US_speednode_0042",
-        "US_speednode_0043"
+        "DE_speednode_0004",
+        "FI_speednode_0005",
+        "GB_speednode_0007",
+        "IT_speednode_0008",
+        "RU_speednode_0009",
+        "RU_speednode_0010",
+        "SE_speednode_0011",
+        "SE_speednode_0012",
+        "US_speednode_0013",
+        "US_speednode_0014",
+        "US_speednode_0015",
+        "US_speednode_0016",
+        "US_speednode_0017",
+        "US_speednode_0018",
+        "US_speednode_0019",
+        "US_speednode_0020"
       ]
     },
     {
@@ -134,42 +114,22 @@
         "AE_speednode_0001",
         "AE_speednode_0002",
         "CH_speednode_0003",
-        "CN_speednode_0004",
-        "DE_speednode_0005",
-        "DE_speednode_0006",
-        "DE_speednode_0007",
-        "FI_speednode_0008",
-        "GB_speednode_0010",
-        "IR_speednode_0011",
-        "IR_speednode_0012",
-        "IR_speednode_0013",
-        "IR_speednode_0014",
-        "IT_speednode_0015",
-        "KR_speednode_0016",
-        "LB_speednode_0017",
-        "PL_speednode_0018",
-        "RU_speednode_0019",
-        "RU_speednode_0020",
-        "SE_speednode_0021",
-        "SE_speednode_0022",
-        "US_speednode_0023",
-        "US_speednode_0024",
-        "US_speednode_0025",
-        "US_speednode_0026",
-        "US_speednode_0027",
-        "US_speednode_0028",
-        "US_speednode_0030",
-        "US_speednode_0031",
-        "US_speednode_0032",
-        "US_speednode_0033",
-        "US_speednode_0034",
-        "US_speednode_0035",
-        "US_speednode_0036",
-        "US_speednode_0037",
-        "US_speednode_0038",
-        "US_speednode_0041",
-        "US_speednode_0042",
-        "US_speednode_0043"
+        "DE_speednode_0004",
+        "FI_speednode_0005",
+        "GB_speednode_0007",
+        "IT_speednode_0008",
+        "RU_speednode_0009",
+        "RU_speednode_0010",
+        "SE_speednode_0011",
+        "SE_speednode_0012",
+        "US_speednode_0013",
+        "US_speednode_0014",
+        "US_speednode_0015",
+        "US_speednode_0016",
+        "US_speednode_0017",
+        "US_speednode_0018",
+        "US_speednode_0019",
+        "US_speednode_0020"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -240,23 +200,7 @@
       }
     },
     {
-      "tag": "CN_speednode_0004",
-      "server": "v8.heduian.link",
-      "server_port": 30808,
-      "type": "vmess",
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-      "alter_id": 2,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/oooo",
-        "headers": {
-          "Host": "baidu.com"
-        }
-      }
-    },
-    {
-      "tag": "DE_speednode_0005",
+      "tag": "DE_speednode_0004",
       "server": "185.126.255.180",
       "server_port": 443,
       "type": "vless",
@@ -277,50 +221,7 @@
       }
     },
     {
-      "tag": "DE_speednode_0006",
-      "server": "swit.amirconfigpaanelllll.com",
-      "server_port": 223,
-      "type": "vless",
-      "uuid": "8f0120f1-ba26-e137-5e06-a99b844741aa",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
-          "short_id": "e41865e506628f44"
-        }
-      }
-    },
-    {
-      "tag": "DE_speednode_0007",
-      "server": "188.68.53.100",
-      "server_port": 6666,
-      "type": "vless",
-      "uuid": "0abf9050-c7be-464d-80af-24094c2b97de",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "Tgju.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g",
-          "short_id": "b525ecd2fc"
-        }
-      }
-    },
-    {
-      "tag": "FI_speednode_0008",
+      "tag": "FI_speednode_0005",
       "server": "91.108.241.188",
       "server_port": 443,
       "type": "vless",
@@ -341,7 +242,7 @@
       }
     },
     {
-      "tag": "GB_speednode_0010",
+      "tag": "GB_speednode_0007",
       "server": "132.145.65.20",
       "server_port": 9931,
       "type": "vless",
@@ -360,55 +261,7 @@
       }
     },
     {
-      "tag": "IR_speednode_0011",
-      "server": "dg1.xiaohuolongjc.top",
-      "server_port": 37771,
-      "type": "hysteria2",
-      "password": "0c061897-06f8-4211-a767-693412892270",
-      "tls": {
-        "enabled": true,
-        "server_name": "dg1.xiaohuolongjc.top",
-        "insecure": false
-      }
-    },
-    {
-      "tag": "IR_speednode_0012",
-      "server": "dg1.xiaohuolongjc.top",
-      "server_port": 37771,
-      "type": "hysteria2",
-      "password": "b26e23d8-5e7f-470b-9f60-111470595eb7",
-      "tls": {
-        "enabled": true,
-        "server_name": "dg1.xiaohuolongjc.top",
-        "insecure": false
-      }
-    },
-    {
-      "tag": "IR_speednode_0013",
-      "server": "dg1.xiaohuolongjc.top",
-      "server_port": 37771,
-      "type": "hysteria2",
-      "password": "8873807e-7932-4b31-b996-51621ae05865",
-      "tls": {
-        "enabled": true,
-        "server_name": "dg1.xiaohuolongjc.top",
-        "insecure": false
-      }
-    },
-    {
-      "tag": "IR_speednode_0014",
-      "server": "dg1.xiaohuolongjc.top",
-      "server_port": 37771,
-      "type": "hysteria2",
-      "password": "7038e834-4587-425d-81af-a12d8779a6bd",
-      "tls": {
-        "enabled": true,
-        "server_name": "dg1.xiaohuolongjc.top",
-        "insecure": false
-      }
-    },
-    {
-      "tag": "IT_speednode_0015",
+      "tag": "IT_speednode_0008",
       "server": "147.45.51.160",
       "server_port": 443,
       "type": "vless",
@@ -429,62 +282,7 @@
       }
     },
     {
-      "tag": "KR_speednode_0016",
-      "server": "testkr3.ssv.vc",
-      "server_port": 30446,
-      "type": "http",
-      "username": "test",
-      "password": "test.+",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "LB_speednode_0017",
-      "server": "get.gemton.ir",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "cc08ceae-7608-47c4-9a6a-23e041db8b90",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "tgju.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "0M_bLwMXbR_PaBLwNrsf3hwhiLidkeG5geeOMaxcoE4",
-          "short_id": "e54b5ad736ae4c38"
-        }
-      }
-    },
-    {
-      "tag": "PL_speednode_0018",
-      "server": "poland20.clearorbitllc.com",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "e3847ec6-b2fc-4eb2-b919-174d986f882c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "poland20.clearorbitllc.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "oNYCpjXjcYAV9qSWBt95N9dDUPhc_QnauJZ3kSJVeSQ",
-          "short_id": "2a22"
-        }
-      }
-    },
-    {
-      "tag": "RU_speednode_0019",
+      "tag": "RU_speednode_0009",
       "server": "188.225.80.183",
       "server_port": 443,
       "type": "vless",
@@ -506,7 +304,7 @@
       }
     },
     {
-      "tag": "RU_speednode_0020",
+      "tag": "RU_speednode_0010",
       "server": "176.114.86.241",
       "server_port": 443,
       "type": "vless",
@@ -528,23 +326,7 @@
       }
     },
     {
-      "tag": "SE_speednode_0021",
-      "server": "drhystuichdfy.samanidempire.org",
-      "server_port": 20335,
-      "type": "hysteria2",
-      "password": "80747420-96c4-4a2f-83e6-eea4e46beb09",
-      "tls": {
-        "enabled": true,
-        "server_name": "drhystuichdfy.samanidempire.org",
-        "insecure": false
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "U1wBrYQyFm"
-      }
-    },
-    {
-      "tag": "SE_speednode_0022",
+      "tag": "SE_speednode_0011",
       "server": "70.34.215.221",
       "server_port": 20335,
       "type": "hysteria2",
@@ -560,152 +342,23 @@
       }
     },
     {
-      "tag": "US_speednode_0023",
-      "server": "500770.xyz",
-      "server_port": 34074,
-      "type": "vless",
-      "uuid": "9d0a75d2-f747-4afa-b43f-d208af9e8f9a",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "www.ucla.edu",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "zimSAAs4SyUKAR-MTMaw08PuI7skyi1U5Peb6VGJwjY",
-          "short_id": "061cca24"
-        }
-      }
-    },
-    {
-      "tag": "US_speednode_0024",
-      "server": "208.87.243.187",
-      "server_port": 22222,
+      "tag": "SE_speednode_0012",
+      "server": "drhystuichdfy.samanidempire.org",
+      "server_port": 20335,
       "type": "hysteria2",
-      "password": "dongtaiwang.com",
+      "password": "80747420-96c4-4a2f-83e6-eea4e46beb09",
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": false
-      }
-    },
-    {
-      "tag": "US_speednode_0025",
-      "server": "m24a.vip784.com",
-      "server_port": 33801,
-      "type": "vless",
-      "uuid": "d36f457f-17a9-4891-a113-322ec6792917",
-      "transport": {
-        "type": "http",
-        "method": "GET",
-        "path": "/",
-        "host": [
-          "varzesh3.ir"
-        ]
-      }
-    },
-    {
-      "tag": "US_speednode_0026",
-      "server": "yapc-1.adamhayward.co.uk",
-      "server_port": 35000,
-      "type": "hysteria2",
-      "password": "Yet-Another-Public-Config-1",
-      "tls": {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
+        "server_name": "drhystuichdfy.samanidempire.org",
         "insecure": false
       },
       "obfs": {
         "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
+        "password": "U1wBrYQyFm"
       }
     },
     {
-      "tag": "US_speednode_0027",
-      "server": "yapc-1.adamhayward.co.uk",
-      "server_port": 36600,
-      "type": "hysteria2",
-      "password": "Yet-Another-Public-Config-1",
-      "tls": {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "insecure": false
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      }
-    },
-    {
-      "tag": "US_speednode_0028",
-      "server": "xjp1.xiaohuolongjc.top",
-      "server_port": 37771,
-      "type": "hysteria2",
-      "password": "d767669f-e4e6-4840-abf6-d902297e9984",
-      "tls": {
-        "enabled": true,
-        "server_name": "xjp1.xiaohuolongjc.top",
-        "insecure": false
-      }
-    },
-    {
-      "tag": "US_speednode_0030",
-      "server": "yapc-1.adamhayward.co.uk",
-      "server_port": 35200,
-      "type": "hysteria2",
-      "password": "Yet-Another-Public-Config-1",
-      "tls": {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "insecure": false
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      }
-    },
-    {
-      "tag": "US_speednode_0031",
-      "server": "xjp1.xiaohuolongjc.top",
-      "server_port": 37771,
-      "type": "hysteria2",
-      "password": "92c6a80e-1566-4f15-a4d8-8a9d17e0c12c",
-      "tls": {
-        "enabled": true,
-        "server_name": "xjp1.xiaohuolongjc.top",
-        "insecure": false
-      }
-    },
-    {
-      "tag": "US_speednode_0032",
-      "server": "xjp1.xiaohuolongjc.top",
-      "server_port": 37771,
-      "type": "hysteria2",
-      "password": "be2e39ba-ea70-43b1-b200-a3790aa01ad9",
-      "tls": {
-        "enabled": true,
-        "server_name": "xjp1.xiaohuolongjc.top",
-        "insecure": false
-      }
-    },
-    {
-      "tag": "US_speednode_0033",
-      "server": "xjp1.xiaohuolongjc.top",
-      "server_port": 37771,
-      "type": "hysteria2",
-      "password": "5dd55d64-b81a-4378-a8a6-d5cd1edda268",
-      "tls": {
-        "enabled": true,
-        "server_name": "xjp1.xiaohuolongjc.top",
-        "insecure": false
-      }
-    },
-    {
-      "tag": "US_speednode_0034",
+      "tag": "US_speednode_0013",
       "server": "146.235.193.81",
       "server_port": 443,
       "type": "vless",
@@ -727,7 +380,38 @@
       }
     },
     {
-      "tag": "US_speednode_0035",
+      "tag": "US_speednode_0014",
+      "server": "m24a.vip784.com",
+      "server_port": 33801,
+      "type": "vless",
+      "uuid": "d36f457f-17a9-4891-a113-322ec6792917",
+      "transport": {
+        "type": "http",
+        "method": "GET",
+        "path": "/",
+        "host": [
+          "varzesh3.ir"
+        ]
+      }
+    },
+    {
+      "tag": "US_speednode_0015",
+      "server": "206.71.158.37",
+      "server_port": 36300,
+      "type": "hysteria2",
+      "password": "Yet-Another-Public-Config-1",
+      "tls": {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": false
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      }
+    },
+    {
+      "tag": "US_speednode_0016",
       "server": "yapc-1.adamhayward.co.uk",
       "server_port": 36400,
       "type": "hysteria2",
@@ -743,42 +427,45 @@
       }
     },
     {
-      "tag": "US_speednode_0036",
-      "server": "xjp1.xiaohuolongjc.top",
-      "server_port": 37771,
+      "tag": "US_speednode_0017",
+      "server": "yapc-1.adamhayward.co.uk",
+      "server_port": 35000,
       "type": "hysteria2",
-      "password": "cb26a23c-6aeb-42d3-b528-2c0d02cd9260",
+      "password": "Yet-Another-Public-Config-1",
       "tls": {
         "enabled": true,
-        "server_name": "xjp1.xiaohuolongjc.top",
+        "server_name": "YAPC-1.afshin.ir",
         "insecure": false
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
       }
     },
     {
-      "tag": "US_speednode_0037",
-      "server": "142.171.85.230",
-      "server_port": 28034,
+      "tag": "US_speednode_0018",
+      "server": "500770.xyz",
+      "server_port": 34074,
       "type": "vless",
-      "uuid": "b65f4df7-f6af-42b2-877a-cef33f21675e",
+      "uuid": "9d0a75d2-f747-4afa-b43f-d208af9e8f9a",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "kejiland.freewarp.eu.org",
+        "server_name": "www.ucla.edu",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/snippets/ip=proxyip.fxxk.dedyn.io:443",
-        "headers": {
-          "Host": "kejiland.freewarp.eu.org"
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zimSAAs4SyUKAR-MTMaw08PuI7skyi1U5Peb6VGJwjY",
+          "short_id": "061cca24"
         }
       }
     },
     {
-      "tag": "US_speednode_0038",
+      "tag": "US_speednode_0019",
       "server": "yapc-1.adamhayward.co.uk",
       "server_port": 36300,
       "type": "hysteria2",
@@ -794,24 +481,8 @@
       }
     },
     {
-      "tag": "US_speednode_0041",
-      "server": "206.71.158.37",
-      "server_port": 36300,
-      "type": "hysteria2",
-      "password": "Yet-Another-Public-Config-1",
-      "tls": {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "insecure": false
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      }
-    },
-    {
-      "tag": "US_speednode_0042",
-      "server": "206.71.158.37",
+      "tag": "US_speednode_0020",
+      "server": "yapc-1.adamhayward.co.uk",
       "server_port": 36600,
       "type": "hysteria2",
       "password": "Yet-Another-Public-Config-1",
@@ -823,18 +494,6 @@
       "obfs": {
         "type": "salamander",
         "password": "Yet-Another-Public-Config-1"
-      }
-    },
-    {
-      "tag": "US_speednode_0043",
-      "server": "204.44.110.129",
-      "server_port": 51541,
-      "type": "hysteria2",
-      "password": "20050105zhu",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": false
       }
     }
   ],
