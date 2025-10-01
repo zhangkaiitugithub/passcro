@@ -18,44 +18,95 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: BG_speednode_0001, server: sunstar.astracat.ru, port: 433, type: vless, uuid: ea8a4fac-8b8a-4fa5-a7b4-63575499fffb, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: cdnjs.com, reality-opts: {public-key: ttai5o9sL51jx8MWuQA2glnVnVRe0pzZmDbHnTzlynA, short-id: 1A2B3C4D5E6F7890}, udp: true}
-  - {name: CA_speednode_0002, server: 40.233.82.111, port: 42557, type: vless, uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: www.yahoo.com, reality-opts: {public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo, short-id: f430927d}, udp: true}
-  - {name: CN_speednode_0003, server: 106.75.134.1, port: 12000, type: trojan, password: 2fd0d127-266d-4d0b-b453-f94659a132fc, sni: aliyun.com, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0004, server: v24.heduian.link, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v24.heduian.link}}, udp: true}
-  - {name: CN_speednode_0005, server: v33.heduian.link, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-  - {name: HK_speednode_0006, server: 154.21.201.83, port: 443, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /aa, headers: {Host: hk.nbee.pp.ua}}, udp: true}
-  - {name: IN_speednode_0007, server: 123.58.203.92, port: 18872, type: vmess, uuid: edfe29a5-cc54-488d-a31d-ca71f39e38d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: KR_speednode_0008, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
-  - {name: MK_speednode_0009, server: mk3.9966662.xyz, port: 51423, type: vless, uuid: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: www.cloudflare.com, reality-opts: {public-key: aTmRClRKFCvNi6aFQnmKt3CJ2hrLG3wQJ5WgrbWk1Xs, short-id: b8ee759f}, udp: true}
-  - {name: SG_speednode_0010, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+  - {name: CN_speednode_0001, server: v6.heduian.link, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
+  - {name: CN_speednode_0002, server: v24.heduian.link, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v24.heduian.link}}, udp: true}
+  - {name: CN_speednode_0003, server: v30.heduian.link, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
+  - {name: CN_speednode_0004, server: hzhz1.sssyun.xyz, port: 39301, type: ss, cipher: 2022-blake3-aes-128-gcm, password: "MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==", udp: true}
+  - {name: CN_speednode_0005, server: hzhz1.sssyun.xyz, port: 29527, type: ss, cipher: 2022-blake3-aes-128-gcm, password: "MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==", udp: true}
+  - {name: CN_speednode_0006, server: hzhz2.sssyun.xyz, port: 40023, type: ss, cipher: 2022-blake3-aes-128-gcm, password: "MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==", udp: true}
+  - {name: CN_speednode_0007, server: hzhz1.sssyun.xyz, port: 19527, type: ss, cipher: 2022-blake3-aes-128-gcm, password: "MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==", udp: true}
+  - {name: CN_speednode_0008, server: hzhz2.sssyun.xyz, port: 40011, type: ss, cipher: 2022-blake3-aes-128-gcm, password: "MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==", udp: true}
+  - {name: CN_speednode_0009, server: hzhz2.sssyun.xyz, port: 40010, type: ss, cipher: 2022-blake3-aes-128-gcm, password: "MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==", udp: true}
+  - {name: CN_speednode_0010, server: hzhz1.sssyun.xyz, port: 39505, type: ss, cipher: 2022-blake3-aes-128-gcm, password: "MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==", udp: true}
+  - {name: CN_speednode_0011, server: hzhz1.sssyun.xyz, port: 19529, type: ss, cipher: 2022-blake3-aes-128-gcm, password: "MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==", udp: true}
+  - {name: CN_speednode_0012, server: hzhz1.sssyun.xyz, port: 39204, type: ss, cipher: 2022-blake3-aes-128-gcm, password: "MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==", udp: true}
+  - {name: CN_speednode_0013, server: hzhz2.sssyun.xyz, port: 40017, type: ss, cipher: 2022-blake3-aes-128-gcm, password: "NjVhMWE2YmVmNzg4MTcwMA==:NmZlMDM5ZmQtNDFlYS00MQ==", udp: true}
+  - {name: CN_speednode_0014, server: hzhz2.sssyun.xyz, port: 40013, type: ss, cipher: 2022-blake3-aes-128-gcm, password: "MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==", udp: true}
+  - {name: CN_speednode_0015, server: hzhz2.sssyun.xyz, port: 44014, type: ss, cipher: 2022-blake3-aes-128-gcm, password: "MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==", udp: true}
+  - {name: CN_speednode_0016, server: hzhz1.sssyun.xyz, port: 12980, type: ss, cipher: 2022-blake3-aes-128-gcm, password: "MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==", udp: true}
+  - {name: CN_speednode_0017, server: hzhz2.sssyun.xyz, port: 12981, type: ss, cipher: 2022-blake3-aes-128-gcm, password: "MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==", udp: true}
+  - {name: CN_speednode_0018, server: hzhz1.sssyun.xyz, port: 39203, type: ss, cipher: 2022-blake3-aes-128-gcm, password: "MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==", udp: true}
+  - {name: CN_speednode_0019, server: hzhz2.sssyun.xyz, port: 40022, type: ss, cipher: 2022-blake3-aes-128-gcm, password: "MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==", udp: true}
+  - {name: CN_speednode_0020, server: hzhz1.sssyun.xyz, port: 39209, type: ss, cipher: 2022-blake3-aes-128-gcm, password: "MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==", udp: true}
+  - {name: CN_speednode_0021, server: hzhz2.sssyun.xyz, port: 20116, type: ss, cipher: 2022-blake3-aes-128-gcm, password: "NjVhMWE2YmVmNzg4MTcwMA==:NmZlMDM5ZmQtNDFlYS00MQ==", udp: true}
+  - {name: CN_speednode_0022, server: hzhz2.sssyun.xyz, port: 40019, type: ss, cipher: 2022-blake3-aes-128-gcm, password: "MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==", udp: true}
+  - {name: CN_speednode_0023, server: hzhz1.sssyun.xyz, port: 39206, type: ss, cipher: 2022-blake3-aes-128-gcm, password: "NjVhMWE2YmVmNzg4MTcwMA==:NmZlMDM5ZmQtNDFlYS00MQ==", udp: true}
+  - {name: CN_speednode_0024, server: hzhz1.sssyun.xyz, port: 39987, type: ss, cipher: 2022-blake3-aes-128-gcm, password: "MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==", udp: true}
+  - {name: CN_speednode_0025, server: hzhz2.sssyun.xyz, port: 39981, type: ss, cipher: 2022-blake3-aes-128-gcm, password: "MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==", udp: true}
+  - {name: HK_speednode_0026, server: 154.21.201.83, port: 443, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /aa, headers: {Host: hk.nbee.pp.ua}}, udp: true}
+  - {name: US_speednode_0027, server: 168.93.198.17, port: 443, type: vmess, uuid: ffde381b-4a30-41d4-90eb-151f228b06ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: aa.nbee.pp.ua, network: ws, ws-opts: {path: /qq, headers: {Host: aa.nbee.pp.ua}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - BG_speednode_0001
-  - CA_speednode_0002
+  - CN_speednode_0001
+  - CN_speednode_0002
   - CN_speednode_0003
   - CN_speednode_0004
   - CN_speednode_0005
-  - HK_speednode_0006
-  - IN_speednode_0007
-  - KR_speednode_0008
-  - MK_speednode_0009
-  - SG_speednode_0010
+  - CN_speednode_0006
+  - CN_speednode_0007
+  - CN_speednode_0008
+  - CN_speednode_0009
+  - CN_speednode_0010
+  - CN_speednode_0011
+  - CN_speednode_0012
+  - CN_speednode_0013
+  - CN_speednode_0014
+  - CN_speednode_0015
+  - CN_speednode_0016
+  - CN_speednode_0017
+  - CN_speednode_0018
+  - CN_speednode_0019
+  - CN_speednode_0020
+  - CN_speednode_0021
+  - CN_speednode_0022
+  - CN_speednode_0023
+  - CN_speednode_0024
+  - CN_speednode_0025
+  - HK_speednode_0026
+  - US_speednode_0027
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - BG_speednode_0001
-  - CA_speednode_0002
+  - CN_speednode_0001
+  - CN_speednode_0002
   - CN_speednode_0003
   - CN_speednode_0004
   - CN_speednode_0005
-  - HK_speednode_0006
-  - IN_speednode_0007
-  - KR_speednode_0008
-  - MK_speednode_0009
-  - SG_speednode_0010
+  - CN_speednode_0006
+  - CN_speednode_0007
+  - CN_speednode_0008
+  - CN_speednode_0009
+  - CN_speednode_0010
+  - CN_speednode_0011
+  - CN_speednode_0012
+  - CN_speednode_0013
+  - CN_speednode_0014
+  - CN_speednode_0015
+  - CN_speednode_0016
+  - CN_speednode_0017
+  - CN_speednode_0018
+  - CN_speednode_0019
+  - CN_speednode_0020
+  - CN_speednode_0021
+  - CN_speednode_0022
+  - CN_speednode_0023
+  - CN_speednode_0024
+  - CN_speednode_0025
+  - HK_speednode_0026
+  - US_speednode_0027
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
