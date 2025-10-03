@@ -89,7 +89,6 @@
         "AE_speednode_0001",
         "AE_speednode_0003",
         "AT_speednode_0004",
-        "BG_speednode_0006",
         "CA_speednode_0007",
         "CN_speednode_0008",
         "CN_speednode_0009",
@@ -121,7 +120,6 @@
         "AE_speednode_0001",
         "AE_speednode_0003",
         "AT_speednode_0004",
-        "BG_speednode_0006",
         "CA_speednode_0007",
         "CN_speednode_0008",
         "CN_speednode_0009",
@@ -222,28 +220,6 @@
           "enabled": true,
           "public_key": "iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs",
           "short_id": "27cfa05000c23cc4"
-        }
-      }
-    },
-    {
-      "tag": "BG_speednode_0006",
-      "server": "noads.torprospeed.ir",
-      "server_port": 223,
-      "type": "vless",
-      "uuid": "d358f512-5789-464e-b8ae-da6ee9543ff5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JOKX-kH_SOPrdPG26TdJzO6YSDItrRGXKhtv70Bn81o",
-          "short_id": "c7f175a94bd79f8d"
         }
       }
     },
