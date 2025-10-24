@@ -87,7 +87,7 @@
         "auto",
         "direct",
         "AE_speednode_0001",
-        "AU_speednode_0002",
+        "CN_speednode_0002",
         "CN_speednode_0003",
         "CN_speednode_0004",
         "CN_speednode_0005",
@@ -96,33 +96,18 @@
         "CN_speednode_0008",
         "CN_speednode_0009",
         "CN_speednode_0010",
-        "CN_speednode_0011",
-        "CN_speednode_0012",
-        "CN_speednode_0013",
-        "CN_speednode_0014",
-        "CN_speednode_0015",
-        "CN_speednode_0016",
-        "CN_speednode_0017",
-        "CN_speednode_0018",
-        "CN_speednode_0019",
-        "CN_speednode_0020",
-        "CN_speednode_0021",
-        "GB_speednode_0022",
-        "HK_speednode_0023",
-        "HK_speednode_0024",
-        "HK_speednode_0025",
-        "HK_speednode_0026",
-        "HK_speednode_0027",
-        "HK_speednode_0028",
-        "HK_speednode_0029",
-        "HK_speednode_0030",
-        "IR_speednode_0031",
-        "KR_speednode_0032",
-        "KR_speednode_0033",
-        "RU_speednode_0034",
-        "SG_speednode_0035",
-        "UA_speednode_0036",
-        "US_speednode_0037"
+        "HK_speednode_0011",
+        "HK_speednode_0012",
+        "HK_speednode_0013",
+        "HK_speednode_0014",
+        "HK_speednode_0015",
+        "HK_speednode_0016",
+        "IR_speednode_0017",
+        "KR_speednode_0018",
+        "RU_speednode_0019",
+        "SG_speednode_0020",
+        "UA_speednode_0021",
+        "US_speednode_0022"
       ]
     },
     {
@@ -130,7 +115,7 @@
       "type": "urltest",
       "outbounds": [
         "AE_speednode_0001",
-        "AU_speednode_0002",
+        "CN_speednode_0002",
         "CN_speednode_0003",
         "CN_speednode_0004",
         "CN_speednode_0005",
@@ -139,33 +124,18 @@
         "CN_speednode_0008",
         "CN_speednode_0009",
         "CN_speednode_0010",
-        "CN_speednode_0011",
-        "CN_speednode_0012",
-        "CN_speednode_0013",
-        "CN_speednode_0014",
-        "CN_speednode_0015",
-        "CN_speednode_0016",
-        "CN_speednode_0017",
-        "CN_speednode_0018",
-        "CN_speednode_0019",
-        "CN_speednode_0020",
-        "CN_speednode_0021",
-        "GB_speednode_0022",
-        "HK_speednode_0023",
-        "HK_speednode_0024",
-        "HK_speednode_0025",
-        "HK_speednode_0026",
-        "HK_speednode_0027",
-        "HK_speednode_0028",
-        "HK_speednode_0029",
-        "HK_speednode_0030",
-        "IR_speednode_0031",
-        "KR_speednode_0032",
-        "KR_speednode_0033",
-        "RU_speednode_0034",
-        "SG_speednode_0035",
-        "UA_speednode_0036",
-        "US_speednode_0037"
+        "HK_speednode_0011",
+        "HK_speednode_0012",
+        "HK_speednode_0013",
+        "HK_speednode_0014",
+        "HK_speednode_0015",
+        "HK_speednode_0016",
+        "IR_speednode_0017",
+        "KR_speednode_0018",
+        "RU_speednode_0019",
+        "SG_speednode_0020",
+        "UA_speednode_0021",
+        "US_speednode_0022"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -195,37 +165,84 @@
       }
     },
     {
-      "tag": "AU_speednode_0002",
-      "server": "82.97.241.50",
-      "server_port": 8443,
-      "type": "vless",
-      "uuid": "3a4524bb-5d17-4c09-b523-6ab1e1a41d81",
-      "flow": "xtls-rprx-vision",
+      "tag": "CN_speednode_0002",
+      "server": "n002.xunxunmimisbs.sbs",
+      "server_port": 42100,
+      "type": "trojan",
+      "password": "caea0207-4359-45a8-8e5e-7f1248fbc89e",
       "tls": {
         "enabled": true,
-        "insecure": false,
-        "server_name": "ya.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "blSlAMMTv5UdIZiQd6VtBlS7kfZJ9xpw9H95Ouohbxs",
-          "short_id": "4bb9dbdad476124c"
-        }
+        "insecure": true
       }
     },
     {
       "tag": "CN_speednode_0003",
-      "server": "xc.xunyunnode.sbs",
-      "server_port": 26329,
-      "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "86256bed-2559-49f7-8129-9fa2c20dcb39"
+      "server": "n002.xunxunmimisbs.sbs",
+      "server_port": 49110,
+      "type": "trojan",
+      "password": "8726bd52-c6f0-4507-a6d7-8facd7e3904e",
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
     },
     {
       "tag": "CN_speednode_0004",
+      "server": "n002.xunxunmimisbs.sbs",
+      "server_port": 31100,
+      "type": "trojan",
+      "password": "e8792da6-86eb-4163-8cf9-edf602de8596",
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
+    },
+    {
+      "tag": "CN_speednode_0005",
+      "server": "n002.xunxunmimisbs.sbs",
+      "server_port": 43100,
+      "type": "trojan",
+      "password": "e8792da6-86eb-4163-8cf9-edf602de8596",
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
+    },
+    {
+      "tag": "CN_speednode_0006",
+      "server": "n001.xunxunmimisbs.sbs",
+      "server_port": 22100,
+      "type": "trojan",
+      "password": "b44bb6d9-91cc-4806-969c-a0f557754cb0",
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
+    },
+    {
+      "tag": "CN_speednode_0007",
+      "server": "n001.xunxunmimisbs.sbs",
+      "server_port": 28300,
+      "type": "trojan",
+      "password": "733a67f2-88c7-4ffc-9827-51ec5fa968e6",
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
+    },
+    {
+      "tag": "CN_speednode_0008",
+      "server": "n002.xunxunmimisbs.sbs",
+      "server_port": 31101,
+      "type": "trojan",
+      "password": "caea0207-4359-45a8-8e5e-7f1248fbc89e",
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
+    },
+    {
+      "tag": "CN_speednode_0009",
       "server": "nat-hk-37465.strongpipe.cloud",
       "server_port": 20443,
       "type": "http",
@@ -237,151 +254,7 @@
       }
     },
     {
-      "tag": "CN_speednode_0005",
-      "server": "wa.xunyunnode.sbs",
-      "server_port": 35301,
-      "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "cb3f5837-3657-4e51-af52-e27fb73b81ab"
-    },
-    {
-      "tag": "CN_speednode_0006",
-      "server": "01.xunyunnode.sbs",
-      "server_port": 14195,
-      "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "aac98113-f681-4a6d-a6c8-8ae4b0cdb765"
-    },
-    {
-      "tag": "CN_speednode_0007",
-      "server": "02.xunyunnode.sbs",
-      "server_port": 10463,
-      "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "aac98113-f681-4a6d-a6c8-8ae4b0cdb765"
-    },
-    {
-      "tag": "CN_speednode_0008",
-      "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 42100,
-      "type": "trojan",
-      "password": "caea0207-4359-45a8-8e5e-7f1248fbc89e",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "CN_speednode_0009",
-      "server": "xc.xunyunnode.sbs",
-      "server_port": 26200,
-      "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "7ed28f2d-4daa-44f4-8c62-6bf952122468"
-    },
-    {
       "tag": "CN_speednode_0010",
-      "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 31100,
-      "type": "trojan",
-      "password": "e8792da6-86eb-4163-8cf9-edf602de8596",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0011",
-      "server": "n001.xunxunmimisbs.sbs",
-      "server_port": 31200,
-      "type": "trojan",
-      "password": "733a67f2-88c7-4ffc-9827-51ec5fa968e6",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0012",
-      "server": "wa.xunyunnode.sbs",
-      "server_port": 25174,
-      "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "a665e726-c101-4b80-b649-1e65bae86362"
-    },
-    {
-      "tag": "CN_speednode_0013",
-      "server": "n001.xunxunmimisbs.sbs",
-      "server_port": 28300,
-      "type": "trojan",
-      "password": "733a67f2-88c7-4ffc-9827-51ec5fa968e6",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0014",
-      "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 31101,
-      "type": "trojan",
-      "password": "caea0207-4359-45a8-8e5e-7f1248fbc89e",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0015",
-      "server": "wa.xunyunnode.sbs",
-      "server_port": 25174,
-      "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "afdd2994-efb4-46d1-9b74-9bd4baba8138"
-    },
-    {
-      "tag": "CN_speednode_0016",
-      "server": "n001.xunxunmimisbs.sbs",
-      "server_port": 22100,
-      "type": "trojan",
-      "password": "b44bb6d9-91cc-4806-969c-a0f557754cb0",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0017",
-      "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 49110,
-      "type": "trojan",
-      "password": "8726bd52-c6f0-4507-a6d7-8facd7e3904e",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0018",
-      "server": "xc.xunyunnode.sbs",
-      "server_port": 19707,
-      "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "7ed28f2d-4daa-44f4-8c62-6bf952122468"
-    },
-    {
-      "tag": "CN_speednode_0019",
-      "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 43100,
-      "type": "trojan",
-      "password": "e8792da6-86eb-4163-8cf9-edf602de8596",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0020",
       "server": "n001.xunxunmimisbs.sbs",
       "server_port": 45100,
       "type": "trojan",
@@ -392,81 +265,7 @@
       }
     },
     {
-      "tag": "CN_speednode_0021",
-      "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 49100,
-      "type": "trojan",
-      "password": "8726bd52-c6f0-4507-a6d7-8facd7e3904e",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "GB_speednode_0022",
-      "server": "212.134.84.118",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "708dffa7-d03d-47e4-9768-41d3d3d3b656",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "pcmag.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "cEHgT3PKzj32wpClffhQpjGDEh2RoXDgHZm6kZ7fm0U",
-          "short_id": "d4cac1863c9a47"
-        }
-      }
-    },
-    {
-      "tag": "HK_speednode_0023",
-      "server": "202.85.53.74",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "gaosir.unfeeling.sbs"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Telegram🇨🇳@WangCai2/",
-        "headers": {
-          "Host": "gaosir.unfeeling.sbs"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "tag": "HK_speednode_0024",
-      "server": "202.85.53.74",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "gaosir.unfeeling.sbs"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/TelegramU0001F1E8U0001F1F3@WangCai2/",
-        "headers": {
-          "Host": "gaosir.unfeeling.sbs"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "tag": "HK_speednode_0025",
+      "tag": "HK_speednode_0011",
       "server": "43.154.124.136",
       "server_port": 26666,
       "type": "vless",
@@ -487,7 +286,7 @@
       }
     },
     {
-      "tag": "HK_speednode_0026",
+      "tag": "HK_speednode_0012",
       "server": "202.85.53.74",
       "server_port": 443,
       "type": "vless",
@@ -499,7 +298,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/Telegram@freecodes/",
+        "path": "/TelegramU0001F1E8U0001F1F3@WangCai2/",
         "headers": {
           "Host": "gaosir.unfeeling.sbs"
         },
@@ -508,28 +307,7 @@
       }
     },
     {
-      "tag": "HK_speednode_0027",
-      "server": "202.85.53.74",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "gaosir.unfeeling.sbs"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/X@节点狂魔/",
-        "headers": {
-          "Host": "gaosir.unfeeling.sbs"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "tag": "HK_speednode_0028",
+      "tag": "HK_speednode_0013",
       "server": "202.85.53.74",
       "server_port": 443,
       "type": "vless",
@@ -550,7 +328,49 @@
       }
     },
     {
-      "tag": "HK_speednode_0029",
+      "tag": "HK_speednode_0014",
+      "server": "202.85.53.74",
+      "server_port": 443,
+      "type": "vless",
+      "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "gaosir.unfeeling.sbs"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/X@节点狂魔/",
+        "headers": {
+          "Host": "gaosir.unfeeling.sbs"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "tag": "HK_speednode_0015",
+      "server": "202.85.53.74",
+      "server_port": 443,
+      "type": "vless",
+      "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "gaosir.unfeeling.sbs"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram🇨🇳@WangCai2/",
+        "headers": {
+          "Host": "gaosir.unfeeling.sbs"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "tag": "HK_speednode_0016",
       "server": "202.85.53.74",
       "server_port": 443,
       "type": "vless",
@@ -569,26 +389,7 @@
       }
     },
     {
-      "tag": "HK_speednode_0030",
-      "server": "202.85.53.74",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "gaosir.unfeeling.sbs"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/X@节点狂魔security=tls",
-        "headers": {
-          "Host": "gaosir.unfeeling.sbs"
-        }
-      }
-    },
-    {
-      "tag": "IR_speednode_0031",
+      "tag": "IR_speednode_0017",
       "server": "217.60.248.66",
       "server_port": 443,
       "type": "vless",
@@ -609,28 +410,7 @@
       }
     },
     {
-      "tag": "KR_speednode_0032",
-      "server": "118.40.126.7",
-      "server_port": 50001,
-      "type": "vless",
-      "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "gaosir.unfeeling.sbs"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/X@节点狂魔/",
-        "headers": {
-          "Host": "gaosir.unfeeling.sbs"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "tag": "KR_speednode_0033",
+      "tag": "KR_speednode_0018",
       "server": "147.75.225.105",
       "server_port": 443,
       "type": "vless",
@@ -651,7 +431,7 @@
       }
     },
     {
-      "tag": "RU_speednode_0034",
+      "tag": "RU_speednode_0019",
       "server": "5.42.220.253",
       "server_port": 8443,
       "type": "vless",
@@ -670,7 +450,7 @@
       }
     },
     {
-      "tag": "SG_speednode_0035",
+      "tag": "SG_speednode_0020",
       "server": "185.114.78.230",
       "server_port": 443,
       "type": "vless",
@@ -691,7 +471,7 @@
       }
     },
     {
-      "tag": "UA_speednode_0036",
+      "tag": "UA_speednode_0021",
       "server": "freeyx.cloudflare88.eu.org",
       "server_port": 443,
       "type": "vless",
@@ -716,7 +496,7 @@
       }
     },
     {
-      "tag": "US_speednode_0037",
+      "tag": "US_speednode_0022",
       "server": "195.13.45.253",
       "server_port": 2096,
       "type": "vless",
