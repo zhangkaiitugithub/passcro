@@ -18,35 +18,32 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: KR_speednode_0001, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RU_speednode_0002, server: fin01-vlr01.tcp-reset-club.net, port: 443, type: vless, uuid: 466cdb16-8d8a-46f8-b61d-fcd226a820fd, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: hls-svod.itunes.apple.com, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: 8453e5fd9af927}, udp: true}
-  - {name: RU_speednode_0003, server: usa.savanet.pro, port: 443, type: vless, uuid: 87eff1bd-d55f-4df2-a5ad-863368a16cb7, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: yandex.com, reality-opts: {public-key: s1YS6OaMKypumOxq7u22Pf_FaSjEbRvgLrJf1iTOKWY, short-id: bce24697c04e}, udp: true}
-  - {name: TW_speednode_0004, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: f371f491-e3c1-4105-bc59-a48ec7c6cfdd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: TW_speednode_0005, server: cdnfire.xiaomispeed.com, port: 23301, type: trojan, password: f371f491-e3c1-4105-bc59-a48ec7c6cfdd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: TW_speednode_0006, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: f371f491-e3c1-4105-bc59-a48ec7c6cfdd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0007, server: 172.238.22.96, port: 25599, type: vless, uuid: ff06f97b-09f6-4b8b-8a12-7d2f51b28a75, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: www.cloudflare.com, reality-opts: {public-key: SsbeZ_JdMe3r2IqTESBWRSUMrcm3PdpFzlab5xrKUlU}, udp: true}
+  - {name: HK_speednode_0003, server: 43.247.135.64, port: 54804, type: vmess, uuid: 4f8db425-47ac-420e-b2d7-6e85bbc25562, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: IT_speednode_0004, server: italy.marzxo.biz, port: 8093, type: vless, uuid: 2d01afab-6ab0-b2c9-30ea-878969fe9359, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: refersion.com, reality-opts: {public-key: Ro8OYB3Jq6hTWw95trCnKzQPvWaN2ShcbeLg7dTv8UU, short-id: 828348fc6d8e49cf}, udp: true}
+  - {name: JP_speednode_0005, server: softbank88.xzcloudnode.sbs, port: 51623, type: vless, uuid: 8129a335-37d4-4932-8dca-ac4358ce60b7, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: itunes.apple.com, reality-opts: {public-key: ln4RiHk9_Ea_EyeI2GpZfzilPyrqKYDBqis09esVECo, short-id: 6ba85179e30d4fc2}, udp: true}
+  - {name: NL_speednode_0006, server: 31.207.44.210, port: 32155, type: vless, uuid: 2e23b585-a486-4541-83d8-5832a1409c6e, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: yahoo.com, reality-opts: {public-key: 6-b7u_t7wG_jbda_lucHW4Au9biBl1E0tA2Zkqm8mSw, short-id: 737af772}, udp: true}
+  - {name: RU_speednode_0007, server: usa.savanet.pro, port: 443, type: vless, uuid: 87eff1bd-d55f-4df2-a5ad-863368a16cb7, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: yandex.com, reality-opts: {public-key: s1YS6OaMKypumOxq7u22Pf_FaSjEbRvgLrJf1iTOKWY, short-id: bce24697c04e}, udp: true}
+  - {name: US_speednode_0008, server: 172.238.22.96, port: 25599, type: vless, uuid: ff06f97b-09f6-4b8b-8a12-7d2f51b28a75, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: www.cloudflare.com, reality-opts: {public-key: SsbeZ_JdMe3r2IqTESBWRSUMrcm3PdpFzlab5xrKUlU}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - KR_speednode_0001
-  - RU_speednode_0002
-  - RU_speednode_0003
-  - TW_speednode_0004
-  - TW_speednode_0005
-  - TW_speednode_0006
-  - US_speednode_0007
+  - HK_speednode_0003
+  - IT_speednode_0004
+  - JP_speednode_0005
+  - NL_speednode_0006
+  - RU_speednode_0007
+  - US_speednode_0008
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - KR_speednode_0001
-  - RU_speednode_0002
-  - RU_speednode_0003
-  - TW_speednode_0004
-  - TW_speednode_0005
-  - TW_speednode_0006
-  - US_speednode_0007
+  - HK_speednode_0003
+  - IT_speednode_0004
+  - JP_speednode_0005
+  - NL_speednode_0006
+  - RU_speednode_0007
+  - US_speednode_0008
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
