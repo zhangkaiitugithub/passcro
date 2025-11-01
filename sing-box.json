@@ -86,28 +86,20 @@
       "outbounds": [
         "auto",
         "direct",
-        "CN_speednode_0001",
-        "CN_speednode_0002",
-        "CN_speednode_0003",
-        "DE_speednode_0004",
-        "JP_speednode_0005",
-        "KR_speednode_0006",
-        "LB_speednode_0007",
-        "UA_speednode_0008"
+        "DE_speednode_0001",
+        "JP_speednode_0002",
+        "KR_speednode_0003",
+        "LB_speednode_0004"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "CN_speednode_0001",
-        "CN_speednode_0002",
-        "CN_speednode_0003",
-        "DE_speednode_0004",
-        "JP_speednode_0005",
-        "KR_speednode_0006",
-        "LB_speednode_0007",
-        "UA_speednode_0008"
+        "DE_speednode_0001",
+        "JP_speednode_0002",
+        "KR_speednode_0003",
+        "LB_speednode_0004"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -126,37 +118,7 @@
       "tag": "block"
     },
     {
-      "tag": "CN_speednode_0001",
-      "server": "zfa01.333210.xyz",
-      "server_port": 40382,
-      "type": "shadowsocks",
-      "method": "2022-blake3-aes-128-gcm",
-      "password": "ZTc1ZDIxMzg1OGE1ZjYyOQ==:MmRjYmJmY2QtOGJjZC00OA=="
-    },
-    {
-      "tag": "CN_speednode_0002",
-      "server": "hxfz940e90d9.nfwzdm.com",
-      "server_port": 42765,
-      "type": "trojan",
-      "password": "b00abf05-5768-4ac9-8d20-6b1bd605bcf6",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "CN_speednode_0003",
-      "server": "36.156.102.74",
-      "server_port": 43567,
-      "type": "trojan",
-      "password": "BxceQaOe",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "DE_speednode_0004",
+      "tag": "DE_speednode_0001",
       "server": "188.68.53.100",
       "server_port": 6666,
       "type": "vless",
@@ -177,7 +139,7 @@
       }
     },
     {
-      "tag": "JP_speednode_0005",
+      "tag": "JP_speednode_0002",
       "server": "softbank88.xzcloudnode.sbs",
       "server_port": 51623,
       "type": "vless",
@@ -199,7 +161,7 @@
       }
     },
     {
-      "tag": "KR_speednode_0006",
+      "tag": "KR_speednode_0003",
       "server": "testkr3.ssv.vc",
       "server_port": 30446,
       "type": "http",
@@ -211,7 +173,7 @@
       }
     },
     {
-      "tag": "LB_speednode_0007",
+      "tag": "LB_speednode_0004",
       "server": "77.110.127.105",
       "server_port": 443,
       "type": "vless",
@@ -230,31 +192,6 @@
           "public_key": "-Bdu8i-HU28Xmx87RMou5okYo8TqfbyZ8Ufs9RodUGE",
           "short_id": "097de35e52ec5256"
         }
-      }
-    },
-    {
-      "tag": "UA_speednode_0008",
-      "server": "freeyx.cloudflare88.eu.org",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "a7a89fed-0fa5-48ea-9cc9-ccf67d0b6cb2",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "do-syd1.008883.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/announcement",
-        "headers": {
-          "Host": "do-syd1.008883.xyz"
-        },
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     }
   ],

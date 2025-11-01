@@ -1,8 +1,4 @@
-ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206WlRjMVpESXhNemcxT0dFMVpqWXlPUT09Ok1tUmpZbUptWTJRdE9HSmpaQzAwT0E9PQ==@zfa01.333210.xyz:40382#CN_speednode_0001
-trojan://b00abf05-5768-4ac9-8d20-6b1bd605bcf6@hxfz940e90d9.nfwzdm.com:42765?sni=&allowInsecure=1&type=tcp&fp=chrome&alpn=#CN_speednode_0002
-trojan://BxceQaOe@36.156.102.74:43567?sni=&allowInsecure=1&type=tcp&fp=chrome&alpn=#CN_speednode_0003
-vless://0abf9050-c7be-464d-80af-24094c2b97de@188.68.53.100:6666?encryption=none&security=reality&flow=&type=tcp&sni=Tgju.org&serverName=Tgju.org&fp=chrome&alpn=&allowInsecure=0&pbk=S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g&sid=b525ecd2fc#DE_speednode_0004
-vless://8129a335-37d4-4932-8dca-ac4358ce60b7@softbank88.xzcloudnode.sbs:51623?encryption=none&security=reality&flow=xtls-rprx-vision&type=tcp&sni=itunes.apple.com&serverName=itunes.apple.com&fp=chrome&alpn=&allowInsecure=0&pbk=ln4RiHk9_Ea_EyeI2GpZfzilPyrqKYDBqis09esVECo&sid=6ba85179e30d4fc2#JP_speednode_0005
-http://dGVzdDp0ZXN0LitAdGVzdGtyMy5zc3YudmM6MzA0NDY=#KR_speednode_0006
-vless://72239cbc-5a25-411c-b4f5-b9167a10f5e1@77.110.127.105:443?encryption=none&security=reality&flow=xtls-rprx-vision&type=tcp&sni=st.ozone.ru&serverName=st.ozone.ru&fp=chrome&alpn=&allowInsecure=0&pbk=-Bdu8i-HU28Xmx87RMou5okYo8TqfbyZ8Ufs9RodUGE&sid=097de35e52ec5256#LB_speednode_0007
-vless://a7a89fed-0fa5-48ea-9cc9-ccf67d0b6cb2@freeyx.cloudflare88.eu.org:443?encryption=none&security=tls&flow=&type=ws&sni=do-syd1.008883.xyz&fp=random&alpn=&host=do-syd1.008883.xyz&path=%2Fannouncement%3Fed%3D2048&allowInsecure=1#UA_speednode_0008
+vless://0abf9050-c7be-464d-80af-24094c2b97de@188.68.53.100:6666?encryption=none&security=reality&flow=&type=tcp&sni=Tgju.org&serverName=Tgju.org&fp=chrome&alpn=&allowInsecure=0&pbk=S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g&sid=b525ecd2fc#DE_speednode_0001
+vless://8129a335-37d4-4932-8dca-ac4358ce60b7@softbank88.xzcloudnode.sbs:51623?encryption=none&security=reality&flow=xtls-rprx-vision&type=tcp&sni=itunes.apple.com&serverName=itunes.apple.com&fp=chrome&alpn=&allowInsecure=0&pbk=ln4RiHk9_Ea_EyeI2GpZfzilPyrqKYDBqis09esVECo&sid=6ba85179e30d4fc2#JP_speednode_0002
+http://dGVzdDp0ZXN0LitAdGVzdGtyMy5zc3YudmM6MzA0NDY=#KR_speednode_0003
+vless://72239cbc-5a25-411c-b4f5-b9167a10f5e1@77.110.127.105:443?encryption=none&security=reality&flow=xtls-rprx-vision&type=tcp&sni=st.ozone.ru&serverName=st.ozone.ru&fp=chrome&alpn=&allowInsecure=0&pbk=-Bdu8i-HU28Xmx87RMou5okYo8TqfbyZ8Ufs9RodUGE&sid=097de35e52ec5256#LB_speednode_0004
