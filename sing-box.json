@@ -115,34 +115,13 @@
         "CN_speednode_0027",
         "CN_speednode_0028",
         "CN_speednode_0029",
-        "CN_speednode_0030",
-        "CN_speednode_0031",
-        "CN_speednode_0032",
-        "CN_speednode_0033",
-        "CN_speednode_0034",
-        "CN_speednode_0035",
-        "CN_speednode_0036",
-        "CN_speednode_0037",
-        "CN_speednode_0038",
-        "CN_speednode_0039",
-        "CN_speednode_0040",
-        "CN_speednode_0041",
-        "CN_speednode_0042",
-        "CN_speednode_0043",
-        "CN_speednode_0044",
-        "CN_speednode_0045",
-        "CN_speednode_0046",
-        "CN_speednode_0047",
-        "CN_speednode_0048",
-        "CN_speednode_0049",
-        "CN_speednode_0050",
-        "CN_speednode_0051",
-        "CN_speednode_0052",
-        "CN_speednode_0053",
-        "RU_speednode_0054",
-        "RU_speednode_0055",
-        "TW_speednode_0056",
-        "US_speednode_0057"
+        "FR_speednode_0030",
+        "LB_speednode_0031",
+        "RU_speednode_0032",
+        "RU_speednode_0033",
+        "TW_speednode_0034",
+        "US_speednode_0035",
+        "US_speednode_0036"
       ]
     },
     {
@@ -178,34 +157,13 @@
         "CN_speednode_0027",
         "CN_speednode_0028",
         "CN_speednode_0029",
-        "CN_speednode_0030",
-        "CN_speednode_0031",
-        "CN_speednode_0032",
-        "CN_speednode_0033",
-        "CN_speednode_0034",
-        "CN_speednode_0035",
-        "CN_speednode_0036",
-        "CN_speednode_0037",
-        "CN_speednode_0038",
-        "CN_speednode_0039",
-        "CN_speednode_0040",
-        "CN_speednode_0041",
-        "CN_speednode_0042",
-        "CN_speednode_0043",
-        "CN_speednode_0044",
-        "CN_speednode_0045",
-        "CN_speednode_0046",
-        "CN_speednode_0047",
-        "CN_speednode_0048",
-        "CN_speednode_0049",
-        "CN_speednode_0050",
-        "CN_speednode_0051",
-        "CN_speednode_0052",
-        "CN_speednode_0053",
-        "RU_speednode_0054",
-        "RU_speednode_0055",
-        "TW_speednode_0056",
-        "US_speednode_0057"
+        "FR_speednode_0030",
+        "LB_speednode_0031",
+        "RU_speednode_0032",
+        "RU_speednode_0033",
+        "TW_speednode_0034",
+        "US_speednode_0035",
+        "US_speednode_0036"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -225,33 +183,36 @@
     },
     {
       "tag": "CA_speednode_0001",
-      "server": "140.238.155.160",
-      "server_port": 42557,
+      "server": "132.145.99.18",
+      "server_port": 40106,
       "type": "vless",
-      "uuid": "2429bee3-e0c1-47dd-b420-75e6512b184b",
+      "uuid": "dcdd09ad-4519-46f7-8107-4c4290a9b2a3",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.yahoo.com",
+        "server_name": "apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo",
-          "short_id": "f430927d"
+          "public_key": "gqmHb9i4USmQ78auzhAFJMQIrUpnq8QaykJgnjHDTBg",
+          "short_id": "f44fd3dd"
         }
       }
     },
     {
       "tag": "CN_speednode_0002",
-      "server": "ptcdn.chainpt.art",
-      "server_port": 25447,
-      "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "9527ef69-a9fe-4a40-9a96-e59a5ebeecc4"
+      "server": "n001.xunxunmimisbs.sbs",
+      "server_port": 41300,
+      "type": "trojan",
+      "password": "5a27a43b-c50f-4374-85b0-300c4e0a77f2",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
     },
     {
       "tag": "CN_speednode_0003",
@@ -263,17 +224,6 @@
     },
     {
       "tag": "CN_speednode_0004",
-      "server": "n001.xunxunmimisbs.sbs",
-      "server_port": 41300,
-      "type": "trojan",
-      "password": "5a27a43b-c50f-4374-85b0-300c4e0a77f2",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "CN_speednode_0005",
       "server": "in1.web3sp.com",
       "server_port": 50609,
       "type": "shadowsocks",
@@ -281,38 +231,35 @@
       "password": "I1qrYxOXxPYCOkhT"
     },
     {
+      "tag": "CN_speednode_0005",
+      "server": "n001.xunxunmimisbs.sbs",
+      "server_port": 31200,
+      "type": "trojan",
+      "password": "5a27a43b-c50f-4374-85b0-300c4e0a77f2",
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
+    },
+    {
       "tag": "CN_speednode_0006",
-      "server": "ptcdn.chainpt.art",
-      "server_port": 27886,
+      "server": "kr1.web3sp.com",
+      "server_port": 50329,
       "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "9527ef69-a9fe-4a40-9a96-e59a5ebeecc4"
+      "method": "aes-128-gcm",
+      "password": "I1qrYxOXxPYCOkhT"
     },
     {
       "tag": "CN_speednode_0007",
-      "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 21200,
-      "type": "trojan",
-      "password": "a7bb66bd-973c-424e-90ef-3f2841b2c44f",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
+      "server": "us1.web3sp.com",
+      "server_port": 50529,
+      "type": "shadowsocks",
+      "method": "aes-128-gcm",
+      "password": "I1qrYxOXxPYCOkhT"
     },
     {
       "tag": "CN_speednode_0008",
-      "server": "n001.xunxunmimisbs.sbs",
-      "server_port": 21201,
-      "type": "trojan",
-      "password": "a7bb66bd-973c-424e-90ef-3f2841b2c44f",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0009",
-      "server": "n001.xunxunmimisbs.sbs",
+      "server": "n002.xunxunmimisbs.sbs",
       "server_port": 21201,
       "type": "trojan",
       "password": "85c7bad3-d246-4ca4-8ecf-f10317bc1c21",
@@ -322,11 +269,22 @@
       }
     },
     {
+      "tag": "CN_speednode_0009",
+      "server": "n002.xunxunmimisbs.sbs",
+      "server_port": 31200,
+      "type": "trojan",
+      "password": "a7bb66bd-973c-424e-90ef-3f2841b2c44f",
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
+    },
+    {
       "tag": "CN_speednode_0010",
       "server": "n001.xunxunmimisbs.sbs",
-      "server_port": 21201,
+      "server_port": 31200,
       "type": "trojan",
-      "password": "5a27a43b-c50f-4374-85b0-300c4e0a77f2",
+      "password": "a7bb66bd-973c-424e-90ef-3f2841b2c44f",
       "tls": {
         "enabled": true,
         "insecure": false
@@ -335,7 +293,7 @@
     {
       "tag": "CN_speednode_0011",
       "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 21201,
+      "server_port": 27100,
       "type": "trojan",
       "password": "85c7bad3-d246-4ca4-8ecf-f10317bc1c21",
       "tls": {
@@ -345,10 +303,10 @@
     },
     {
       "tag": "CN_speednode_0012",
-      "server": "n001.xunxunmimisbs.sbs",
-      "server_port": 31201,
+      "server": "n002.xunxunmimisbs.sbs",
+      "server_port": 28300,
       "type": "trojan",
-      "password": "a7bb66bd-973c-424e-90ef-3f2841b2c44f",
+      "password": "85c7bad3-d246-4ca4-8ecf-f10317bc1c21",
       "tls": {
         "enabled": true,
         "insecure": false
@@ -357,7 +315,7 @@
     {
       "tag": "CN_speednode_0013",
       "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 31200,
+      "server_port": 28200,
       "type": "trojan",
       "password": "85c7bad3-d246-4ca4-8ecf-f10317bc1c21",
       "tls": {
@@ -368,7 +326,7 @@
     {
       "tag": "CN_speednode_0014",
       "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 31200,
+      "server_port": 28200,
       "type": "trojan",
       "password": "a7bb66bd-973c-424e-90ef-3f2841b2c44f",
       "tls": {
@@ -378,45 +336,7 @@
     },
     {
       "tag": "CN_speednode_0015",
-      "server": "us1.web3sp.com",
-      "server_port": 50529,
-      "type": "shadowsocks",
-      "method": "aes-128-gcm",
-      "password": "I1qrYxOXxPYCOkhT"
-    },
-    {
-      "tag": "CN_speednode_0016",
       "server": "n001.xunxunmimisbs.sbs",
-      "server_port": 22100,
-      "type": "trojan",
-      "password": "a7bb66bd-973c-424e-90ef-3f2841b2c44f",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0017",
-      "server": "n001.xunxunmimisbs.sbs",
-      "server_port": 31200,
-      "type": "trojan",
-      "password": "a7bb66bd-973c-424e-90ef-3f2841b2c44f",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0018",
-      "server": "fl01.lr9soflhleb.top",
-      "server_port": 31013,
-      "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "dc9ea653-becc-44f1-95f9-16773a0519e9"
-    },
-    {
-      "tag": "CN_speednode_0019",
-      "server": "n002.xunxunmimisbs.sbs",
       "server_port": 22100,
       "type": "trojan",
       "password": "5a27a43b-c50f-4374-85b0-300c4e0a77f2",
@@ -426,9 +346,50 @@
       }
     },
     {
+      "tag": "CN_speednode_0016",
+      "server": "n002.xunxunmimisbs.sbs",
+      "server_port": 31200,
+      "type": "trojan",
+      "password": "85c7bad3-d246-4ca4-8ecf-f10317bc1c21",
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
+    },
+    {
+      "tag": "CN_speednode_0017",
+      "server": "n001.xunxunmimisbs.sbs",
+      "server_port": 28200,
+      "type": "trojan",
+      "password": "85c7bad3-d246-4ca4-8ecf-f10317bc1c21",
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
+    },
+    {
+      "tag": "CN_speednode_0018",
+      "server": "n002.xunxunmimisbs.sbs",
+      "server_port": 28300,
+      "type": "trojan",
+      "password": "a7bb66bd-973c-424e-90ef-3f2841b2c44f",
+      "tls": {
+        "enabled": true,
+        "insecure": false
+      }
+    },
+    {
+      "tag": "CN_speednode_0019",
+      "server": "fl01.lr9soflhleb.top",
+      "server_port": 31013,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "dc9ea653-becc-44f1-95f9-16773a0519e9"
+    },
+    {
       "tag": "CN_speednode_0020",
       "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 31201,
+      "server_port": 22100,
       "type": "trojan",
       "password": "5a27a43b-c50f-4374-85b0-300c4e0a77f2",
       "tls": {
@@ -438,21 +399,18 @@
     },
     {
       "tag": "CN_speednode_0021",
-      "server": "n001.xunxunmimisbs.sbs",
-      "server_port": 31201,
-      "type": "trojan",
-      "password": "5a27a43b-c50f-4374-85b0-300c4e0a77f2",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
+      "server": "liubu9.singdns.com",
+      "server_port": 17459,
+      "type": "shadowsocks",
+      "method": "aes-128-gcm",
+      "password": "57bc0c04-8184-48f5-906b-897d095ed445"
     },
     {
       "tag": "CN_speednode_0022",
-      "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 22100,
+      "server": "n001.xunxunmimisbs.sbs",
+      "server_port": 28200,
       "type": "trojan",
-      "password": "85c7bad3-d246-4ca4-8ecf-f10317bc1c21",
+      "password": "a7bb66bd-973c-424e-90ef-3f2841b2c44f",
       "tls": {
         "enabled": true,
         "insecure": false
@@ -460,8 +418,8 @@
     },
     {
       "tag": "CN_speednode_0023",
-      "server": "n001.xunxunmimisbs.sbs",
-      "server_port": 27100,
+      "server": "n002.xunxunmimisbs.sbs",
+      "server_port": 31200,
       "type": "trojan",
       "password": "5a27a43b-c50f-4374-85b0-300c4e0a77f2",
       "tls": {
@@ -471,8 +429,8 @@
     },
     {
       "tag": "CN_speednode_0024",
-      "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 27100,
+      "server": "n001.xunxunmimisbs.sbs",
+      "server_port": 26100,
       "type": "trojan",
       "password": "85c7bad3-d246-4ca4-8ecf-f10317bc1c21",
       "tls": {
@@ -482,8 +440,8 @@
     },
     {
       "tag": "CN_speednode_0025",
-      "server": "n001.xunxunmimisbs.sbs",
-      "server_port": 27100,
+      "server": "n002.xunxunmimisbs.sbs",
+      "server_port": 26100,
       "type": "trojan",
       "password": "85c7bad3-d246-4ca4-8ecf-f10317bc1c21",
       "tls": {
@@ -494,7 +452,7 @@
     {
       "tag": "CN_speednode_0026",
       "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 27100,
+      "server_port": 23100,
       "type": "trojan",
       "password": "5a27a43b-c50f-4374-85b0-300c4e0a77f2",
       "tls": {
@@ -504,10 +462,10 @@
     },
     {
       "tag": "CN_speednode_0027",
-      "server": "n001.xunxunmimisbs.sbs",
-      "server_port": 22100,
+      "server": "n002.xunxunmimisbs.sbs",
+      "server_port": 27100,
       "type": "trojan",
-      "password": "85c7bad3-d246-4ca4-8ecf-f10317bc1c21",
+      "password": "5a27a43b-c50f-4374-85b0-300c4e0a77f2",
       "tls": {
         "enabled": true,
         "insecure": false
@@ -515,10 +473,10 @@
     },
     {
       "tag": "CN_speednode_0028",
-      "server": "n001.xunxunmimisbs.sbs",
-      "server_port": 28200,
+      "server": "n002.xunxunmimisbs.sbs",
+      "server_port": 28300,
       "type": "trojan",
-      "password": "a7bb66bd-973c-424e-90ef-3f2841b2c44f",
+      "password": "5a27a43b-c50f-4374-85b0-300c4e0a77f2",
       "tls": {
         "enabled": true,
         "insecure": false
@@ -527,176 +485,6 @@
     {
       "tag": "CN_speednode_0029",
       "server": "n001.xunxunmimisbs.sbs",
-      "server_port": 27100,
-      "type": "trojan",
-      "password": "a7bb66bd-973c-424e-90ef-3f2841b2c44f",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0030",
-      "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 28200,
-      "type": "trojan",
-      "password": "a7bb66bd-973c-424e-90ef-3f2841b2c44f",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0031",
-      "server": "liubu9.singdns.com",
-      "server_port": 17459,
-      "type": "shadowsocks",
-      "method": "aes-128-gcm",
-      "password": "57bc0c04-8184-48f5-906b-897d095ed445"
-    },
-    {
-      "tag": "CN_speednode_0032",
-      "server": "n001.xunxunmimisbs.sbs",
-      "server_port": 31200,
-      "type": "trojan",
-      "password": "5a27a43b-c50f-4374-85b0-300c4e0a77f2",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0033",
-      "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 28300,
-      "type": "trojan",
-      "password": "a7bb66bd-973c-424e-90ef-3f2841b2c44f",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0034",
-      "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 22100,
-      "type": "trojan",
-      "password": "a7bb66bd-973c-424e-90ef-3f2841b2c44f",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0035",
-      "server": "kr1.web3sp.com",
-      "server_port": 50329,
-      "type": "shadowsocks",
-      "method": "aes-128-gcm",
-      "password": "I1qrYxOXxPYCOkhT"
-    },
-    {
-      "tag": "CN_speednode_0036",
-      "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 31201,
-      "type": "trojan",
-      "password": "a7bb66bd-973c-424e-90ef-3f2841b2c44f",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0037",
-      "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 28200,
-      "type": "trojan",
-      "password": "85c7bad3-d246-4ca4-8ecf-f10317bc1c21",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0038",
-      "server": "n001.xunxunmimisbs.sbs",
-      "server_port": 22100,
-      "type": "trojan",
-      "password": "5a27a43b-c50f-4374-85b0-300c4e0a77f2",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0039",
-      "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 25100,
-      "type": "trojan",
-      "password": "85c7bad3-d246-4ca4-8ecf-f10317bc1c21",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0040",
-      "server": "n001.xunxunmimisbs.sbs",
-      "server_port": 26100,
-      "type": "trojan",
-      "password": "85c7bad3-d246-4ca4-8ecf-f10317bc1c21",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0041",
-      "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 31200,
-      "type": "trojan",
-      "password": "5a27a43b-c50f-4374-85b0-300c4e0a77f2",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0042",
-      "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 28300,
-      "type": "trojan",
-      "password": "5a27a43b-c50f-4374-85b0-300c4e0a77f2",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0043",
-      "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 24100,
-      "type": "trojan",
-      "password": "a7bb66bd-973c-424e-90ef-3f2841b2c44f",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0044",
-      "server": "n001.xunxunmimisbs.sbs",
-      "server_port": 25100,
-      "type": "trojan",
-      "password": "85c7bad3-d246-4ca4-8ecf-f10317bc1c21",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0045",
-      "server": "n002.xunxunmimisbs.sbs",
       "server_port": 23100,
       "type": "trojan",
       "password": "5a27a43b-c50f-4374-85b0-300c4e0a77f2",
@@ -706,117 +494,47 @@
       }
     },
     {
-      "tag": "CN_speednode_0046",
-      "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 28300,
-      "type": "trojan",
-      "password": "85c7bad3-d246-4ca4-8ecf-f10317bc1c21",
+      "tag": "FR_speednode_0030",
+      "server": "195.154.200.40",
+      "server_port": 15010,
+      "type": "hysteria",
+      "auth_str": "dongtaiwang.com",
+      "up_mbps": 100,
+      "down_mbps": 100,
       "tls": {
         "enabled": true,
-        "insecure": false
-      }
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ],
+        "server_name": "apple.com"
+      },
+      "network": "udp"
     },
     {
-      "tag": "CN_speednode_0047",
-      "server": "n001.xunxunmimisbs.sbs",
-      "server_port": 28200,
-      "type": "trojan",
-      "password": "85c7bad3-d246-4ca4-8ecf-f10317bc1c21",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0048",
-      "server": "n001.xunxunmimisbs.sbs",
-      "server_port": 23100,
-      "type": "trojan",
-      "password": "a7bb66bd-973c-424e-90ef-3f2841b2c44f",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0049",
-      "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 25100,
-      "type": "trojan",
-      "password": "a7bb66bd-973c-424e-90ef-3f2841b2c44f",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0050",
-      "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 26100,
-      "type": "trojan",
-      "password": "85c7bad3-d246-4ca4-8ecf-f10317bc1c21",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0051",
-      "server": "n002.xunxunmimisbs.sbs",
-      "server_port": 28100,
-      "type": "trojan",
-      "password": "a7bb66bd-973c-424e-90ef-3f2841b2c44f",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0052",
-      "server": "n001.xunxunmimisbs.sbs",
-      "server_port": 28100,
-      "type": "trojan",
-      "password": "a7bb66bd-973c-424e-90ef-3f2841b2c44f",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "CN_speednode_0053",
-      "server": "n001.xunxunmimisbs.sbs",
-      "server_port": 23100,
-      "type": "trojan",
-      "password": "5a27a43b-c50f-4374-85b0-300c4e0a77f2",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "RU_speednode_0054",
-      "server": "g72oiqhd.tun.nodeflex.cc",
-      "server_port": 30865,
+      "tag": "LB_speednode_0031",
+      "server": "77.110.119.225",
+      "server_port": 443,
       "type": "vless",
-      "uuid": "d43bc5b9-21f8-42a7-adf8-8db943de75eb",
+      "uuid": "4819860c-0e62-4804-9c59-967e5c2bed7a",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.varejaodasmaquinas.com",
+        "server_name": "st.ozone.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "RQGgenaHaaros5JI8XOnAuv4k7t43Gug_mpHjQTRdjE",
-          "short_id": "a242c9aa"
+          "public_key": "hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo",
+          "short_id": "07e904766d29b958"
         }
       }
     },
     {
-      "tag": "RU_speednode_0055",
+      "tag": "RU_speednode_0032",
       "server": "g72oiqhd.tun.nodeflex.cc",
       "server_port": 30866,
       "type": "vless",
@@ -838,7 +556,29 @@
       }
     },
     {
-      "tag": "TW_speednode_0056",
+      "tag": "RU_speednode_0033",
+      "server": "g72oiqhd.tun.nodeflex.cc",
+      "server_port": 30865,
+      "type": "vless",
+      "uuid": "d43bc5b9-21f8-42a7-adf8-8db943de75eb",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.varejaodasmaquinas.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "RQGgenaHaaros5JI8XOnAuv4k7t43Gug_mpHjQTRdjE",
+          "short_id": "a242c9aa"
+        }
+      }
+    },
+    {
+      "tag": "TW_speednode_0034",
       "server": "twmoon1-cdn-route.couldflare-cdn.com",
       "server_port": 1443,
       "type": "http",
@@ -850,7 +590,15 @@
       }
     },
     {
-      "tag": "US_speednode_0057",
+      "tag": "US_speednode_0035",
+      "server": "3.145.46.227",
+      "server_port": 443,
+      "type": "shadowsocks",
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
+    },
+    {
+      "tag": "US_speednode_0036",
       "server": "167.68.4.199",
       "server_port": 2053,
       "type": "trojan",
