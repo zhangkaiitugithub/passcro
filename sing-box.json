@@ -87,31 +87,24 @@
         "auto",
         "direct",
         "CY_speednode_0001",
-        "DE_speednode_0002",
+        "FR_speednode_0002",
         "FR_speednode_0003",
-        "FR_speednode_0004",
-        "GB_speednode_0005",
-        "GB_speednode_0006",
-        "GB_speednode_0007",
-        "GB_speednode_0008",
-        "HK_speednode_0009",
-        "KR_speednode_0010",
-        "NL_speednode_0011",
-        "NL_speednode_0012",
-        "PL_speednode_0013",
-        "RU_speednode_0014",
-        "RU_speednode_0015",
+        "HK_speednode_0004",
+        "KR_speednode_0005",
+        "NL_speednode_0006",
+        "PL_speednode_0007",
+        "RU_speednode_0008",
+        "RU_speednode_0009",
+        "US_speednode_0010",
+        "US_speednode_0011",
+        "US_speednode_0012",
+        "US_speednode_0013",
+        "US_speednode_0014",
+        "US_speednode_0015",
         "US_speednode_0016",
         "US_speednode_0017",
         "US_speednode_0018",
-        "US_speednode_0019",
-        "US_speednode_0020",
-        "US_speednode_0021",
-        "US_speednode_0022",
-        "US_speednode_0023",
-        "US_speednode_0024",
-        "US_speednode_0025",
-        "US_speednode_0026"
+        "US_speednode_0019"
       ]
     },
     {
@@ -119,31 +112,24 @@
       "type": "urltest",
       "outbounds": [
         "CY_speednode_0001",
-        "DE_speednode_0002",
+        "FR_speednode_0002",
         "FR_speednode_0003",
-        "FR_speednode_0004",
-        "GB_speednode_0005",
-        "GB_speednode_0006",
-        "GB_speednode_0007",
-        "GB_speednode_0008",
-        "HK_speednode_0009",
-        "KR_speednode_0010",
-        "NL_speednode_0011",
-        "NL_speednode_0012",
-        "PL_speednode_0013",
-        "RU_speednode_0014",
-        "RU_speednode_0015",
+        "HK_speednode_0004",
+        "KR_speednode_0005",
+        "NL_speednode_0006",
+        "PL_speednode_0007",
+        "RU_speednode_0008",
+        "RU_speednode_0009",
+        "US_speednode_0010",
+        "US_speednode_0011",
+        "US_speednode_0012",
+        "US_speednode_0013",
+        "US_speednode_0014",
+        "US_speednode_0015",
         "US_speednode_0016",
         "US_speednode_0017",
         "US_speednode_0018",
-        "US_speednode_0019",
-        "US_speednode_0020",
-        "US_speednode_0021",
-        "US_speednode_0022",
-        "US_speednode_0023",
-        "US_speednode_0024",
-        "US_speednode_0025",
-        "US_speednode_0026"
+        "US_speednode_0019"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -170,19 +156,7 @@
       "password": "gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn"
     },
     {
-      "tag": "DE_speednode_0002",
-      "server": "falankefu1.nezhasu.com",
-      "server_port": 443,
-      "type": "hysteria2",
-      "password": "2b195c17-5ff5-4b0d-a809-210b92212394",
-      "tls": {
-        "enabled": true,
-        "server_name": "falankefu1.nezhasu.com",
-        "insecure": false
-      }
-    },
-    {
-      "tag": "FR_speednode_0003",
+      "tag": "FR_speednode_0002",
       "server": "195.154.200.40",
       "server_port": 15010,
       "type": "hysteria",
@@ -200,7 +174,7 @@
       "network": "udp"
     },
     {
-      "tag": "FR_speednode_0004",
+      "tag": "FR_speednode_0003",
       "server": "62.210.10.186",
       "server_port": 50011,
       "type": "hysteria",
@@ -218,55 +192,7 @@
       "network": "udp"
     },
     {
-      "tag": "GB_speednode_0005",
-      "server": "lundun3.nezhasu.com",
-      "server_port": 443,
-      "type": "hysteria2",
-      "password": "2b195c17-5ff5-4b0d-a809-210b92212394",
-      "tls": {
-        "enabled": true,
-        "server_name": "lundun3.nezhasu.com",
-        "insecure": false
-      }
-    },
-    {
-      "tag": "GB_speednode_0006",
-      "server": "lundun4.nezhasu.com",
-      "server_port": 443,
-      "type": "hysteria2",
-      "password": "2b195c17-5ff5-4b0d-a809-210b92212394",
-      "tls": {
-        "enabled": true,
-        "server_name": "lundun4.nezhasu.com",
-        "insecure": false
-      }
-    },
-    {
-      "tag": "GB_speednode_0007",
-      "server": "lundun2.nezhasu.com",
-      "server_port": 443,
-      "type": "hysteria2",
-      "password": "2b195c17-5ff5-4b0d-a809-210b92212394",
-      "tls": {
-        "enabled": true,
-        "server_name": "lundun2.nezhasu.com",
-        "insecure": false
-      }
-    },
-    {
-      "tag": "GB_speednode_0008",
-      "server": "lundun1.nezhasu.com",
-      "server_port": 443,
-      "type": "hysteria2",
-      "password": "2b195c17-5ff5-4b0d-a809-210b92212394",
-      "tls": {
-        "enabled": true,
-        "server_name": "lundun1.nezhasu.com",
-        "insecure": false
-      }
-    },
-    {
-      "tag": "HK_speednode_0009",
+      "tag": "HK_speednode_0004",
       "server": "116.49.237.130",
       "server_port": 4569,
       "type": "trojan",
@@ -277,7 +203,7 @@
       }
     },
     {
-      "tag": "KR_speednode_0010",
+      "tag": "KR_speednode_0005",
       "server": "testkr3.ssv.vc",
       "server_port": 30446,
       "type": "http",
@@ -289,19 +215,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0011",
-      "server": "amsterdam.nezhasu.com",
-      "server_port": 443,
-      "type": "hysteria2",
-      "password": "2b195c17-5ff5-4b0d-a809-210b92212394",
-      "tls": {
-        "enabled": true,
-        "server_name": "Amsterdam.nezhasu.com",
-        "insecure": false
-      }
-    },
-    {
-      "tag": "NL_speednode_0012",
+      "tag": "NL_speednode_0006",
       "server": "194.147.115.149",
       "server_port": 443,
       "type": "trojan",
@@ -319,7 +233,7 @@
       }
     },
     {
-      "tag": "PL_speednode_0013",
+      "tag": "PL_speednode_0007",
       "server": "45.144.48.158",
       "server_port": 8443,
       "type": "trojan",
@@ -337,7 +251,7 @@
       }
     },
     {
-      "tag": "RU_speednode_0014",
+      "tag": "RU_speednode_0008",
       "server": "cdn.cloudconvert.top",
       "server_port": 10012,
       "type": "vless",
@@ -359,7 +273,7 @@
       }
     },
     {
-      "tag": "RU_speednode_0015",
+      "tag": "RU_speednode_0009",
       "server": "213.159.208.88",
       "server_port": 2053,
       "type": "trojan",
@@ -377,7 +291,7 @@
       }
     },
     {
-      "tag": "US_speednode_0016",
+      "tag": "US_speednode_0010",
       "server": "6e206c57-t3b340-tcj7b6-d70y.la.shifen.uk",
       "server_port": 1743,
       "type": "hysteria2",
@@ -389,7 +303,7 @@
       }
     },
     {
-      "tag": "US_speednode_0017",
+      "tag": "US_speednode_0011",
       "server": "825eee23-t4un40-tcj7b6-d70y.la.shifen.uk",
       "server_port": 1743,
       "type": "hysteria2",
@@ -400,18 +314,7 @@
       }
     },
     {
-      "tag": "US_speednode_0018",
-      "server": "37a48ffc-t4whs0-t5a0jp-b4pt.la.shifen.uk",
-      "server_port": 1743,
-      "type": "hysteria2",
-      "password": "be8cc8f6-0c6a-11f0-a5a3-f23c93141fad",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      }
-    },
-    {
-      "tag": "US_speednode_0019",
+      "tag": "US_speednode_0012",
       "server": "360311d5-t4v9c0-tcm6ys-deip.la.shifen.uk",
       "server_port": 1743,
       "type": "hysteria2",
@@ -423,7 +326,7 @@
       }
     },
     {
-      "tag": "US_speednode_0020",
+      "tag": "US_speednode_0013",
       "server": "e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk",
       "server_port": 1743,
       "type": "hysteria2",
@@ -434,7 +337,7 @@
       }
     },
     {
-      "tag": "US_speednode_0021",
+      "tag": "US_speednode_0014",
       "server": "fe1d6996-t4v9c0-tcl9of-5fdt.la.shifen.uk",
       "server_port": 1743,
       "type": "hysteria2",
@@ -445,7 +348,7 @@
       }
     },
     {
-      "tag": "US_speednode_0022",
+      "tag": "US_speednode_0015",
       "server": "68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk",
       "server_port": 1743,
       "type": "hysteria2",
@@ -456,7 +359,7 @@
       }
     },
     {
-      "tag": "US_speednode_0023",
+      "tag": "US_speednode_0016",
       "server": "dcc40639-t3cxs0-tcj7b6-d70y.la.shifen.uk",
       "server_port": 1743,
       "type": "hysteria2",
@@ -467,7 +370,7 @@
       }
     },
     {
-      "tag": "US_speednode_0024",
+      "tag": "US_speednode_0017",
       "server": "bb441d0e-t4x400-t5waci-4550.la.shifen.uk",
       "server_port": 1743,
       "type": "hysteria2",
@@ -478,7 +381,7 @@
       }
     },
     {
-      "tag": "US_speednode_0025",
+      "tag": "US_speednode_0018",
       "server": "eb8d3417-t4teo0-tdtx5w-au6.la.shifen.uk",
       "server_port": 1743,
       "type": "hysteria2",
@@ -489,7 +392,7 @@
       }
     },
     {
-      "tag": "US_speednode_0026",
+      "tag": "US_speednode_0019",
       "server": "104.167.199.50",
       "server_port": 443,
       "type": "vless",

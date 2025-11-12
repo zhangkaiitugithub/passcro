@@ -19,91 +19,70 @@ dns:
   - tls://dns.google:853
 proxies:
   - {name: CY_speednode_0001, server: 185.156.110.92, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn, udp: true}
-  - {name: DE_speednode_0002, server: falankefu1.nezhasu.com, port: 443, ports: 50000-65535, type: hysteria2, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: falankefu1.nezhasu.com, skip-cert-verify: false, udp: true}
-  - {name: FR_speednode_0003, server: 195.154.200.40, port: 15010, type: hysteria, auth_str: dongtaiwang.com, up: 100 Mbps, down: 100 Mbps, protocol: udp, sni: apple.com, skip-cert-verify: true, alpn: [h3], udp: true}
-  - {name: FR_speednode_0004, server: 62.210.10.186, port: 50011, type: hysteria, auth_str: dongtaiwang.com, up: 11 Mbps, down: 55 Mbps, protocol: udp, sni: apple.com, skip-cert-verify: true, alpn: [h3], udp: true}
-  - {name: GB_speednode_0005, server: lundun3.nezhasu.com, port: 443, ports: 50000-65535, type: hysteria2, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: lundun3.nezhasu.com, skip-cert-verify: false, udp: true}
-  - {name: GB_speednode_0006, server: lundun4.nezhasu.com, port: 443, ports: 50000-65535, type: hysteria2, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: lundun4.nezhasu.com, skip-cert-verify: false, udp: true}
-  - {name: GB_speednode_0007, server: lundun2.nezhasu.com, port: 443, ports: 50000-65535, type: hysteria2, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: lundun2.nezhasu.com, skip-cert-verify: false, udp: true}
-  - {name: GB_speednode_0008, server: lundun1.nezhasu.com, port: 443, ports: 50000-65535, type: hysteria2, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: lundun1.nezhasu.com, skip-cert-verify: false, udp: true}
-  - {name: HK_speednode_0009, server: 116.49.237.130, port: 4569, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: KR_speednode_0010, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
-  - {name: NL_speednode_0011, server: amsterdam.nezhasu.com, port: 443, ports: 50000-65535, type: hysteria2, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: Amsterdam.nezhasu.com, skip-cert-verify: false, udp: true}
-  - {name: NL_speednode_0012, server: 194.147.115.149, port: 443, type: trojan, password: c2d6a850-7e35-44f5-ab9f-8299f6f8c72b, sni: joss.dus.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/194.147.115.149=443, headers: {Host: joss.dus.biz.id}}, udp: true}
-  - {name: PL_speednode_0013, server: 45.144.48.158, port: 8443, type: trojan, password: 49d416e1-4cec-41e1-bff6-3748c466f275, sni: joss.dus.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/45.144.48.158=8443, headers: {Host: joss.dus.biz.id}}, udp: true}
-  - {name: RU_speednode_0014, server: cdn.cloudconvert.top, port: 10012, type: vless, uuid: 258a5f07-d07e-4de4-90b6-69a0ca34bab7, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: cdn.cloudconvert.top, reality-opts: {public-key: X8bSZA_Q-ReshpPEd17oMU7YfZlHWoOEGB7HM8ZSmXk, short-id: abc82912}, udp: true}
-  - {name: RU_speednode_0015, server: 213.159.208.88, port: 2053, type: trojan, password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2, sni: joss.dus.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/213.159.208.88=2053, headers: {Host: joss.dus.biz.id}}, udp: true}
-  - {name: US_speednode_0016, server: 6e206c57-t3b340-tcj7b6-d70y.la.shifen.uk, port: 1743, type: hysteria2, password: 537d7098-fdbe-11ef-8ebc-f23c93141fad, sni: 6e206c57-t3b340-tcj7b6-d70y.la.shifen.uk, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0017, server: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk, port: 1743, type: hysteria2, password: 537d7098-fdbe-11ef-8ebc-f23c93141fad, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0018, server: 37a48ffc-t4whs0-t5a0jp-b4pt.la.shifen.uk, port: 1743, ports: 20000-50000, type: hysteria2, password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0019, server: 360311d5-t4v9c0-tcm6ys-deip.la.shifen.uk, port: 1743, type: hysteria2, password: 7a2512b4-09ee-11f0-8d46-f23c9313b177, sni: 360311d5-t4v9c0-tcm6ys-deip.la.shifen.uk, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0020, server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk, port: 1743, type: hysteria2, password: df7bed3c-06eb-11f0-8ebc-f23c93141fad, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0021, server: fe1d6996-t4v9c0-tcl9of-5fdt.la.shifen.uk, port: 1743, type: hysteria2, password: 712bdc36-24be-11ee-be53-f23c9313b177, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0022, server: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk, port: 1743, type: hysteria2, password: 712bdc36-24be-11ee-be53-f23c9313b177, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0023, server: dcc40639-t3cxs0-tcj7b6-d70y.la.shifen.uk, port: 1743, type: hysteria2, password: 537d7098-fdbe-11ef-8ebc-f23c93141fad, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0024, server: bb441d0e-t4x400-t5waci-4550.la.shifen.uk, port: 1743, ports: 20000-50000, type: hysteria2, password: 6286105c-fb6d-11ef-be96-f23c93136cb3, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0025, server: eb8d3417-t4teo0-tdtx5w-au6.la.shifen.uk, port: 1743, type: hysteria2, password: 1b609740-eec2-11ef-8543-f23c93136cb3, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0026, server: 104.167.199.50, port: 443, type: vless, uuid: b25e3c62-f4eb-45df-adda-eb738959b845, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: bit-site.ru, reality-opts: {public-key: g0EvKBte8zYrEc8oF0VNhxvIqqUvNXCp54UWYekc60k, short-id: f529bb49dc4de6}, udp: true}
+  - {name: FR_speednode_0002, server: 195.154.200.40, port: 15010, type: hysteria, auth_str: dongtaiwang.com, up: 100 Mbps, down: 100 Mbps, protocol: udp, sni: apple.com, skip-cert-verify: true, alpn: [h3], udp: true}
+  - {name: FR_speednode_0003, server: 62.210.10.186, port: 50011, type: hysteria, auth_str: dongtaiwang.com, up: 11 Mbps, down: 55 Mbps, protocol: udp, sni: apple.com, skip-cert-verify: true, alpn: [h3], udp: true}
+  - {name: HK_speednode_0004, server: 116.49.237.130, port: 4569, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: KR_speednode_0005, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
+  - {name: NL_speednode_0006, server: 194.147.115.149, port: 443, type: trojan, password: c2d6a850-7e35-44f5-ab9f-8299f6f8c72b, sni: joss.dus.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/194.147.115.149=443, headers: {Host: joss.dus.biz.id}}, udp: true}
+  - {name: PL_speednode_0007, server: 45.144.48.158, port: 8443, type: trojan, password: 49d416e1-4cec-41e1-bff6-3748c466f275, sni: joss.dus.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/45.144.48.158=8443, headers: {Host: joss.dus.biz.id}}, udp: true}
+  - {name: RU_speednode_0008, server: cdn.cloudconvert.top, port: 10012, type: vless, uuid: 258a5f07-d07e-4de4-90b6-69a0ca34bab7, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: cdn.cloudconvert.top, reality-opts: {public-key: X8bSZA_Q-ReshpPEd17oMU7YfZlHWoOEGB7HM8ZSmXk, short-id: abc82912}, udp: true}
+  - {name: RU_speednode_0009, server: 213.159.208.88, port: 2053, type: trojan, password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2, sni: joss.dus.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/213.159.208.88=2053, headers: {Host: joss.dus.biz.id}}, udp: true}
+  - {name: US_speednode_0010, server: 6e206c57-t3b340-tcj7b6-d70y.la.shifen.uk, port: 1743, type: hysteria2, password: 537d7098-fdbe-11ef-8ebc-f23c93141fad, sni: 6e206c57-t3b340-tcj7b6-d70y.la.shifen.uk, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0011, server: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk, port: 1743, type: hysteria2, password: 537d7098-fdbe-11ef-8ebc-f23c93141fad, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0012, server: 360311d5-t4v9c0-tcm6ys-deip.la.shifen.uk, port: 1743, type: hysteria2, password: 7a2512b4-09ee-11f0-8d46-f23c9313b177, sni: 360311d5-t4v9c0-tcm6ys-deip.la.shifen.uk, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0013, server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk, port: 1743, type: hysteria2, password: df7bed3c-06eb-11f0-8ebc-f23c93141fad, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0014, server: fe1d6996-t4v9c0-tcl9of-5fdt.la.shifen.uk, port: 1743, type: hysteria2, password: 712bdc36-24be-11ee-be53-f23c9313b177, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0015, server: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk, port: 1743, type: hysteria2, password: 712bdc36-24be-11ee-be53-f23c9313b177, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0016, server: dcc40639-t3cxs0-tcj7b6-d70y.la.shifen.uk, port: 1743, type: hysteria2, password: 537d7098-fdbe-11ef-8ebc-f23c93141fad, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0017, server: bb441d0e-t4x400-t5waci-4550.la.shifen.uk, port: 1743, ports: 20000-50000, type: hysteria2, password: 6286105c-fb6d-11ef-be96-f23c93136cb3, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0018, server: eb8d3417-t4teo0-tdtx5w-au6.la.shifen.uk, port: 1743, type: hysteria2, password: 1b609740-eec2-11ef-8543-f23c93136cb3, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0019, server: 104.167.199.50, port: 443, type: vless, uuid: b25e3c62-f4eb-45df-adda-eb738959b845, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: bit-site.ru, reality-opts: {public-key: g0EvKBte8zYrEc8oF0VNhxvIqqUvNXCp54UWYekc60k, short-id: f529bb49dc4de6}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
   - CY_speednode_0001
-  - DE_speednode_0002
+  - FR_speednode_0002
   - FR_speednode_0003
-  - FR_speednode_0004
-  - GB_speednode_0005
-  - GB_speednode_0006
-  - GB_speednode_0007
-  - GB_speednode_0008
-  - HK_speednode_0009
-  - KR_speednode_0010
-  - NL_speednode_0011
-  - NL_speednode_0012
-  - PL_speednode_0013
-  - RU_speednode_0014
-  - RU_speednode_0015
+  - HK_speednode_0004
+  - KR_speednode_0005
+  - NL_speednode_0006
+  - PL_speednode_0007
+  - RU_speednode_0008
+  - RU_speednode_0009
+  - US_speednode_0010
+  - US_speednode_0011
+  - US_speednode_0012
+  - US_speednode_0013
+  - US_speednode_0014
+  - US_speednode_0015
   - US_speednode_0016
   - US_speednode_0017
   - US_speednode_0018
   - US_speednode_0019
-  - US_speednode_0020
-  - US_speednode_0021
-  - US_speednode_0022
-  - US_speednode_0023
-  - US_speednode_0024
-  - US_speednode_0025
-  - US_speednode_0026
 - name: ♻️ automatic
   type: url-test
   proxies:
   - CY_speednode_0001
-  - DE_speednode_0002
+  - FR_speednode_0002
   - FR_speednode_0003
-  - FR_speednode_0004
-  - GB_speednode_0005
-  - GB_speednode_0006
-  - GB_speednode_0007
-  - GB_speednode_0008
-  - HK_speednode_0009
-  - KR_speednode_0010
-  - NL_speednode_0011
-  - NL_speednode_0012
-  - PL_speednode_0013
-  - RU_speednode_0014
-  - RU_speednode_0015
+  - HK_speednode_0004
+  - KR_speednode_0005
+  - NL_speednode_0006
+  - PL_speednode_0007
+  - RU_speednode_0008
+  - RU_speednode_0009
+  - US_speednode_0010
+  - US_speednode_0011
+  - US_speednode_0012
+  - US_speednode_0013
+  - US_speednode_0014
+  - US_speednode_0015
   - US_speednode_0016
   - US_speednode_0017
   - US_speednode_0018
   - US_speednode_0019
-  - US_speednode_0020
-  - US_speednode_0021
-  - US_speednode_0022
-  - US_speednode_0023
-  - US_speednode_0024
-  - US_speednode_0025
-  - US_speednode_0026
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
