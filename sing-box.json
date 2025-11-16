@@ -87,11 +87,10 @@
         "auto",
         "direct",
         "BG_speednode_0001",
-        "ES_speednode_0002",
-        "GB_speednode_0003",
-        "HK_speednode_0004",
-        "NL_speednode_0005",
-        "RU_speednode_0006"
+        "GB_speednode_0002",
+        "HK_speednode_0003",
+        "NL_speednode_0004",
+        "RU_speednode_0005"
       ]
     },
     {
@@ -99,11 +98,10 @@
       "type": "urltest",
       "outbounds": [
         "BG_speednode_0001",
-        "ES_speednode_0002",
-        "GB_speednode_0003",
-        "HK_speednode_0004",
-        "NL_speednode_0005",
-        "RU_speednode_0006"
+        "GB_speednode_0002",
+        "HK_speednode_0003",
+        "NL_speednode_0004",
+        "RU_speednode_0005"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -144,25 +142,7 @@
       }
     },
     {
-      "tag": "ES_speednode_0002",
-      "server": "185.114.72.31",
-      "server_port": 2053,
-      "type": "trojan",
-      "password": "fa115af5-0647-4549-acd9-5166695ea2de",
-      "tls": {
-        "enabled": true,
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Free-VPN-CF-Geo-Project/185.114.72.31=2053",
-        "headers": {
-          "Host": "joss.gpj.web.id"
-        }
-      }
-    },
-    {
-      "tag": "GB_speednode_0003",
+      "tag": "GB_speednode_0002",
       "server": "217.154.218.42",
       "server_port": 443,
       "type": "vless",
@@ -187,7 +167,7 @@
       }
     },
     {
-      "tag": "HK_speednode_0004",
+      "tag": "HK_speednode_0003",
       "server": "58.152.26.173",
       "server_port": 443,
       "type": "trojan",
@@ -198,7 +178,7 @@
       }
     },
     {
-      "tag": "NL_speednode_0005",
+      "tag": "NL_speednode_0004",
       "server": "89.110.116.141",
       "server_port": 443,
       "type": "trojan",
@@ -216,7 +196,7 @@
       }
     },
     {
-      "tag": "RU_speednode_0006",
+      "tag": "RU_speednode_0005",
       "server": "95.182.120.208",
       "server_port": 2053,
       "type": "trojan",

@@ -1,6 +1,5 @@
 vless://df5fc3f7-6b01-489a-a73c-e1297b14a3dd@de.monkeyisland.life:8443?encryption=none&security=reality&flow=xtls-rprx-vision&type=tcp&sni=de.monkeyisland.life&serverName=de.monkeyisland.life&fp=chrome&alpn=&allowInsecure=0&pbk=aILMLxhAsgJvx7TY3EsxOdmIc1uB0V7aJVIXaKYPPk4&sid=05a8b9980e65114c#BG_speednode_0001
-trojan://fa115af5-0647-4549-acd9-5166695ea2de@185.114.72.31:2053?sni=&allowInsecure=0&type=ws&host=joss.gpj.web.id&path=%2FFree-VPN-CF-Geo-Project%2F185.114.72.31%3D2053&fp=chrome&alpn=#ES_speednode_0002
-vless://0b0b98be-fdaf-40cc-a953-cc4091c838e1@217.154.218.42:443?encryption=none&security=reality&flow=xtls-rprx-vision&type=tcp&sni=azure.com&serverName=azure.com&fp=chrome&alpn=h2&allowInsecure=0&pbk=ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw&sid=#GB_speednode_0003
-trojan://BxceQaOe@58.152.26.173:443?sni=&allowInsecure=1&type=tcp&fp=chrome&alpn=#HK_speednode_0004
-trojan://e812343b-61a1-46fd-b086-b1395d0eb7de@89.110.116.141:443?sni=&allowInsecure=0&type=ws&host=joss.gpj.web.id&path=%2FFree-VPN-CF-Geo-Project%2F89.110.116.141%3D443&fp=chrome&alpn=#NL_speednode_0005
-trojan://3b38715b-f08a-46dd-9904-7531ca4bb6e8@95.182.120.208:2053?sni=&allowInsecure=0&type=ws&host=joss.gpj.web.id&path=%2FFree-VPN-CF-Geo-Project%2F95.182.120.208%3D2053&fp=chrome&alpn=#RU_speednode_0006
+vless://0b0b98be-fdaf-40cc-a953-cc4091c838e1@217.154.218.42:443?encryption=none&security=reality&flow=xtls-rprx-vision&type=tcp&sni=azure.com&serverName=azure.com&fp=chrome&alpn=h2&allowInsecure=0&pbk=ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw&sid=#GB_speednode_0002
+trojan://BxceQaOe@58.152.26.173:443?sni=&allowInsecure=1&type=tcp&fp=chrome&alpn=#HK_speednode_0003
+trojan://e812343b-61a1-46fd-b086-b1395d0eb7de@89.110.116.141:443?sni=&allowInsecure=0&type=ws&host=joss.gpj.web.id&path=%2FFree-VPN-CF-Geo-Project%2F89.110.116.141%3D443&fp=chrome&alpn=#NL_speednode_0004
+trojan://3b38715b-f08a-46dd-9904-7531ca4bb6e8@95.182.120.208:2053?sni=&allowInsecure=0&type=ws&host=joss.gpj.web.id&path=%2FFree-VPN-CF-Geo-Project%2F95.182.120.208%3D2053&fp=chrome&alpn=#RU_speednode_0005
