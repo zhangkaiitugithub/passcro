@@ -18,212 +18,56 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: BG_speednode_0001, server: uk1.jueduibupao.top, port: 41109, type: hysteria2, password: 55902410-2343-45c6-bb8f-b10c393f0392, sni: uk1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: BG_speednode_0002, server: uk1.jueduibupao.top, port: 49445, type: hysteria2, password: db2909f7-fc12-49f3-aa6c-8430ae6e33eb, sni: uk1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: BG_speednode_0003, server: uk1.jueduibupao.top, port: 47323, type: hysteria2, password: ff2f41ca-6ad5-485a-af67-79a8f14e8895, sni: uk1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: BG_speednode_0004, server: uk1.jueduibupao.top, port: 40085, type: hysteria2, password: 4e575956-2f96-4cd1-b871-8257262b972a, sni: uk1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: BG_speednode_0005, server: uk1.jueduibupao.top, port: 41560, type: hysteria2, password: 99bb8786-6460-4472-a89c-bfe83dfdeef1, sni: uk1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: DE_speednode_0006, server: de1.jueduibupao.top, port: 46771, type: hysteria2, password: 99bb8786-6460-4472-a89c-bfe83dfdeef1, sni: de1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: DE_speednode_0007, server: de1.jueduibupao.top, port: 40877, type: hysteria2, password: 4e575956-2f96-4cd1-b871-8257262b972a, sni: de1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: DE_speednode_0008, server: de1.jueduibupao.top, port: 43712, type: hysteria2, password: 55902410-2343-45c6-bb8f-b10c393f0392, sni: de1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: DE_speednode_0009, server: 5.75.201.242, port: 443, type: vless, uuid: dfb88783-5942-41fe-948e-04736d42f422, tls: false, skip-cert-verify: false, udp: true}
-  - {name: FR_speednode_0010, server: 62.210.196.68, port: 26691, type: hysteria, auth_str: dongtaiwang.com, up: 11 Mbps, down: 55 Mbps, protocol: udp, sni: apple.com, skip-cert-verify: true, alpn: [h3], udp: true}
-  - {name: GB_speednode_0011, server: uk1.miyazono-kaori.com, port: 443, type: vless, uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: safari, servername: www.bp.com, reality-opts: {public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA, short-id: d923}, udp: true}
-  - {name: GB_speednode_0012, server: 144.124.228.129, port: 4443, type: vless, uuid: ddffda27-8c5f-4f53-8450-4d11a1e0b368, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: github.com, reality-opts: {public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE, short-id: aa7e96542880027a}, udp: true}
-  - {name: HK_speednode_0013, server: hk2.jueduibupao.top, port: 46238, type: hysteria2, password: 4e575956-2f96-4cd1-b871-8257262b972a, sni: hk2.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: HK_speednode_0014, server: 1.36.189.217, port: 10122, type: vless, uuid: 7f60f6e7-8419-4cff-9e1b-14179f677a5e, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: music.apple.com, reality-opts: {public-key: TU2OTQBiMyK-mKCI3G6fENadfG-fdNlWJF7Qv9ywkFY, short-id: 8a6394aa28d6}, udp: true}
-  - {name: HK_speednode_0015, server: hk2.jueduibupao.top, port: 42591, type: hysteria2, password: 99bb8786-6460-4472-a89c-bfe83dfdeef1, sni: hk2.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: IR_speednode_0016, server: hk1.jueduibupao.top, port: 50001, type: hysteria2, password: 4e575956-2f96-4cd1-b871-8257262b972a, sni: hk1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: IR_speednode_0017, server: hk1.jueduibupao.top, port: 50001, type: hysteria2, password: db2909f7-fc12-49f3-aa6c-8430ae6e33eb, sni: hk1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: IR_speednode_0018, server: hk1.jueduibupao.top, port: 50001, type: hysteria2, password: ff2f41ca-6ad5-485a-af67-79a8f14e8895, sni: hk1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: IR_speednode_0019, server: hk1.jueduibupao.top, port: 50001, type: hysteria2, password: 55902410-2343-45c6-bb8f-b10c393f0392, sni: hk1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: IR_speednode_0020, server: 95.38.210.6, port: 12241, type: vless, uuid: a4a941bd-fe1f-4e2e-81ad-2244e73da639, tls: false, skip-cert-verify: false, udp: true}
-  - {name: JP_speednode_0021, server: linjp1.jueduibupao.top, port: 49463, type: hysteria2, password: 99bb8786-6460-4472-a89c-bfe83dfdeef1, sni: linjp1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: JP_speednode_0022, server: linjp1.jueduibupao.top, port: 45124, type: hysteria2, password: db2909f7-fc12-49f3-aa6c-8430ae6e33eb, sni: linjp1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: JP_speednode_0023, server: linjp1.jueduibupao.top, port: 43344, type: hysteria2, password: 55902410-2343-45c6-bb8f-b10c393f0392, sni: linjp1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: JP_speednode_0024, server: linjp1.jueduibupao.top, port: 45074, type: hysteria2, password: 4e575956-2f96-4cd1-b871-8257262b972a, sni: linjp1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: JP_speednode_0025, server: linjp1.jueduibupao.top, port: 44713, type: hysteria2, password: ff2f41ca-6ad5-485a-af67-79a8f14e8895, sni: linjp1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: LB_speednode_0026, server: us01-vlr01-gmn03.vpnvezdehod.net, port: 443, type: vless, uuid: e9dbc178-3656-40f8-8833-5023f306ef1d, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: hls-svod.itunes.apple.com, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: 86e999a2cdc2}, udp: true}
-  - {name: NL_speednode_0027, server: nl2.miyazono-kaori.com, port: 443, type: vless, uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: firefox, servername: www.philips.com, reality-opts: {public-key: Ax50I4wgBCS5ejrqH-QGRL28oyr5-ocbBw6U7rHFzXI, short-id: 883d8dad940eb1}, udp: true}
-  - {name: RU_speednode_0028, server: 89.169.182.230, port: 443, type: vless, uuid: ac2c8871-d4eb-40a6-8487-fd1b31c3bc22, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: vk.com, reality-opts: {public-key: dFORJuMEa7izUStNjvhLFvJ2Hudr4v07VQhQS-Wbyh8, short-id: fd}, udp: true}
-  - {name: RU_speednode_0029, server: 51.250.28.151, port: 4248, type: vless, uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: ads.x5.ru, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc}, udp: true}
-  - {name: RU_speednode_0030, server: linjp2.jueduibupao.top, port: 30000, type: hysteria2, password: 4e575956-2f96-4cd1-b871-8257262b972a, sni: linjp2.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: RU_speednode_0031, server: s9.vless-balancer.ru, port: 4443, type: vless, uuid: 96605f21-f706-45ae-8eeb-ec71efbca6a2, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: github.com, reality-opts: {public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE, short-id: aa7e96542880027a}, udp: true}
-  - {name: RU_speednode_0032, server: linjp2.jueduibupao.top, port: 30000, type: hysteria2, password: 99bb8786-6460-4472-a89c-bfe83dfdeef1, sni: linjp2.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: RU_speednode_0033, server: linjp2.jueduibupao.top, port: 30000, type: hysteria2, password: db2909f7-fc12-49f3-aa6c-8430ae6e33eb, sni: linjp2.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: RU_speednode_0034, server: kr2.jueduibupao.top, port: 30000, type: hysteria2, password: db2909f7-fc12-49f3-aa6c-8430ae6e33eb, sni: kr2.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: SG_speednode_0035, server: linsg1.jueduibupao.top, port: 46860, type: hysteria2, password: 55902410-2343-45c6-bb8f-b10c393f0392, sni: linsg1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: SG_speednode_0036, server: linsg1.jueduibupao.top, port: 46127, type: hysteria2, password: 4e575956-2f96-4cd1-b871-8257262b972a, sni: linsg1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: SG_speednode_0037, server: linsg1.jueduibupao.top, port: 49814, type: hysteria2, password: 99bb8786-6460-4472-a89c-bfe83dfdeef1, sni: linsg1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: SG_speednode_0038, server: linsg1.jueduibupao.top, port: 41384, type: hysteria2, password: ff2f41ca-6ad5-485a-af67-79a8f14e8895, sni: linsg1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: SG_speednode_0039, server: linsg1.jueduibupao.top, port: 48634, type: hysteria2, password: db2909f7-fc12-49f3-aa6c-8430ae6e33eb, sni: linsg1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: TW_speednode_0040, server: tw3.jueduibupao.top, port: 48009, type: hysteria2, password: 4e575956-2f96-4cd1-b871-8257262b972a, sni: tw3.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0041, server: ny.jueduibupao.top, port: 50001, type: hysteria2, password: 4e575956-2f96-4cd1-b871-8257262b972a, sni: ny.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0042, server: 104.19.220.22, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: US_speednode_0043, server: 104.17.167.134, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: US_speednode_0044, server: 104.16.246.188, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: US_speednode_0045, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: US_speednode_0046, server: ny.jueduibupao.top, port: 50001, type: hysteria2, password: ff2f41ca-6ad5-485a-af67-79a8f14e8895, sni: ny.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0047, server: azcus1.jueduibupao.top, port: 20101, type: hysteria2, password: 55902410-2343-45c6-bb8f-b10c393f0392, sni: azcus1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0048, server: us1.miyazono-kaori.com, port: 443, type: vless, uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: firefox, servername: download-porter.hoyoverse.com, reality-opts: {public-key: 9mkPUmY5M-N81bSDf3lP9X3JnH25l4SfeUTnlwV04Eo, short-id: d77c4204}, udp: true}
-  - {name: US_speednode_0049, server: azcus1.jueduibupao.top, port: 20101, type: hysteria2, password: ff2f41ca-6ad5-485a-af67-79a8f14e8895, sni: azcus1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0050, server: azcus1.jueduibupao.top, port: 20101, type: hysteria2, password: 4e575956-2f96-4cd1-b871-8257262b972a, sni: azcus1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0051, server: us2.miyazono-kaori.com, port: 443, type: vless, uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: ios, servername: download-porter.hoyoverse.com, reality-opts: {public-key: _TIQSjojgpdSBoSVXuQjFSqIdPeXjQIQkM5cFSv6Gnc, short-id: 9613864900a8f12d}, udp: true}
-  - {name: US_speednode_0052, server: azcus1.jueduibupao.top, port: 20101, type: hysteria2, password: db2909f7-fc12-49f3-aa6c-8430ae6e33eb, sni: azcus1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0053, server: azcus1.jueduibupao.top, port: 20101, type: hysteria2, password: 99bb8786-6460-4472-a89c-bfe83dfdeef1, sni: azcus1.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0054, server: us12.miyazono-kaori.com, port: 443, type: vless, uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: ios, servername: download-porter.hoyoverse.com, reality-opts: {public-key: deEvuAAA_iJigkbck4yU_UmE8d491Dqt5V49y3n3DRw, short-id: 0c69e956b6}, udp: true}
-  - {name: US_speednode_0055, server: us10.miyazono-kaori.com, port: 443, type: vless, uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: qq, servername: download-porter.hoyoverse.com, reality-opts: {public-key: hlWe8scaGpy5T-NUM9TdgY6LOJWlKDw3uldtar0Yfls, short-id: 33f51b9c}, udp: true}
-  - {name: US_speednode_0056, server: 104.17.162.3, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: US_speednode_0057, server: 172.64.229.82, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: US_speednode_0058, server: freeyx.cloudflare88.eu.org, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: US_speednode_0059, server: 172.64.229.33, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: US_speednode_0060, server: us11.miyazono-kaori.com, port: 443, type: vless, uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: firefox, servername: download-porter.hoyoverse.com, reality-opts: {public-key: WC40e9QWe66kR6Zb1qkk9OeJBDQivKzqBczp9natHjk, short-id: 8b0b8e33a9ae3e}, udp: true}
-  - {name: US_speednode_0061, server: 104.19.55.205, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: US_speednode_0062, server: 172.64.229.2, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: US_speednode_0063, server: 172.64.229.65, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: US_speednode_0064, server: 172.64.229.6, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: US_speednode_0065, server: hk3.jueduibupao.top, port: 49673, type: hysteria2, password: db2909f7-fc12-49f3-aa6c-8430ae6e33eb, sni: hk3.jueduibupao.top, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0066, server: 104.26.1.110, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: AT_speednode_0001, server: 145.241.187.70, port: 443, ports: 50000-65535, type: hysteria2, password: d9812081-7f61-456d-9340-a1fb8dfd603b, sni: johannesburg-2.nezhasu.com, skip-cert-verify: false, udp: true}
+  - {name: BR_speednode_0002, server: 152.67.50.33, port: 443, ports: 50000-65535, type: hysteria2, password: d9812081-7f61-456d-9340-a1fb8dfd603b, sni: gysbl-2.nezhasu.com, skip-cert-verify: false, udp: true}
+  - {name: CL_speednode_0003, server: 129.151.115.91, port: 443, ports: 50000-65535, type: hysteria2, password: d9812081-7f61-456d-9340-a1fb8dfd603b, sni: glby1.nezhasu.com, skip-cert-verify: false, udp: true}
+  - {name: FR_speednode_0004, server: 62.210.196.68, port: 26691, type: hysteria, auth_str: dongtaiwang.com, up: 11 Mbps, down: 55 Mbps, protocol: udp, sni: apple.com, skip-cert-verify: true, alpn: [h3], udp: true}
+  - {name: GB_speednode_0005, server: 132.145.68.142, port: 55024, type: tuic, uuid: d9812081-7f61-456d-9340-a1fb8dfd603b, password: d9812081-7f61-456d-9340-a1fb8dfd603b, sni: lundun2.nezhasu.com, skip-cert-verify: false, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
+  - {name: IN_speednode_0006, server: 140.238.247.224, port: 443, ports: 50000-65535, type: hysteria2, password: d9812081-7f61-456d-9340-a1fb8dfd603b, sni: mumbai-2.nezhasu.com, skip-cert-verify: false, udp: true}
+  - {name: KR_speednode_0007, server: 158.180.79.168, port: 64413, type: tuic, uuid: d9812081-7f61-456d-9340-a1fb8dfd603b, password: d9812081-7f61-456d-9340-a1fb8dfd603b, sni: chuncheon-2.nezhasu.com, skip-cert-verify: false, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
+  - {name: NL_speednode_0008, server: 141.148.246.181, port: 443, ports: 50000-65535, type: hysteria2, password: d9812081-7f61-456d-9340-a1fb8dfd603b, sni: amsterdam.nezhasu.com, skip-cert-verify: false, udp: true}
+  - {name: RU_speednode_0009, server: 51.250.25.172, port: 4248, type: vless, uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: ads.x5.ru, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, udp: true}
+  - {name: RU_speednode_0010, server: 89.169.182.230, port: 443, type: vless, uuid: ac2c8871-d4eb-40a6-8487-fd1b31c3bc22, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: vk.com, reality-opts: {public-key: dFORJuMEa7izUStNjvhLFvJ2Hudr4v07VQhQS-Wbyh8, short-id: fd}, udp: true}
+  - {name: RU_speednode_0011, server: 51.250.25.11, port: 1488, type: vless, uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: ads.x5.ru, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc}, udp: true}
+  - {name: SE_speednode_0012, server: 80.225.196.14, port: 443, ports: 50000-65535, type: hysteria2, password: d9812081-7f61-456d-9340-a1fb8dfd603b, sni: mumbai-3.nezhasu.com, skip-cert-verify: false, udp: true}
+  - {name: SE_speednode_0013, server: 80.225.253.247, port: 443, ports: 50000-65535, type: hysteria2, password: d9812081-7f61-456d-9340-a1fb8dfd603b, sni: mumbai-4.nezhasu.com, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0014, server: 137.131.149.26, port: 443, ports: 50000-65535, type: hysteria2, password: d9812081-7f61-456d-9340-a1fb8dfd603b, sni: bx1.nezhasu.com, skip-cert-verify: false, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - BG_speednode_0001
-  - BG_speednode_0002
-  - BG_speednode_0003
-  - BG_speednode_0004
-  - BG_speednode_0005
-  - DE_speednode_0006
-  - DE_speednode_0007
-  - DE_speednode_0008
-  - DE_speednode_0009
-  - FR_speednode_0010
-  - GB_speednode_0011
-  - GB_speednode_0012
-  - HK_speednode_0013
-  - HK_speednode_0014
-  - HK_speednode_0015
-  - IR_speednode_0016
-  - IR_speednode_0017
-  - IR_speednode_0018
-  - IR_speednode_0019
-  - IR_speednode_0020
-  - JP_speednode_0021
-  - JP_speednode_0022
-  - JP_speednode_0023
-  - JP_speednode_0024
-  - JP_speednode_0025
-  - LB_speednode_0026
-  - NL_speednode_0027
-  - RU_speednode_0028
-  - RU_speednode_0029
-  - RU_speednode_0030
-  - RU_speednode_0031
-  - RU_speednode_0032
-  - RU_speednode_0033
-  - RU_speednode_0034
-  - SG_speednode_0035
-  - SG_speednode_0036
-  - SG_speednode_0037
-  - SG_speednode_0038
-  - SG_speednode_0039
-  - TW_speednode_0040
-  - US_speednode_0041
-  - US_speednode_0042
-  - US_speednode_0043
-  - US_speednode_0044
-  - US_speednode_0045
-  - US_speednode_0046
-  - US_speednode_0047
-  - US_speednode_0048
-  - US_speednode_0049
-  - US_speednode_0050
-  - US_speednode_0051
-  - US_speednode_0052
-  - US_speednode_0053
-  - US_speednode_0054
-  - US_speednode_0055
-  - US_speednode_0056
-  - US_speednode_0057
-  - US_speednode_0058
-  - US_speednode_0059
-  - US_speednode_0060
-  - US_speednode_0061
-  - US_speednode_0062
-  - US_speednode_0063
-  - US_speednode_0064
-  - US_speednode_0065
-  - US_speednode_0066
+  - AT_speednode_0001
+  - BR_speednode_0002
+  - CL_speednode_0003
+  - FR_speednode_0004
+  - GB_speednode_0005
+  - IN_speednode_0006
+  - KR_speednode_0007
+  - NL_speednode_0008
+  - RU_speednode_0009
+  - RU_speednode_0010
+  - RU_speednode_0011
+  - SE_speednode_0012
+  - SE_speednode_0013
+  - US_speednode_0014
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - BG_speednode_0001
-  - BG_speednode_0002
-  - BG_speednode_0003
-  - BG_speednode_0004
-  - BG_speednode_0005
-  - DE_speednode_0006
-  - DE_speednode_0007
-  - DE_speednode_0008
-  - DE_speednode_0009
-  - FR_speednode_0010
-  - GB_speednode_0011
-  - GB_speednode_0012
-  - HK_speednode_0013
-  - HK_speednode_0014
-  - HK_speednode_0015
-  - IR_speednode_0016
-  - IR_speednode_0017
-  - IR_speednode_0018
-  - IR_speednode_0019
-  - IR_speednode_0020
-  - JP_speednode_0021
-  - JP_speednode_0022
-  - JP_speednode_0023
-  - JP_speednode_0024
-  - JP_speednode_0025
-  - LB_speednode_0026
-  - NL_speednode_0027
-  - RU_speednode_0028
-  - RU_speednode_0029
-  - RU_speednode_0030
-  - RU_speednode_0031
-  - RU_speednode_0032
-  - RU_speednode_0033
-  - RU_speednode_0034
-  - SG_speednode_0035
-  - SG_speednode_0036
-  - SG_speednode_0037
-  - SG_speednode_0038
-  - SG_speednode_0039
-  - TW_speednode_0040
-  - US_speednode_0041
-  - US_speednode_0042
-  - US_speednode_0043
-  - US_speednode_0044
-  - US_speednode_0045
-  - US_speednode_0046
-  - US_speednode_0047
-  - US_speednode_0048
-  - US_speednode_0049
-  - US_speednode_0050
-  - US_speednode_0051
-  - US_speednode_0052
-  - US_speednode_0053
-  - US_speednode_0054
-  - US_speednode_0055
-  - US_speednode_0056
-  - US_speednode_0057
-  - US_speednode_0058
-  - US_speednode_0059
-  - US_speednode_0060
-  - US_speednode_0061
-  - US_speednode_0062
-  - US_speednode_0063
-  - US_speednode_0064
-  - US_speednode_0065
-  - US_speednode_0066
+  - AT_speednode_0001
+  - BR_speednode_0002
+  - CL_speednode_0003
+  - FR_speednode_0004
+  - GB_speednode_0005
+  - IN_speednode_0006
+  - KR_speednode_0007
+  - NL_speednode_0008
+  - RU_speednode_0009
+  - RU_speednode_0010
+  - RU_speednode_0011
+  - SE_speednode_0012
+  - SE_speednode_0013
+  - US_speednode_0014
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
