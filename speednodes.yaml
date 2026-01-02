@@ -18,23 +18,101 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: RU_speednode_0009, server: 51.250.25.172, port: 4248, type: vless, uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: ads.x5.ru, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, udp: true}
-  - {name: RU_speednode_0010, server: 89.169.182.230, port: 443, type: vless, uuid: ac2c8871-d4eb-40a6-8487-fd1b31c3bc22, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: vk.com, reality-opts: {public-key: dFORJuMEa7izUStNjvhLFvJ2Hudr4v07VQhQS-Wbyh8, short-id: fd}, udp: true}
-  - {name: RU_speednode_0011, server: 51.250.25.11, port: 1488, type: vless, uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: ads.x5.ru, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc}, udp: true}
+  - {name: CN_speednode_0001, server: yg2g.jiedian242.com, port: 29877, type: vless, uuid: 1a598715-d629-4d8c-910b-dbe5ebdc0b53, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: www.nvidia.com, reality-opts: {public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY}, udp: true}
+  - {name: CN_speednode_0002, server: relay.4.5qxpdfwcnkh0su.9ss.com.tw, port: 11040, type: ssr, cipher: aes-256-cfb, password: SoftCloud, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "5235:861119", obfs-param: c590af9d5235.apple.com, udp: true}
+  - {name: CN_speednode_0003, server: chengbai02.ascwt179.com, port: 25135, type: vless, uuid: ab33d265-3a47-400e-b12b-8f6bf1bb3269, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: hk.jd.com, reality-opts: {public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY}, udp: true}
+  - {name: IR_speednode_0004, server: hostdns.hostdns.store, port: 8088, type: vless, uuid: 768e7e01-1af7-4a15-8729-32fbd04854da, tls: false, skip-cert-verify: false, servername: "%2F", network: ws, ws-opts: {path: /, headers: {Host: "%2F"}}, udp: true}
+  - {name: KR_speednode_0005, server: 152.70.92.69, port: 80, type: vmess, uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: LB_speednode_0006, server: us01-vlr01-gmn03.vpnvezdehod.net, port: 443, type: vless, uuid: e9dbc178-3656-40f8-8833-5023f306ef1d, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: hls-svod.itunes.apple.com, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: 86e999a2cdc2}, udp: true}
+  - {name: LB_speednode_0007, server: 213.165.60.36, port: 443, type: vless, uuid: e9dbc178-3656-40f8-8833-5023f306ef1d, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: hls-svod.itunes.apple.com, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: 86e999a2cdc2}, udp: true}
+  - {name: NL_speednode_0008, server: 45.87.153.176, port: 4443, type: vless, uuid: 526552b2-f67f-489c-9d0d-3e00e7d890d1, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: github.com, reality-opts: {public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE, short-id: aa7e96542880027a}, udp: true}
+  - {name: RU_speednode_0009, server: 51.250.24.98, port: 1488, type: vless, uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: ads.x5.ru, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, udp: true}
+  - {name: RU_speednode_0010, server: 51.250.104.85, port: 1488, type: vless, uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: ads.x5.ru, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, udp: true}
+  - {name: RU_speednode_0011, server: 51.250.98.101, port: 1488, type: vless, uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: ads.x5.ru, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, udp: true}
+  - {name: RU_speednode_0012, server: 51.250.4.181, port: 443, type: vless, uuid: 846c5d45-936c-42f6-9120-2d13830d5fa0, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: eh.vk.com, reality-opts: {public-key: t0Gj0moa6d8jMp9LazLtWPenE3wl_M9tMHveifor8GU, short-id: 4d4421a0bac569}, udp: true}
+  - {name: RU_speednode_0013, server: 84.201.143.127, port: 6443, type: vless, uuid: ae73020a-5edd-4735-8807-da4e5416c0b8, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: ads.x5.ru, reality-opts: {public-key: ZDHa3Fbl_IxcBtjcWmZtqtsmK1u2vA4en8zDpIkhUA8, short-id: 6d021e2120ed3fac}, udp: true}
+  - {name: RU_speednode_0014, server: 89.169.137.193, port: 443, type: vless, uuid: 2c8adcaa-e428-4cea-9c88-e88166651ab3, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: eh.vk.com, reality-opts: {public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0, short-id: d1579a8745398e34}, udp: true}
+  - {name: RU_speednode_0015, server: 51.250.28.99, port: 1488, type: vless, uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: ads.x5.ru, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, udp: true}
+  - {name: RU_speednode_0016, server: 51.250.28.232, port: 1488, type: vless, uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: ads.x5.ru, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc}, udp: true}
+  - {name: RU_speednode_0017, server: 51.250.65.209, port: 443, type: vless, uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: ads.x5.ru, reality-opts: {public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg, short-id: 17802e8ff84f12df}, udp: true}
+  - {name: RU_speednode_0018, server: 51.250.29.132, port: 1488, type: vless, uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: ads.x5.ru, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc}, udp: true}
+  - {name: RU_speednode_0019, server: 51.250.98.83, port: 1488, type: vless, uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: ads.x5.ru, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, udp: true}
+  - {name: RU_speednode_0020, server: 51.250.25.119, port: 1488, type: vless, uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: ads.x5.ru, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc}, udp: true}
+  - {name: RU_speednode_0021, server: 51.250.24.245, port: 4249, type: vless, uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: ads.x5.ru, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, udp: true}
+  - {name: RU_speednode_0022, server: 51.250.110.75, port: 1488, type: vless, uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: ads.x5.ru, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, udp: true}
+  - {name: RU_speednode_0023, server: 51.250.29.71, port: 1488, type: vless, uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: ads.x5.ru, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, udp: true}
+  - {name: RU_speednode_0024, server: 78.159.247.74, port: 5444, type: vless, uuid: 07288721-1200-4c2f-a6ce-7ef59c4f8e22, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: max.ru, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, udp: true}
+  - {name: RU_speednode_0025, server: 51.250.97.57, port: 1488, type: vless, uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: ads.x5.ru, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc}, udp: true}
+  - {name: SG_speednode_0026, server: 43.165.190.11, port: 42841, type: vless, uuid: 00000000-0000-4000-8000-000000000000, tls: true, skip-cert-verify: false, servername: mot.morisi.ggff.net, network: ws, ws-opts: {path: /@Marisa_kristi, headers: {Host: mot.morisi.ggff.net}}, udp: true}
+  - {name: SI_speednode_0027, server: 45.144.53.177, port: 443, type: vless, uuid: 154b4f23-a05d-41d1-af8f-23580510e258, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: my-rebar.shop, reality-opts: {public-key: 5vZadQxvsBfPR1hKN3TFOYsGLBBPDvd4sLVNnPzddRg}, udp: true}
+  - {name: US_speednode_0028, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, sni: epge.muarua.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: epge.muarua.filegear-sg.me}}, udp: true}
+  - {name: US_speednode_0029, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, sni: epge.muarua.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epge.muarua.filegear-sg.me}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
+  - CN_speednode_0001
+  - CN_speednode_0002
+  - CN_speednode_0003
+  - IR_speednode_0004
+  - KR_speednode_0005
+  - LB_speednode_0006
+  - LB_speednode_0007
+  - NL_speednode_0008
   - RU_speednode_0009
   - RU_speednode_0010
   - RU_speednode_0011
+  - RU_speednode_0012
+  - RU_speednode_0013
+  - RU_speednode_0014
+  - RU_speednode_0015
+  - RU_speednode_0016
+  - RU_speednode_0017
+  - RU_speednode_0018
+  - RU_speednode_0019
+  - RU_speednode_0020
+  - RU_speednode_0021
+  - RU_speednode_0022
+  - RU_speednode_0023
+  - RU_speednode_0024
+  - RU_speednode_0025
+  - SG_speednode_0026
+  - SI_speednode_0027
+  - US_speednode_0028
+  - US_speednode_0029
 - name: ♻️ automatic
   type: url-test
   proxies:
+  - CN_speednode_0001
+  - CN_speednode_0002
+  - CN_speednode_0003
+  - IR_speednode_0004
+  - KR_speednode_0005
+  - LB_speednode_0006
+  - LB_speednode_0007
+  - NL_speednode_0008
   - RU_speednode_0009
   - RU_speednode_0010
   - RU_speednode_0011
+  - RU_speednode_0012
+  - RU_speednode_0013
+  - RU_speednode_0014
+  - RU_speednode_0015
+  - RU_speednode_0016
+  - RU_speednode_0017
+  - RU_speednode_0018
+  - RU_speednode_0019
+  - RU_speednode_0020
+  - RU_speednode_0021
+  - RU_speednode_0022
+  - RU_speednode_0023
+  - RU_speednode_0024
+  - RU_speednode_0025
+  - SG_speednode_0026
+  - SI_speednode_0027
+  - US_speednode_0028
+  - US_speednode_0029
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
