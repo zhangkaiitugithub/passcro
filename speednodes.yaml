@@ -18,86 +18,47 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: BY_speednode_0001, server: by.cdn.titun.su, port: 443, type: vless, uuid: eb071647-72a6-46be-8e89-ff3d228d52f6, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: by.cdn.titun.su, reality-opts: {public-key: 0L6FE1vTechnKhN9LxFgmcDzqGVIfEQz8ZBGfvzKGzg, short-id: cad317b20db4aad2}, udp: true}
-  - {name: CH_speednode_0002, server: 138.124.73.80, port: 8443, type: vless, uuid: 010c8bf7-0a43-404f-a6c5-2427acb4d476, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: sun6-21.userapi.com, reality-opts: {public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo, short-id: 3ca620a7ed5f3196}, udp: true}
-  - {name: CH_speednode_0003, server: 138.124.73.189, port: 8443, type: vless, uuid: 010c8bf7-0a43-404f-a6c5-2427acb4d476, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: sun6-21.userapi.com, reality-opts: {public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo, short-id: 3ca620a7ed5f3196}, udp: true}
-  - {name: CY_speednode_0004, server: de.voxyvpn.ru, port: 8443, type: vless, uuid: a133a912-7382-46ce-8e72-5aa886d56a61, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: apple.com, reality-opts: {public-key: l78iryfyBl_JIg0KXgb0VQ3zxfhtkD1odwO09qs9SH4, short-id: deadbeef}, udp: true}
-  - {name: DE_speednode_0005, server: 185.219.84.221, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: FR_speednode_0006, server: fr.prod.n7.homes, port: 8443, type: vless, uuid: 010c8bf7-0a43-404f-a6c5-2427acb4d476, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: sun6-21.userapi.com, reality-opts: {public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo, short-id: 3ca620a7ed5f3196}, udp: true}
-  - {name: FR_speednode_0007, server: 185.171.202.55, port: 443, type: vless, uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: fran.scroogethebest.com, reality-opts: {public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc, short-id: 4fa44664f6a566d3}, udp: true}
-  - {name: FR_speednode_0008, server: 34.155.19.30, port: 2053, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: FR_speednode_0009, server: 95.182.97.125, port: 8443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: sni.111000.v6.navy, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: FR_speednode_0010, server: fran.scroogethebest.com, port: 443, type: vless, uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: fran.scroogethebest.com, reality-opts: {public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc, short-id: 4fa44664f6a566d3}, udp: true}
-  - {name: GB_speednode_0011, server: 217.154.38.156, port: 443, type: vless, uuid: 2a8391ef-383c-4321-ac25-89b50973ab73, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: yahoo.com, reality-opts: {public-key: kWxGUQ6QtaU-SCCt8Ht-POUPS6Ue6w-KyHjxb1AYQ1w, short-id: 2e0f}, udp: true}
-  - {name: HK_speednode_0012, server: 8.210.197.138, port: 1004, type: vmess, uuid: a13d3f6b-b961-4512-fc8a-9f1d908937b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 8.210.197.138}}, udp: true}
-  - {name: IQ_speednode_0013, server: 178.17.51.238, port: 8443, type: vless, uuid: 010c8bf7-0a43-404f-a6c5-2427acb4d476, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: sun6-21.userapi.com, reality-opts: {public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo, short-id: 3ca620a7ed5f3196}, udp: true}
-  - {name: KR_speednode_0014, server: 121.169.46.116, port: 1090, type: socks5, udp: true}
-  - {name: NL_speednode_0015, server: 188.227.86.12, port: 30718, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: NL_speednode_0016, server: 5.35.46.221, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: NL_speednode_0017, server: 185.243.112.61, port: 2053, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: RU_speednode_0018, server: yytbework.vpnhub.shop, port: 443, type: vless, uuid: f1449968-0329-468b-b56b-1c573ac2a767, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: www.apple.com, reality-opts: {public-key: EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14, short-id: 425ba80cd1a821a8}, udp: true}
-  - {name: RU_speednode_0019, server: 62.182.195.78, port: 8443, type: vless, uuid: 9a63b59c-5e54-437a-b7a1-2788780a7c13, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: retn.net, reality-opts: {public-key: qBcUlVqkzWxGORpDCj_FcNHACi3mrAYTCZeJyVQa5yU, short-id: 6b374e33af12fd1e}, udp: true}
-  - {name: SI_speednode_0020, server: 109.172.55.232, port: 13760, type: vless, uuid: 5fad3ad2-1a94-40d0-85bb-51eb83f5c7df, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: yandex.ru, reality-opts: {public-key: ktZ1lxOpDoIq3mk39kNAi1uK0z3qTA6f-6u2KbQmICg, short-id: 58a8787420b6a153}, udp: true}
-  - {name: US_speednode_0021, server: 209.102.207.120, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: US_speednode_0022, server: 156.236.76.45, port: 37952, type: vmess, uuid: b8304f18-9a28-427c-b1fe-d92ee1757c0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /arki, headers: {Host: 156.236.76.45}}, udp: true}
-  - {name: US_speednode_0023, server: 130.49.177.161, port: 8443, type: vless, uuid: 010c8bf7-0a43-404f-a6c5-2427acb4d476, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: sun6-21.userapi.com, reality-opts: {public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo, short-id: 3ca620a7ed5f3196}, udp: true}
-  - {name: US_speednode_0024, server: 66.179.82.126, port: 443, type: vless, uuid: b1267991-59ff-4b67-b141-97e3ced4e7c8, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: yahoo.com, reality-opts: {public-key: 1xMt7stxzh55Xy31H180TZNMvRYNkhEE86StqE4CtDs, short-id: 2f2a}, udp: true}
+  - {name: FI_speednode_0001, server: 95.164.113.153, port: 5669, type: ss, cipher: chacha20-ietf-poly1305, password: cJvGkXLQg1TCouv8BmE0Xu, udp: true}
+  - {name: GB_speednode_0002, server: 20.108.41.100, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true}
+  - {name: GB_speednode_0003, server: 217.154.38.156, port: 443, type: vless, uuid: 2a8391ef-383c-4321-ac25-89b50973ab73, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: yahoo.com, reality-opts: {public-key: kWxGUQ6QtaU-SCCt8Ht-POUPS6Ue6w-KyHjxb1AYQ1w, short-id: 2e0f}, udp: true}
+  - {name: IQ_speednode_0004, server: deu469.unboundworld.org, port: 443, type: vless, uuid: cc9f7840-757a-430b-bddc-a73478bea434, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: www.t3n.de, reality-opts: {public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs}, udp: true}
+  - {name: RU_speednode_0005, server: 5.cdnconn.com, port: 23335, type: vless, uuid: e384913f-8863-47b4-8858-a84b68abb4a6, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: icloud.com, reality-opts: {public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik}, udp: true}
+  - {name: RU_speednode_0006, server: us01-vlr01-gmn03.tcp-reset-club.net, port: 18443, type: vless, uuid: 1c4aceb6-bff7-4737-8c5d-43afb3dc350b, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: hls-svod.itunes.apple.com, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: f79448a30d}, udp: true}
+  - {name: US_speednode_0007, server: 47.84.126.255, port: 443, type: vmess, uuid: 32285564-1664-485c-f4db-daa776321a52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0008, server: zf.sg1000.eu.cc, port: 50000, type: vless, uuid: 35249ead-311e-4cb9-ab36-17406ccf6b84, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: yahoo.com, reality-opts: {public-key: XcaJjk49Yof0-ZTuwFlFvBqd_QJC_uabiIWC1g6rvAk, short-id: 1f7bfe}, udp: true}
+  - {name: US_speednode_0009, server: zf.sg1000.eu.cc, port: 50000, type: vless, uuid: 6ee0b840-6ed5-4f7c-a2d3-942f423d594c, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: yahoo.com, reality-opts: {public-key: XcaJjk49Yof0-ZTuwFlFvBqd_QJC_uabiIWC1g6rvAk, short-id: 1f7bfe}, udp: true}
+  - {name: US_speednode_0010, server: zf.sg1000.eu.cc, port: 50000, type: vless, uuid: 7473f95b-5a12-4972-b882-9fcd41ceff72, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: yahoo.com, reality-opts: {public-key: XcaJjk49Yof0-ZTuwFlFvBqd_QJC_uabiIWC1g6rvAk, short-id: 1f7bfe}, udp: true}
+  - {name: US_speednode_0011, server: 143.20.236.51, port: 443, type: vless, uuid: d65cc14c-f53f-4fe2-b262-97856601319c, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: yahoo.com, reality-opts: {public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg, short-id: c39cc7310a}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - BY_speednode_0001
-  - CH_speednode_0002
-  - CH_speednode_0003
-  - CY_speednode_0004
-  - DE_speednode_0005
-  - FR_speednode_0006
-  - FR_speednode_0007
-  - FR_speednode_0008
-  - FR_speednode_0009
-  - FR_speednode_0010
-  - GB_speednode_0011
-  - HK_speednode_0012
-  - IQ_speednode_0013
-  - KR_speednode_0014
-  - NL_speednode_0015
-  - NL_speednode_0016
-  - NL_speednode_0017
-  - RU_speednode_0018
-  - RU_speednode_0019
-  - SI_speednode_0020
-  - US_speednode_0021
-  - US_speednode_0022
-  - US_speednode_0023
-  - US_speednode_0024
+  - FI_speednode_0001
+  - GB_speednode_0002
+  - GB_speednode_0003
+  - IQ_speednode_0004
+  - RU_speednode_0005
+  - RU_speednode_0006
+  - US_speednode_0007
+  - US_speednode_0008
+  - US_speednode_0009
+  - US_speednode_0010
+  - US_speednode_0011
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - BY_speednode_0001
-  - CH_speednode_0002
-  - CH_speednode_0003
-  - CY_speednode_0004
-  - DE_speednode_0005
-  - FR_speednode_0006
-  - FR_speednode_0007
-  - FR_speednode_0008
-  - FR_speednode_0009
-  - FR_speednode_0010
-  - GB_speednode_0011
-  - HK_speednode_0012
-  - IQ_speednode_0013
-  - KR_speednode_0014
-  - NL_speednode_0015
-  - NL_speednode_0016
-  - NL_speednode_0017
-  - RU_speednode_0018
-  - RU_speednode_0019
-  - SI_speednode_0020
-  - US_speednode_0021
-  - US_speednode_0022
-  - US_speednode_0023
-  - US_speednode_0024
+  - FI_speednode_0001
+  - GB_speednode_0002
+  - GB_speednode_0003
+  - IQ_speednode_0004
+  - RU_speednode_0005
+  - RU_speednode_0006
+  - US_speednode_0007
+  - US_speednode_0008
+  - US_speednode_0009
+  - US_speednode_0010
+  - US_speednode_0011
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
