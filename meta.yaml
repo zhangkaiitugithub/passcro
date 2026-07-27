@@ -18,109 +18,93 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: AZ_speednode_0001, server: 94.20.88.13, port: 8443, type: hysteria2, password: ew9_M93_6a31Qd45_hUX3984F_jNZ83x_Nz1l_f, sni: azer-tea-grape.bumbleshrimp.com, skip-cert-verify: false, udp: true}
-  - {name: CH_speednode_0002, server: usa1.spectrumproxy.shop, port: 443, type: hysteria2, password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc, sni: usa1.spectrumproxy.shop, skip-cert-verify: false, udp: true}
-  - {name: GB_speednode_0003, server: 45.155.52.231, port: 443, type: vless, uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19, packet-encoding: xudp, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: ru2.skydrgn-online.online, reality-opts: {public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ, short-id: 0b}, udp: true}
-  - {name: HK_speednode_0004, server: pol1.panel11.ru, port: 443, type: vless, uuid: f165affe-ffb4-4f13-a081-f14434e51152, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: pol1.panel11.ru, reality-opts: {public-key: 1FryqGmMpa7T_bHmy3Uy11C5GWe6F2uzcsCYa9QXJBw, short-id: ff993907a731979a}, udp: true}
-  - {name: HK_speednode_0005, server: 45.196.201.62, port: 443, type: vless, uuid: f75814f6-8f81-4847-b792-168c41f2dc85, flow: xtls-rprx-vision, tls: true, skip-cert-verify: true, client-fingerprint: firefox, servername: storage.yandex.net, reality-opts: {public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04, short-id: c6ef72e4635d15a5}, udp: true}
-  - {name: NL_speednode_0006, server: 188.164.248.122, port: 443, type: trojan, password: c206d543-023d-46cc-9d5a-1f0f2fc16323, sni: space.byu.id.yxls.eu.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /in-pdr, headers: {Host: space.byu.id.yxls.eu.cc}}, udp: true}
-  - {name: RO_speednode_0007, server: 84.239.49.178, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: CA_speednode_0001, server: 50.114.177.134, port: 10210, type: ss, cipher: aes-256-gcm, password: 2803361d6c196af8, udp: true}
+  - {name: CY_speednode_0002, server: www.csgo.net, port: 2095, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, skip-cert-verify: false, servername: cnm-fangbinxing-nmsl.fangbinxing-wcnm.workers.dev, network: ws, ws-opts: {path: /, headers: {Host: cnm-fangbinxing-nmsl.fangbinxing-wcnm.workers.dev}}, udp: true}
+  - {name: KR_speednode_0003, server: 154.193.55.183, port: 443, type: vless, uuid: f75814f6-8f81-4847-b792-168c41f2dc85, flow: xtls-rprx-vision, packet-encoding: xudp, tls: true, skip-cert-verify: false, client-fingerprint: firefox, servername: storage.yandex.net, reality-opts: {public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4, short-id: c76ba2c2fb172e8b}, udp: true}
+  - {name: KR_speednode_0004, server: 154.193.55.183, port: 443, type: vless, uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253, flow: xtls-rprx-vision, tls: true, skip-cert-verify: true, client-fingerprint: firefox, servername: storage.yandex.net, reality-opts: {public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4, short-id: dbbe8dca27a92c35}, udp: true}
+  - {name: MY_speednode_0005, server: 94.126.206.29, port: 443, type: vless, uuid: d6dc1358-1bb5-4a9d-92fd-3e255567e3fc, flow: xtls-rprx-vision, tls: true, skip-cert-verify: true, client-fingerprint: qq, servername: apple.com, reality-opts: {public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY}, udp: true}
+  - {name: NL_speednode_0006, server: gr1.fifapes.monster, port: 8882, type: vless, uuid: eab915bc-d2df-73d1-47d0-6eb240497055, packet-encoding: xudp, tls: false, skip-cert-verify: false, servername: gr1.fifapes.monster, network: http, http-opts: {method: GET, path: [/], headers: {Host: [gr1.fifapes.monster]}}, udp: true}
+  - {name: NL_speednode_0007, server: 193.29.139.223, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
   - {name: RO_speednode_0008, server: 84.239.49.157, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0009, server: 84.239.49.211, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0010, server: 84.239.49.180, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0011, server: 84.239.49.154, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0012, server: 84.239.49.253, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0013, server: 84.239.49.40, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0014, server: 84.239.49.204, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0015, server: 84.239.49.42, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0016, server: 84.239.49.215, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0009, server: 84.239.49.40, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0010, server: 84.239.49.204, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0011, server: 84.239.49.155, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0012, server: 84.239.49.211, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0013, server: 84.239.49.178, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0014, server: 84.239.49.196, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0015, server: 84.239.49.154, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0016, server: 84.239.49.180, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: RO_speednode_0017, server: 84.239.49.224, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0018, server: 84.239.49.155, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0019, server: 84.239.14.149, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0020, server: 84.239.49.187, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0021, server: 84.239.49.196, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0022, server: 84.239.49.166, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0023, server: 84.239.49.202, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0024, server: 84.239.49.164, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0025, server: 84.239.49.160, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0026, server: 84.239.14.146, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0027, server: 84.239.49.227, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0028, server: 84.239.49.162, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0029, server: 84.239.49.198, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0030, server: 84.239.49.175, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0031, server: 84.239.49.207, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0032, server: 84.239.14.159, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0033, server: 84.239.49.239, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0034, server: 84.239.49.234, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0035, server: 84.239.49.57, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0036, server: 84.239.49.245, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0037, server: 84.239.49.209, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0038, server: 84.239.14.158, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0039, server: 84.239.49.159, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0040, server: 84.239.49.39, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0041, server: 84.239.49.235, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0042, server: 84.239.49.185, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0043, server: 84.239.49.247, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0044, server: 84.239.49.191, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0045, server: 84.239.14.157, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0046, server: 84.239.49.37, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0047, server: 84.239.49.240, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0048, server: 193.176.84.34, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0049, server: 84.239.49.214, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0050, server: 84.239.49.219, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0051, server: 84.239.14.152, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0052, server: 84.239.49.212, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0053, server: 84.239.49.176, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0054, server: 84.239.14.147, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0055, server: 193.176.84.31, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0056, server: 193.176.84.37, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0057, server: 84.239.49.38, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0058, server: 84.239.49.183, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0059, server: 193.176.84.27, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0060, server: 84.239.49.163, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0061, server: 84.239.49.249, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0062, server: 84.239.49.233, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0063, server: 84.239.49.156, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0064, server: 84.239.14.148, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0065, server: 84.239.49.199, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0066, server: 84.239.49.170, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0067, server: 84.239.49.182, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0068, server: 84.239.49.171, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0069, server: 84.239.49.223, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0070, server: 84.239.49.231, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0071, server: 84.239.14.154, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0072, server: 84.239.49.161, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0073, server: 193.176.84.24, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0074, server: 84.239.49.173, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0075, server: 193.176.84.26, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0076, server: 84.239.49.201, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0077, server: 193.176.84.19, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0078, server: 193.176.84.25, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0079, server: 84.239.49.238, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0080, server: 84.239.49.242, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0081, server: 193.176.84.36, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0082, server: 84.239.49.254, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: SE_speednode_0083, server: 193.233.255.4, port: 443, type: vless, uuid: 0108c657-a9bd-4c99-9179-74050cf78889, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: firefox, servername: de.sellflow.org, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc}, udp: true}
-  - {name: TW_speednode_0084, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, udp: true}
-  - {name: US_speednode_0085, server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com, port: 443, type: http, username: 1b609740-eec2-11ef-8543-f23c93136cb3, password: 1b609740-eec2-11ef-8543-f23c93136cb3, tls: true, udp: true}
-  - {name: US_speednode_0086, server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com, port: 443, type: http, username: 16955d72-1794-11f0-a035-f23c95b6f51d, password: 16955d72-1794-11f0-a035-f23c95b6f51d, tls: true, udp: true}
-  - {name: US_speednode_0087, server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com, port: 5443, type: http, username: 1b609740-eec2-11ef-8543-f23c93136cb3, password: 1b609740-eec2-11ef-8543-f23c93136cb3, tls: true, udp: true}
-  - {name: US_speednode_0088, server: us2.dexlos.com, port: 20378, type: hysteria2, password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D, obfs: salamander, obfs-password: xK9mN2pLq5vR8wB3, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0089, server: us3.dexlos.com, port: 20450, type: hysteria2, password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D, obfs: salamander, obfs-password: xK9mN2pLq5vR8wB3, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0090, server: 104.16.174.12, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: US_speednode_0091, server: us2.dexlos.com, port: 20378, type: hysteria2, password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D, sni: us2.dexlos.com, obfs: salamander, obfs-password: xK9mN2pLq5vR8wB3, skip-cert-verify: false, udp: true}
+  - {name: RO_speednode_0018, server: 84.239.14.149, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0019, server: 84.239.49.166, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0020, server: 84.239.49.215, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0021, server: 84.239.49.164, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0022, server: 84.239.49.245, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0023, server: 84.239.14.147, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0024, server: 84.239.49.207, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0025, server: 84.239.49.209, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0026, server: 84.239.49.227, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0027, server: 84.239.49.214, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0028, server: 84.239.49.37, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0029, server: 84.239.49.162, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0030, server: 84.239.49.212, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0031, server: 84.239.14.146, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0032, server: 84.239.49.198, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0033, server: 84.239.49.176, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0034, server: 84.239.14.152, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0035, server: 84.239.49.219, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0036, server: 84.239.14.159, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0037, server: 84.239.49.191, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0038, server: 84.239.49.185, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0039, server: 84.239.49.239, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0040, server: 84.239.49.160, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0041, server: 84.239.49.38, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0042, server: 193.176.84.37, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0043, server: 84.239.49.183, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0044, server: 84.239.14.157, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0045, server: 193.176.84.31, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0046, server: 84.239.49.163, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0047, server: 84.239.49.233, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0048, server: 84.239.49.249, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0049, server: 193.176.84.27, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0050, server: 84.239.49.223, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0051, server: 84.239.49.231, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0052, server: 84.239.49.161, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0053, server: 84.239.49.171, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0054, server: 84.239.14.154, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0055, server: 84.239.49.170, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0056, server: 84.239.49.173, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0057, server: 84.239.49.242, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0058, server: 84.239.49.254, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0059, server: 84.239.49.201, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0060, server: 84.239.49.238, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0061, server: 193.176.84.36, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0062, server: 84.239.49.55, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0063, server: 84.239.14.160, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0064, server: 84.239.49.184, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0065, server: 84.239.49.225, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RO_speednode_0066, server: 193.176.84.32, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: RU_speednode_0067, server: ruded1.onlinestreamself.com, port: 443, type: vless, uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16, flow: xtls-rprx-vision, tls: true, skip-cert-verify: true, client-fingerprint: qq, servername: apple.com, reality-opts: {public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE}, udp: true}
+  - {name: US_speednode_0068, server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com, port: 443, type: http, username: 16955d72-1794-11f0-a035-f23c95b6f51d, password: 16955d72-1794-11f0-a035-f23c95b6f51d, tls: true, udp: true}
+  - {name: US_speednode_0069, server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true}
+  - {name: US_speednode_0070, server: 208.103.161.170, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmloud.com}}, udp: true}
+  - {name: US_speednode_0071, server: 167.82.0.1, port: 80, type: vless, uuid: cfde0aba-0985-4034-ab92-50b1534b126c, tls: false, skip-cert-verify: false, servername: BankMelat.glObal.ssl.faStly.nEt., network: ws, ws-opts: {path: /, headers: {Host: BankMelat.glObal.ssl.faStly.nEt.}}, udp: true}
+  - {name: US_speednode_0072, server: 151.101.56.7, port: 80, type: vless, uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf, tls: false, skip-cert-verify: false, servername: BankMelat.glObal.ssl.faStly.nEt., network: ws, ws-opts: {path: /, headers: {Host: BankMelat.glObal.ssl.faStly.nEt.}}, udp: true}
+  - {name: US_speednode_0073, server: 151.101.56.7, port: 80, type: vless, uuid: cfde0aba-0985-4034-ab92-50b1534b126c, tls: false, skip-cert-verify: true, servername: 151.101.56.7, network: ws, ws-opts: {path: /, headers: {Host: BankMelat.glObal.ssl.faStly.nEt.}}, udp: true}
+  - {name: US_speednode_0074, server: usp.noesissite.ru, port: 443, type: hysteria2, password: 042a1881-44e4-4781-bd40-bf75164faf4f, sni: usp.noesissite.ru, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0075, server: 140.233.160.24, port: 443, type: vless, uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: edge, servername: ya.ru, reality-opts: {public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ, short-id: abcd}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - AZ_speednode_0001
-  - CH_speednode_0002
-  - GB_speednode_0003
-  - HK_speednode_0004
-  - HK_speednode_0005
+  - CA_speednode_0001
+  - CY_speednode_0002
+  - KR_speednode_0003
+  - KR_speednode_0004
+  - MY_speednode_0005
   - NL_speednode_0006
-  - RO_speednode_0007
+  - NL_speednode_0007
   - RO_speednode_0008
   - RO_speednode_0009
   - RO_speednode_0010
@@ -180,41 +164,25 @@ proxy-groups:
   - RO_speednode_0064
   - RO_speednode_0065
   - RO_speednode_0066
-  - RO_speednode_0067
-  - RO_speednode_0068
-  - RO_speednode_0069
-  - RO_speednode_0070
-  - RO_speednode_0071
-  - RO_speednode_0072
-  - RO_speednode_0073
-  - RO_speednode_0074
-  - RO_speednode_0075
-  - RO_speednode_0076
-  - RO_speednode_0077
-  - RO_speednode_0078
-  - RO_speednode_0079
-  - RO_speednode_0080
-  - RO_speednode_0081
-  - RO_speednode_0082
-  - SE_speednode_0083
-  - TW_speednode_0084
-  - US_speednode_0085
-  - US_speednode_0086
-  - US_speednode_0087
-  - US_speednode_0088
-  - US_speednode_0089
-  - US_speednode_0090
-  - US_speednode_0091
+  - RU_speednode_0067
+  - US_speednode_0068
+  - US_speednode_0069
+  - US_speednode_0070
+  - US_speednode_0071
+  - US_speednode_0072
+  - US_speednode_0073
+  - US_speednode_0074
+  - US_speednode_0075
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - AZ_speednode_0001
-  - CH_speednode_0002
-  - GB_speednode_0003
-  - HK_speednode_0004
-  - HK_speednode_0005
+  - CA_speednode_0001
+  - CY_speednode_0002
+  - KR_speednode_0003
+  - KR_speednode_0004
+  - MY_speednode_0005
   - NL_speednode_0006
-  - RO_speednode_0007
+  - NL_speednode_0007
   - RO_speednode_0008
   - RO_speednode_0009
   - RO_speednode_0010
@@ -274,31 +242,15 @@ proxy-groups:
   - RO_speednode_0064
   - RO_speednode_0065
   - RO_speednode_0066
-  - RO_speednode_0067
-  - RO_speednode_0068
-  - RO_speednode_0069
-  - RO_speednode_0070
-  - RO_speednode_0071
-  - RO_speednode_0072
-  - RO_speednode_0073
-  - RO_speednode_0074
-  - RO_speednode_0075
-  - RO_speednode_0076
-  - RO_speednode_0077
-  - RO_speednode_0078
-  - RO_speednode_0079
-  - RO_speednode_0080
-  - RO_speednode_0081
-  - RO_speednode_0082
-  - SE_speednode_0083
-  - TW_speednode_0084
-  - US_speednode_0085
-  - US_speednode_0086
-  - US_speednode_0087
-  - US_speednode_0088
-  - US_speednode_0089
-  - US_speednode_0090
-  - US_speednode_0091
+  - RU_speednode_0067
+  - US_speednode_0068
+  - US_speednode_0069
+  - US_speednode_0070
+  - US_speednode_0071
+  - US_speednode_0072
+  - US_speednode_0073
+  - US_speednode_0074
+  - US_speednode_0075
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
