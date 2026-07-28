@@ -93,14 +93,7 @@
         "RO_speednode_0005",
         "RO_speednode_0006",
         "RO_speednode_0007",
-        "RO_speednode_0008",
-        "RO_speednode_0009",
-        "RO_speednode_0010",
-        "RO_speednode_0011",
-        "RO_speednode_0012",
-        "RO_speednode_0013",
-        "RO_speednode_0014",
-        "RO_speednode_0015"
+        "RO_speednode_0008"
       ]
     },
     {
@@ -114,14 +107,7 @@
         "RO_speednode_0005",
         "RO_speednode_0006",
         "RO_speednode_0007",
-        "RO_speednode_0008",
-        "RO_speednode_0009",
-        "RO_speednode_0010",
-        "RO_speednode_0011",
-        "RO_speednode_0012",
-        "RO_speednode_0013",
-        "RO_speednode_0014",
-        "RO_speednode_0015"
+        "RO_speednode_0008"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -157,7 +143,7 @@
     },
     {
       "tag": "RO_speednode_0002",
-      "server": "84.239.49.253",
+      "server": "84.239.49.235",
       "server_port": 9002,
       "type": "http",
       "username": "",
@@ -173,7 +159,7 @@
     },
     {
       "tag": "RO_speednode_0003",
-      "server": "84.239.49.184",
+      "server": "84.239.49.231",
       "server_port": 9002,
       "type": "http",
       "username": "",
@@ -189,7 +175,7 @@
     },
     {
       "tag": "RO_speednode_0004",
-      "server": "84.239.49.240",
+      "server": "84.239.49.166",
       "server_port": 9002,
       "type": "http",
       "username": "",
@@ -205,38 +191,6 @@
     },
     {
       "tag": "RO_speednode_0005",
-      "server": "84.239.14.149",
-      "server_port": 9002,
-      "type": "http",
-      "username": "",
-      "password": "",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "RO_speednode_0006",
-      "server": "84.239.49.159",
-      "server_port": 9002,
-      "type": "http",
-      "username": "",
-      "password": "",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "RO_speednode_0007",
       "server": "84.239.49.215",
       "server_port": 9002,
       "type": "http",
@@ -252,120 +206,40 @@
       }
     },
     {
+      "tag": "RO_speednode_0006",
+      "server": "84.239.49.240",
+      "server_port": 9002,
+      "type": "http",
+      "username": "",
+      "password": "",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "RO_speednode_0007",
+      "server": "84.239.49.253",
+      "server_port": 9002,
+      "type": "http",
+      "username": "",
+      "password": "",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "RO_speednode_0008",
-      "server": "84.239.49.198",
-      "server_port": 9002,
-      "type": "http",
-      "username": "",
-      "password": "",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "RO_speednode_0009",
-      "server": "84.239.14.148",
-      "server_port": 9002,
-      "type": "http",
-      "username": "",
-      "password": "",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "RO_speednode_0010",
-      "server": "84.239.49.57",
-      "server_port": 9002,
-      "type": "http",
-      "username": "",
-      "password": "",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "RO_speednode_0011",
-      "server": "84.239.49.178",
-      "server_port": 9002,
-      "type": "http",
-      "username": "",
-      "password": "",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "RO_speednode_0012",
       "server": "84.239.49.196",
-      "server_port": 9002,
-      "type": "http",
-      "username": "",
-      "password": "",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "RO_speednode_0013",
-      "server": "84.239.49.161",
-      "server_port": 9002,
-      "type": "http",
-      "username": "",
-      "password": "",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "RO_speednode_0014",
-      "server": "84.239.49.180",
-      "server_port": 9002,
-      "type": "http",
-      "username": "",
-      "password": "",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "RO_speednode_0015",
-      "server": "84.239.49.166",
       "server_port": 9002,
       "type": "http",
       "username": "",
